@@ -1,0 +1,185 @@
+<style id="userstyles">.text-gradient {
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-image: linear-gradient(
+225deg
+, #ff5ea7 36.04%, #010fcb 88.83%, #ff6530 220.3%);
+width: 300px;
+margin-left:auto;
+margin-right:auto;
+}
+
+.btn-gradient{
+    background-image: linear-gradient(
+225deg
+, #ff5ea7 36.04%, #010fcb 88.83%, #ff6530 220.3%) !important;
+color:white !important;
+opacity:0.8;
+}
+.btn-gradient:hover{
+ opacity:1;
+color:white !important;
+}
+
+@keyframes float {
+	0% {
+		 
+		transform: translatey(0px);
+	}
+	50% {
+	 
+		transform: translatey(-20px);
+	}
+	100% {
+		 
+		transform: translatey(0px);
+	}
+}
+
+
+
+.avatar {
+    position: absolute;
+    right: 0px;
+    top:-150px;
+	max-width: 500px;
+	max-height: 500px;
+	box-sizing: border-box;
+	overflow: hidden;
+	transform: translatey(0px);
+	animation: float 6s ease-in-out infinite;
+	z-index:0;
+}
+
+.avatar2 {
+    position: absolute;
+    left:150px;
+    top:0px;
+	max-width: 370px;
+	max-height: 370px;
+	box-sizing: border-box;
+	overflow: hidden;
+	transform: translatey(0px);
+	animation: float 6s ease-in-out infinite;
+	z-index:0;
+}</style><style id="font-face">
+@font-face{
+font-family:Anton;
+src: url(https://fonts.gstatic.com/s/anton/v15/1Ptgg87LROyAm0K08i4gS7lu.ttf);}
+@font-face{
+font-family:Allerta;
+src: url(https://fonts.gstatic.com/s/allerta/v11/TwMO-IAHRlkbx940UnEdSQqO5uY.ttf);}
+@font-face{
+font-family:Allerta Stencil;
+src: url(https://fonts.gstatic.com/s/allertastencil/v11/HTx0L209KT-LmIE9N7OR6eiycOeF-zz313DuvQ.ttf);}
+@font-face{
+font-family:Alice;
+src: url(https://fonts.gstatic.com/s/alice/v12/OpNCnoEEmtHa6FcJpA_chzJ0.ttf);}
+@font-face{
+font-family:Homemade Apple;
+src: url(https://fonts.gstatic.com/s/homemadeapple/v11/Qw3EZQFXECDrI2q789EKQZJob3x9Vnksi4M7.ttf);}
+@font-face{
+font-family:Abel;
+src: url(https://fonts.gstatic.com/s/abel/v12/MwQ5bhbm2POE6VhLPJp6qGI.ttf);}
+@font-face{
+font-family:ABeeZee;
+src: url(https://fonts.gstatic.com/s/abeezee/v14/esDR31xSG-6AGleN6tKukbcHCpE.ttf);}
+@font-face{
+font-family:Abel;
+src: url(https://fonts.gstatic.com/s/abel/v12/MwQ5bhbm2POE6VhLPJp6qGI.ttf);}
+@font-face{
+font-family:Abril Fatface;
+src: url(https://fonts.gstatic.com/s/abrilfatface/v12/zOL64pLDlL1D99S8g8PtiKchm-BsjOLhZBY.ttf);}
+@font-face{
+font-family:Aclonica;
+src: url(https://fonts.gstatic.com/s/aclonica/v11/K2FyfZJVlfNNSEBXGb7TCI6oBjLz.ttf);}
+@font-face{
+font-family:Acme;
+src: url(https://fonts.gstatic.com/s/acme/v11/RrQfboBx-C5_bx3Lb23lzLk.ttf);}
+@font-face{
+font-family:Actor;
+src: url(https://fonts.gstatic.com/s/actor/v10/wEOzEBbCkc5cO3ekXygtUMIO.ttf);}
+@font-face{
+font-family:Adamina;
+src: url(https://fonts.gstatic.com/s/adamina/v14/j8_r6-DH1bjoc-dwu-reETl4Bno.ttf);}
+@font-face{
+font-family:Advent Pro;
+src: url(https://fonts.gstatic.com/s/adventpro/v11/V8mAoQfxVT4Dvddr_yOwtT2nKb5ZFtI.ttf);}
+@font-face{
+font-family:Aguafina Script;
+src: url(https://fonts.gstatic.com/s/aguafinascript/v9/If2QXTv_ZzSxGIO30LemWEOmt1bHqs4pgicOrg.ttf);}
+@font-face{
+font-family:Akronim;
+src: url(https://fonts.gstatic.com/s/akronim/v12/fdN-9sqWtWZZlHRp-gBxkFYN-a8.ttf);}</style><link id="stylesChange" href="css/bootstrap.min.css" rel="stylesheet"><style id="font-media">
+@media screen and (min-width: 0px) and (max-width: 480px){.demo h2,.font-body h2{line-height:57px !important;font-size:31px !important;}}</style>
+      <section class="well text-align-center  wellundefined cover padding-top-100 padding-bottom-100 ov-90 bgp-cc box-layer tie-to-modal" style="display: block;color: rgb(255, 255, 255);background-image: url(&quot;https://images.unsplash.com/photo-1613347761513-0f37baebfd20?crop=entropy&amp;cs=tinysrgb&amp;fit=max&amp;fm=jpg&amp;ixid=Mnw5NDF8MHwxfHNlYXJjaHwyM3x8bWFjfGVufDB8fHx8MTYxOTMyNDQ3MQ&amp;ixlib=rb-1.2.1&amp;q=80&amp;w=1080&quot;);background-size: initial;background-repeat: initial;background-attachment: initial;background-origin: initial;background-clip: initial;background-color: rgb(15, 13, 13);margin: 20px !important;border-radius: 30px;"><span style="font-size:28px;  letter-spacing:0;" class="m__move_arrow"><i class="mdi-hardware-keyboard-arrow-up md_up"></i> <i class="mdi-hardware-keyboard-arrow-down md_down"></i></span>
+	<div class="container">
+		<div class="row">
+			<div class="text-align-center col-md-12 mode-elements-column-hover2 sortableChildren sortableCols ui-sortable">
+	<img class="img-responsive  avatar2 tie-to-modal" src="https://demo.bootstraptor.com/builderx/images/s2.png" alt="my image alt text">
+	<h1 class="tag-outline margin-top-0 headline-3xl margin-bottom-40 tie-to-modal" style="z-index:10; position:relative;  display: block;" contenteditable="false" data-placeholder="" data-medium-element="true">
+		 <strong class="">BuilderX</strong>
+	</h1>
+	<h2 class="text-gradient page-section margin-top-0 hero-title-xl text-color-primary headline-md margin-bottom-30 tie-to-modal" style="z-index:1; position:relative;  display: block;" contenteditable="false" data-placeholder="" data-medium-element="true">
+		 <strong class="">WEBSITE BUILDER w/ PRO FEATURES</strong>
+	</h2><img class="img-responsive  avatar tie-to-modal" src="https://demo.bootstraptor.com/blocks-white-label/img/Saly-1-2-2.png" alt="my image alt text"> <a href="#sec-3" class="btn-gradient scroll btn btn-round margin-bottom-50 btn-material-yellow btn-lg tie-to-modal" type="button" style="display:block: z-index:1; position:relative" contenteditable="false" data-placeholder="" data-medium-element="true">👁 HOW IT WORKs</a><a href="#sec-3" class="scroll btn btn-round margin-bottom-50 btn-lg btn-material-yellow tie-to-modal" type="button" style="	z-index:10; position:relative; display: inline-block;" contenteditable="false" data-placeholder="" data-medium-element="true">👉 buy now &gt;&gt;</a>
+	<div class="embed-responsive embed-responsive-16by9 tie-to-modal medium-editor-placeholder" style="display: block;">
+		<div class="fluid-width-video-wrapper" style="padding-top: 56.2281%;">
+			<iframe class="embed-responsive-item" src="https://www.youtube.com/embed/A3YgXeGdh98" id="fitvid165828">
+			</iframe>
+		</div>
+		<div class="fluid-width-video-wrapper" style="padding-top: 56.2281%;">
+			<iframe class="embed-responsive-item" src="https://www.youtube.com/embed/Kp0i6wcSzQY" id="fitvid346923">
+			</iframe>
+		</div>
+	</div>
+	<div class="col-md-12 text-align-center tie-to-modal sortableCols ui-sortable">
+	</div>
+</div>
+		</div>
+	</div>
+</section><section class="well box-layer tie-to-modal" style="display: block;" contenteditable="false" data-medium-element="true"><span style="font-size:28px;  letter-spacing:0;" class="m__move_arrow"><i class="mdi-hardware-keyboard-arrow-up md_up"></i> <i class="mdi-hardware-keyboard-arrow-down md_down"></i></span>
+	<div class="container">
+		<div class="row lightbox-gallery">
+	<div class="col-md-8 col-md-offset-2 sortableCols ui-sortable">
+		<img src="https://demo.bootstraptor.com/img/top-10.jpg" alt="" class="img-responsive d-block ml-auto mr-auto tie-to-modal">
+	</div>
+</div>
+	</div>
+</section><section class="well padding-bottom-70 text-align-center cover bgp-tc  box-layer padding-top-40 tie-to-modal" style="display: block; color: rgb(0, 0, 0);" contenteditable="false" data-medium-element="true" id="h"><span style="font-size:28px;  letter-spacing:0;" class="m__move_arrow"><i class="mdi-hardware-keyboard-arrow-up md_up"></i> <i class="mdi-hardware-keyboard-arrow-down md_down"></i></span> <div class="container"> <div class="row"> <div class="col-md-2 hovered hovered-content sortableCols ui-sortable" style=""> </div> <div class="col-md-8 sortableCols ui-sortable" style=""> <h1 class="headline-xl tag-outline margin-top-0 tie-to-modal" contenteditable="false" data-placeholder="" data-medium-element="true"><b class=""> How the builder works</b></h1> <h2 class="headline-md tag-outline margin-top-30 margin-bottom-100 tie-to-modal" contenteditable="false" data-placeholder="" data-medium-element="true" style="color: rgb(68, 2, 255);"><b class=""> Start building your site in 3 easy steps</b></h2> 
+                        
+                        
+                        
+                     </div> <div class="col-md-2 hovered hovered-content sortableCols ui-sortable" style=""> </div> </div> <div class="row"> <div class="col-md-4 sortableCols ui-sortable" style=""> <h3 class="text-align-left headline-md tie-to-modal" contenteditable="false" data-placeholder="" data-medium-element="true"> 1. Add blocks or use template</h3>  </div> <div class="col-md-4 sortableCols ui-sortable" style=""> <h3 class="text-align-left headline-md tie-to-modal" style="display: block;" contenteditable="false" data-placeholder="" data-medium-element="true"> 2. Change styles and add content</h3>  </div> <div class="col-md-4 sortableCols ui-sortable" style=""> <h3 class="text-align-left headline-md tie-to-modal" style="display: block;" contenteditable="false" data-placeholder="" data-medium-element="true"> 3. Download HTML website</h3>  </div> </div> <div class="row"> <div class="col-md-12 sortableCols ui-sortable" style="">  <a href="#h" class="btn btn-fab btn-raised scroll btn-xs margin-top-60 btn-material-blue-grey btn-outline btn-black margin-bottom-30 medium-editor-placeholder tie-to-modal" style="display: inline-block;" contenteditable="false" data-placeholder="" data-medium-element="true"><i class="mdi-navigation-expand-more fa-lg"></i></a></div> </div> </div> </section><section class="well cover text-align-center box-layer tie-to-modal" style="display: block; color: rgb(0, 0, 0); background-image: initial; background-size: initial; background-repeat: initial; background-attachment: initial; background-origin: initial; background-clip: initial; background-color: rgb(253, 254, 255);" contenteditable="false" data-medium-element="true"><span style="font-size:28px;  letter-spacing:0;" class="m__move_arrow"><i class="mdi-hardware-keyboard-arrow-up md_up"></i> <i class="mdi-hardware-keyboard-arrow-down md_down"></i></span> <div class="container"> <div class="row"> <div class="text-align-center col-md-offset-1 col-md-10 mode-elements-column-hover2 sortableChildren sortableCols ui-sortable" style=""> 
+                        
+                        
+                        
+                       
+                        
+                        
+                        
+                      <h2 class="headline-xl margin-top-0 tie-to-modal" contenteditable="false" data-medium-element="true" data-placeholder="" style="display: block;"><b class="">How the builder works</b></h2>
+                        
+                        
+                        
+                     <div class="col-md-12 text-align-center tie-to-modal sortableCols ui-sortable" style=""> 
+                        
+                        
+                        
+                      
+                        
+                        
+                        
+                     </div> </div> </div> </div> </section><section class="well box-layer padding-bottom-100 wellundefined padding-top-20 tie-to-modal" style="display: block; color: rgb(0, 0, 0);" contenteditable="false" data-medium-element="true"><span style="font-size:28px;  letter-spacing:0;" class="m__move_arrow"><i class="mdi-hardware-keyboard-arrow-up md_up"></i> <i class="mdi-hardware-keyboard-arrow-down md_down"></i></span> <div class="container"> <div class="row"> <div class="col-md-8 hovered hovered-content sortableCols ui-sortable" style=""> <img class="img-responsive img-center tie-to-modal" src="https://demo.bootstraptor.com/blocksscr/app/proto.png" alt="my image alt text"> </div> <div class="col-md-4 hovered-content sortableCols ui-sortable" style=""> <h2 class="headline-lg margin-top-100 tie-to-modal" contenteditable="false" data-placeholder="" data-medium-element="true">drag-and-drop sections to the canvas</h2>   </div> </div> </div> </section><section class="well box-layer padding-top-100 padding-bottom-100 wellundefined tie-to-modal" style="display: block; color: rgb(0, 0, 0);" contenteditable="false" data-medium-element="true"><span style="font-size:28px;  letter-spacing:0;" class="m__move_arrow"><i class="mdi-hardware-keyboard-arrow-up md_up"></i> <i class="mdi-hardware-keyboard-arrow-down md_down"></i></span> <div class="container"> <div class="row row-reverse"> <div class="col-md-8 hovered-content pull-right sortableCols ui-sortable" style="">  <img class="img-responsive img-center tie-to-modal" src="https://demo.bootstraptor.com/blocksscr/app/fonts.png" alt="my image alt text" style="display: block;"></div> <div class="col-md-4 hovered-content sortableCols ui-sortable" style="">    <h2 class="headline-lg margin-top-90 tie-to-modal" contenteditable="false" data-placeholder="" data-medium-element="true" style="display: block;">easily add styles, colors, and fonts that match your brand</h2></div> </div> </div> <span id="addBlockBtn" style="position:absolute; left:auto; right:10px; bottom:10px; z-index:1400"><button class="btn btn-white btn-xs " title="clone section"><i class="fa fa-copy"></i></button></span></section><section class="well box-layer padding-top-100 padding-bottom-100 tie-to-modal" style="display: block;" contenteditable="false" data-medium-element="true"><span style="font-size:28px;  letter-spacing:0;" class="m__move_arrow"><i class="mdi-hardware-keyboard-arrow-up md_up"></i> <i class="mdi-hardware-keyboard-arrow-down md_down"></i></span> <div class="container"> <div class="row"> <div class="col-md-8 hovered-content sortableCols ui-sortable" style=""> <img class="img-responsive img-center tie-to-modal" src="https://demo.bootstraptor.com/blocksscr/app/links.png" alt="my image alt text" style="display: block;"> </div> <div class="col-md-4 hovered-content sortableCols ui-sortable" style=""> <h2 class="headline-lg margin-top-100 tie-to-modal" contenteditable="false" data-placeholder="" data-medium-element="true" style="display: block;">add website scrolls and navigations in a click</h2>   </div> </div> </div> </section><section class="well box-layer tie-to-modal" style="display: block;" contenteditable="false" data-medium-element="true"><span style="font-size:28px;  letter-spacing:0;" class="m__move_arrow"><i class="mdi-hardware-keyboard-arrow-up md_up"></i> <i class="mdi-hardware-keyboard-arrow-down md_down"></i></span> <div class="container"> <div class="row row-reverse"> <div class="col-md-8 hovered hovered-content pull-right sortableCols ui-sortable" style=""> <img class="img-responsive img-center tie-to-modal" src="https://demo.bootstraptor.com/blocksscr/export.jpg" alt="my image alt text"> </div> <div class="col-md-4 hovered hovered-content sortableCols ui-sortable" style=""> <h2 class="headline-lg margin-top-70 tag-outline tie-to-modal" contenteditable="false" data-placeholder="" data-medium-element="true">download HTML website ready for web publishing</h2>   </div> </div> </div> </section><section class="well text-align-center  box-layer wellundefined cover padding-top-100 padding-bottom-100 ov-60 bgp-cc tie-to-modal" style="display: block; color: rgb(255, 255, 255); background-image: url(&quot;https://images.unsplash.com/photo-1611095567219-8fa7d4d8bf48?crop=entropy&amp;cs=tinysrgb&amp;fit=max&amp;fm=jpg&amp;ixid=Mnw5NDF8MXwxfGFsbHwxfHx8fHx8Mnx8MTYyMDU0ODQ3MQ&amp;ixlib=rb-1.2.1&amp;q=80&amp;w=1080&quot;); background-size: initial; background-repeat: initial; background-attachment: initial; background-origin: initial; background-clip: initial; background-color: rgb(15, 13, 13);"><span style="font-size:28px;  letter-spacing:0;" class="m__move_arrow"><i class="mdi-hardware-keyboard-arrow-up md_up"></i> <i class="mdi-hardware-keyboard-arrow-down md_down"></i></span> <div class="container"> <div class="row"> <div class="text-align-center col-md-12 mode-elements-column-hover2 sortableChildren sortableCols ui-sortable">
+	<h1 class="tag-outline margin-bottom-10 headline-3xl margin-top-0 tie-to-modal" contenteditable="false" data-placeholder="" data-medium-element="true" style="display: block;"><strong class="">BuilderX</strong></h1><h2 class="text-gradient page-section margin-top-0 hero-title-xl text-color-primary headline-md text-align-center margin-bottom-40 tie-to-modal" style="display: block;" contenteditable="false" data-placeholder="" data-medium-element="true"><strong class="">WEBSITE BUILDER&nbsp;</strong></h2><a href="#sec-3" class="scroll btn btn-round margin-bottom-50 btn-lg btn-material-yellow tie-to-modal" type="button" style="display: inline-block;" contenteditable="false" data-placeholder="" data-medium-element="true">👉 buy now &gt;&gt;</a>
+	 
+	
+	<div class="col-md-12 text-align-center tie-to-modal sortableCols ui-sortable">
+	</div>
+</div> </div> </div> </section><section style="display: block;" class="well cover bgp-cr box-layer padding-top-70 padding-bottom-0 tie-to-modal" contenteditable="false" data-medium-element="true"><span style="font-size:28px;  letter-spacing:0;" class="m__move_arrow"><i class="mdi-hardware-keyboard-arrow-up md_up"></i> <i class="mdi-hardware-keyboard-arrow-down md_down"></i></span> <div class="container" style="position: relative; opacity: 1; z-index: 0; display: block;"> <div class="row" style="position: relative; opacity: 1; z-index: 0;"> <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 text-left sortableCols ui-sortable" style="">  <h2 style="position: relative; opacity: 1; z-index: 0; left: 0px; top: 0px;" class="margin-top-10 margin-bottom-50 text-center tag-outline headline-xl tie-to-modal" contenteditable="false" data-placeholder="" data-medium-element="true"><b class=""><i class="">the </i>Main Features </b></h2> </div> </div>   </div> </section><section class="well box-layer tie-to-modal" style="display: block;"><span style="font-size:28px;  letter-spacing:0;" class="m__move_arrow"><i class="mdi-hardware-keyboard-arrow-up md_up"></i> <i class="mdi-hardware-keyboard-arrow-down md_down"></i></span> <div class="container"> <div class="row"> <div class="col-md-6 sortableCols ui-sortable" style=""> <h2 style="display: block;" class="text-align-center tie-to-modal" contenteditable="false" data-placeholder="" data-medium-element="true"> Ready-made sections</h2> <img class="img-responsive img-center tie-to-modal" src="https://demo.bootstraptor.com/blocksscr/app/proto2.png" alt="my image alt text" style="display: block;"> </div> <div class="col-md-6 sortableCols ui-sortable" style=""> <h2 class="text-align-center tie-to-modal" contenteditable="false" data-placeholder="" data-medium-element="true" style="display: block;">Google web fonts </h2><img class="img-responsive img-center tie-to-modal" src="https://demo.bootstraptor.com/blocksscr/app/fonts.png" alt="my image alt text" style="display: block;">  </div> </div> </div> </section><section class="well box-layer tie-to-modal" style="display: block;"><span style="font-size:28px;  letter-spacing:0;" class="m__move_arrow"><i class="mdi-hardware-keyboard-arrow-up md_up"></i> <i class="mdi-hardware-keyboard-arrow-down md_down"></i></span> <div class="container"> <div class="row"> <div class="col-md-6 sortableCols ui-sortable" style=""> <h2 class="text-align-center tie-to-modal" contenteditable="false" data-placeholder="" data-medium-element="true">HQ photo backgrounds </h2> <img class="img-responsive img-center tie-to-modal" src="https://demo.bootstraptor.com/blocksscr/app/photobg.jpg" alt="my image alt text" style="display: block;"> </div> <div class="col-md-6 sortableCols ui-sortable" style=""> <h2 style="display: block;" class="text-align-center tie-to-modal" contenteditable="false" data-placeholder="" data-medium-element="true"> Background presets</h2> <img class="img-responsive img-center tie-to-modal" src="https://demo.bootstraptor.com/blocksscr/app/gradientsbg.jpg" alt="my image alt text" style="display: block;"> </div> </div> </div> </section><section class="well box-layer tie-to-modal" style="display: block;"><span style="font-size:28px;  letter-spacing:0;" class="m__move_arrow"><i class="mdi-hardware-keyboard-arrow-up md_up"></i> <i class="mdi-hardware-keyboard-arrow-down md_down"></i></span> <div class="container"> <div class="row"> <div class="col-md-6 sortableCols ui-sortable" style=""> <h2 class="text-align-center tie-to-modal" contenteditable="false" data-placeholder="" data-medium-element="true">Background patterns </h2> <img class="img-responsive img-center tie-to-modal" src="https://demo.bootstraptor.com/blocksscr/app/patternbg.jpg" alt="my image alt text" style="display: block;"> </div> <div class="col-md-6 sortableCols ui-sortable" style=""> <h2 style="display: block;" class="text-align-center tie-to-modal" contenteditable="false" data-placeholder="" data-medium-element="true"> Build as CSS framework</h2> <img class="img-responsive img-center tie-to-modal" src="https://demo.bootstraptor.com/blocksscr/app/framework.jpg" alt="my image alt text" style="display: block;"> </div> </div> </div> </section><section class="well box-layer tie-to-modal" style="display: block;"><span style="font-size:28px;  letter-spacing:0;" class="m__move_arrow"><i class="mdi-hardware-keyboard-arrow-up md_up"></i> <i class="mdi-hardware-keyboard-arrow-down md_down"></i></span> <div class="container"> <div class="row"> <div class="col-md-6 sortableCols ui-sortable" style=""> <h2 class="text-align-center tie-to-modal" contenteditable="false" data-placeholder="" data-medium-element="true">PHP subscription form </h2> <img class="img-responsive img-center tie-to-modal" src="https://demo.bootstraptor.com/blocksscr/app/subscribe.png" alt="my image alt text" style="display: block;"> </div> <div class="col-md-6 sortableCols ui-sortable" style=""> <h2 style="display: block;" class="text-align-center tie-to-modal" contenteditable="false" data-placeholder="" data-medium-element="true"> Image overlays</h2> <img class="img-responsive img-center tie-to-modal" src="https://demo.bootstraptor.com/blocksscr/app/unsplash.png" alt="my image alt text" style="display: block;"> </div> </div> </div> </section><section class="well box-layer tie-to-modal" style="display: block;"><span style="font-size:28px;  letter-spacing:0;" class="m__move_arrow"><i class="mdi-hardware-keyboard-arrow-up md_up"></i> <i class="mdi-hardware-keyboard-arrow-down md_down"></i></span> <div class="container"> <div class="row"> <div class="col-md-6 sortableCols ui-sortable" style=""> <h2 class="text-align-center tie-to-modal" contenteditable="false" data-placeholder="" data-medium-element="true">Smart color panel </h2> <img class="img-responsive img-center tie-to-modal" src="https://demo.bootstraptor.com/blocksscr/app/change.jpg" alt="my image alt text" style="display: block;"> </div> <div class="col-md-6 sortableCols ui-sortable" style=""> <h2 style="display: block;" class="text-align-center tie-to-modal" contenteditable="false" data-placeholder="" data-medium-element="true"> Material design palette</h2> <img class="img-responsive img-center tie-to-modal" src="https://demo.bootstraptor.com/blocksscr/app/colors.png" alt="my image alt text" style="display: block;"> </div> </div> </div> </section><section class="well box-layer tie-to-modal" style="display: block;"><span style="font-size:28px;  letter-spacing:0;" class="m__move_arrow"><i class="mdi-hardware-keyboard-arrow-up md_up"></i> <i class="mdi-hardware-keyboard-arrow-down md_down"></i></span> <div class="container"> <div class="row"> <div class="col-md-6 sortableCols ui-sortable" style=""> <h2 class="text-align-center tie-to-modal" contenteditable="false" data-placeholder="" data-medium-element="true">Responsive layouts </h2> <img class="img-responsive img-center tie-to-modal" src="https://demo.bootstraptor.com/blocksscr/app/responsive.jpg" alt="my image alt text" style="display: block;"> </div> <div class="col-md-6 sortableCols ui-sortable" style=""> <h2 style="display: block;" class="text-align-center tie-to-modal" contenteditable="false" data-placeholder="" data-medium-element="true"> Save/Open Projects</h2> <img class="img-responsive img-center tie-to-modal" src="https://demo.bootstraptor.com/blocksscr/app/download.png" alt="my image alt text" style="display: block;"> </div> </div> </div> </section><section class="well box-layer tie-to-modal" style="display: block;"><span style="font-size:28px;  letter-spacing:0;" class="m__move_arrow"><i class="mdi-hardware-keyboard-arrow-up md_up"></i> <i class="mdi-hardware-keyboard-arrow-down md_down"></i></span> <div class="container"> <div class="row"> <div class="col-md-6 sortableCols ui-sortable" style=""> <h2 class="text-align-center tie-to-modal" contenteditable="false" data-placeholder="" data-medium-element="true">Inline text editor </h2> <img class="img-responsive img-center tie-to-modal" src="https://demo.bootstraptor.com/blocksscr/app/inline.png" alt="my image alt text" style="display: block;"> </div> <div class="col-md-6 sortableCols ui-sortable" style=""> <h2 style="display: block;" class="text-align-center tie-to-modal" contenteditable="false" data-placeholder="" data-medium-element="true"> Material &amp; FontAwesome icons</h2> <img class="img-responsive img-center tie-to-modal" src="https://demo.bootstraptor.com/blocksscr/app/icons.png" alt="my image alt text" style="display: block;"> </div> </div> </div> </section><section class="well box-layer tie-to-modal" style="display: block;"><span style="font-size:28px;  letter-spacing:0;" class="m__move_arrow"><i class="mdi-hardware-keyboard-arrow-up md_up"></i> <i class="mdi-hardware-keyboard-arrow-down md_down"></i></span> <div class="container"> <div class="row"> <div class="col-md-6 sortableCols ui-sortable" style=""> <h2 class="text-align-center tie-to-modal" contenteditable="false" data-placeholder="" data-medium-element="true">HTML/CSS/JS code editors </h2> <img class="img-responsive img-center tie-to-modal" src="https://demo.bootstraptor.com/blocksscr/app/code.png" alt="my image alt text" style="display: block;"> </div> <div class="col-md-6 sortableCols ui-sortable" style=""> <h2 style="display: block;" class="text-align-center tie-to-modal" contenteditable="false" data-placeholder="" data-medium-element="true"> Drag-and-Drop components</h2> <img class="img-responsive img-center tie-to-modal" src="https://demo.bootstraptor.com/blocksscr/app/drag-and-drop.png" alt="my image alt text" style="display: block;"> </div> </div> </div> </section><section class="well box-layer tie-to-modal" style="display: block;"><span style="font-size:28px;  letter-spacing:0;" class="m__move_arrow"><i class="mdi-hardware-keyboard-arrow-up md_up"></i> <i class="mdi-hardware-keyboard-arrow-down md_down"></i></span> <div class="container"> <div class="row"> <div class="col-md-6 sortableCols ui-sortable" style=""> <h2 class="text-align-center tie-to-modal" contenteditable="false" data-placeholder="" data-medium-element="true">Youtube &amp; Vimeo Video Popups </h2> <img class="img-responsive img-center tie-to-modal" src="https://demo.bootstraptor.com/blocksscr/app/video.png" alt="my image alt text" style="display: block;"> </div> <div class="col-md-6 sortableCols ui-sortable" style=""> <h2 style="display: block;" class="text-align-center tie-to-modal" contenteditable="false" data-placeholder="" data-medium-element="true"> Image Lightbox Popup</h2> <img class="img-responsive img-center tie-to-modal" src="https://demo.bootstraptor.com/blocksscr/app/images.png" alt="my image alt text" style="display: block;"> </div> </div> </div> </section><section class="well box-layer tie-to-modal" style="display: block;"><span style="font-size:28px;  letter-spacing:0;" class="m__move_arrow"><i class="mdi-hardware-keyboard-arrow-up md_up"></i> <i class="mdi-hardware-keyboard-arrow-down md_down"></i></span> <div class="container"> <div class="row"> <div class="col-md-6 sortableCols ui-sortable" style=""> <h2 class="text-align-center tie-to-modal" contenteditable="false" data-placeholder="" data-medium-element="true">Live Preview mode </h2> <img class="img-responsive img-center tie-to-modal" src="https://demo.bootstraptor.com/blocksscr/app/live.png" alt="my image alt text" style="display: block;"> </div> <div class="col-md-6 sortableCols ui-sortable" style=""> <h2 style="display: block;" class="text-align-center tie-to-modal" contenteditable="false" data-placeholder="" data-medium-element="true">Download valid HTML code file</h2> <img class="img-responsive img-center tie-to-modal" src="https://demo.bootstraptor.com/blocksscr/app/export.png" alt="my image alt text" style="display: block;"> </div> </div> </div> </section><section class="well box-layer tie-to-modal" style="display: block;"><span style="font-size:28px;  letter-spacing:0;" class="m__move_arrow"><i class="mdi-hardware-keyboard-arrow-up md_up"></i> <i class="mdi-hardware-keyboard-arrow-down md_down"></i></span> <div class="container"> <div class="row"> <div class="col-md-6 sortableCols ui-sortable" style=""> <h2 class="text-align-center tie-to-modal" contenteditable="false" data-placeholder="" data-medium-element="true">Smooth scroll links </h2> <img class="img-responsive img-center tie-to-modal" src="https://demo.bootstraptor.com/blocksscr/app/links.png" alt="my image alt text" style="display: block;"> </div> <div class="col-md-6 sortableCols ui-sortable" style=""> <h2 style="display: block;" class="text-align-center tie-to-modal" contenteditable="false" data-placeholder="" data-medium-element="true">Templates bundle included</h2> <img class="img-responsive img-center tie-to-modal" src="https://demo.bootstraptor.com/blocksscr/app/templates.png" alt="my image alt text" style="display: block;"> </div> </div> </div> </section><section class="well text-align-center  box-layer wellundefined cover padding-top-100 padding-bottom-100 bgp-cc ov-80 tie-to-modal" style="display: block; color: rgb(255, 255, 255); background-image: url(&quot;https://images.unsplash.com/photo-1515378791036-0648a3ef77b2?crop=entropy&amp;cs=tinysrgb&amp;fit=max&amp;fm=jpg&amp;ixid=Mnw5NDF8MXwxfGFsbHwxMXx8fHx8fDJ8fDE2MTg4OTU1MTM&amp;ixlib=rb-1.2.1&amp;q=80&amp;w=1080&quot;);"><span style="font-size:28px;  letter-spacing:0;" class="m__move_arrow"><i class="mdi-hardware-keyboard-arrow-up md_up"></i> <i class="mdi-hardware-keyboard-arrow-down md_down"></i></span> <div class="container"> <div class="row"> <div class="text-align-center col-md-12 mode-elements-column-hover2 sortableChildren sortableCols ui-sortable">
+	
+	<h2 class="page-section hero-title-xl text-color-primary margin-bottom-40 margin-top-60 tag-outline headline-2xl tie-to-modal" style="display: block;" contenteditable="false" data-placeholder="" data-medium-element="true"><strong class="">BuilderX - included 25 starter templates bundle</strong></h2> <a href="#h" class="scroll btn btn-round btn-lg btn-material-blue margin-bottom-100 tie-to-modal" type="button" style="display: inline-block;" contenteditable="false" data-placeholder="" data-medium-element="true">see all templates</a>
+	<div class="col-md-12 text-align-center tie-to-modal sortableCols ui-sortable">
+	</div>
+</div> </div> </div> </section><section class="well text-align-center box-layer wellundefined tie-to-modal" style="display: block; color: rgb(0, 0, 0);" contenteditable="false" data-medium-element="true"><span style="font-size:28px;  letter-spacing:0;" class="m__move_arrow"><i class="mdi-hardware-keyboard-arrow-up md_up"></i> <i class="mdi-hardware-keyboard-arrow-down md_down"></i></span> <div class="container"> <div class="row"> <div class="col-md-8 col-md-offset-2 sortableCols ui-sortable" style=""> <h3 class="text-align-center headline-lg margin-bottom-30 tie-to-modal" style="display: block;" contenteditable="false" data-placeholder="" data-medium-element="true">Plans &amp; Pricing </h3>  </div> </div> <div class="row"> <div class="col-md-8 col-md-offset-2 col-xs-12" style=""> <div class="row"> <div class="col-md-6 col-xs-12 sortableCols ui-sortable" style=""> <div class="panel card-2 z-i-0 relative margin-top-20 margin-bottom-30 tie-to-modal" style="display: block;"> <div class="panel-body tie-to-modal" style="color: rgb(0, 0, 0); opacity: 1; z-index: 0;"> <h3 class="margin-bottom-20 tie-to-modal" contenteditable="false" data-placeholder="" data-medium-element="true"> STARTER</h3> <h4 class="text-color-default headline-lg margin-bottom-40 tie-to-modal" style=" " contenteditable="false" data-placeholder="" data-medium-element="true"> <strong class="">$29 / yr</strong> </h4> <ul class="list-unstyled ui-sortable"> <li style="padding-top: 10px; padding-bottom: 10px;" class="tie-to-modal" contenteditable="false" data-placeholder="" data-medium-element="true"> Billed yearly</li> <li style="padding-top: 10px; padding-bottom: 10px;" class="tie-to-modal" contenteditable="false" data-placeholder="" data-medium-element="true"> 500 clients</li> <li style="padding-top: 10px; padding-bottom: 10px;" class="tie-to-modal" contenteditable="false" data-placeholder="" data-medium-element="true">10 templates included</li> </ul> <a href="#" class="btn margin-bottom-30 margin-top-30 btn-round card-3 btn-primary btn-material-blue-grey btn-lg tie-to-modal" type="submit" contenteditable="false" data-placeholder="" data-medium-element="true">BUY NOW!</a> </div> </div> </div> <div class="col-md-6 col-xs-12 sortableCols ui-sortable" style=""> <div class="panel card-2 z-i-0 relative margin-top-20 margin-bottom-30 tie-to-modal" style="position: relative; z-index: 0; display: block;"> <div class="panel-body tie-to-modal" style="color: rgb(0, 0, 0); opacity: 1; z-index: 0;"> <h3 class="margin-bottom-20 tie-to-modal" contenteditable="false" data-placeholder="" data-medium-element="true"> LIFETIME</h3> <h4 class="text-color-default headline-lg margin-bottom-40 tie-to-modal" style=" " contenteditable="false" data-placeholder="" data-medium-element="true"> <strong class="">$49 / once</strong></h4> <ul class="list-unstyled ui-sortable"> <li style="padding-top: 10px; padding-bottom: 10px;" class="tie-to-modal" contenteditable="false" data-placeholder="" data-medium-element="true"> One time payment</li> <li style="padding-top: 10px; padding-bottom: 10px;" class="tie-to-modal" contenteditable="false" data-placeholder="" data-medium-element="true"> Unlimited clients</li> <li style="padding-top: 10px; padding-bottom: 10px;" class="tie-to-modal" contenteditable="false" data-placeholder="" data-medium-element="true"> 25 templates included</li> </ul> <a href="#" class="btn margin-bottom-30 margin-top-30 btn-round card-3 btn-primary btn-lg btn-material-red tie-to-modal" type="submit" contenteditable="false" data-placeholder="" data-medium-element="true">BUY NOW!</a> </div> </div> </div> </div> </div> </div> </div></section><section class="well cover text-align-center box-layer ov-70 padding-top-100 padding-bottom-100 bgp-cc tie-to-modal" style="display: block; background-image: url(&quot;https://images.unsplash.com/photo-1541746972996-4e0b0f43e02a?crop=entropy&amp;cs=tinysrgb&amp;fit=max&amp;fm=jpg&amp;ixid=Mnw5NDF8MHwxfHNlYXJjaHwyfHxzdGFydHVwfGVufDB8fHx8MTYxODgzMjI0Nw&amp;ixlib=rb-1.2.1&amp;q=80&amp;w=1080&quot;); color: rgb(255, 255, 255);" contenteditable="false" data-medium-element="true"><span style="font-size:28px;  letter-spacing:0;" class="m__move_arrow"><i class="mdi-hardware-keyboard-arrow-up md_up"></i> <i class="mdi-hardware-keyboard-arrow-down md_down"></i></span> <div class="container"> <div class="row"> <div class="text-align-center col-md-offset-1 col-md-10 mode-elements-column-hover2 sortableChildren sortableCols ui-sortable" style=""> <h1 class="margin-top-50 margin-bottom-30 headline-xl tag-outline tie-to-modal" contenteditable="false" data-placeholder="" data-medium-element="true" style="display: block;">START MAKING BEAUTIFUL WEBSITES EASILY TODAY</h1> <h2 class="page-section margin-top-0 hero-title-xl text-color-primary margin-bottom-50 headline-sm tie-to-modal" style="display: block;" contenteditable="false" data-placeholder="" data-medium-element="true">With All-in-One Ready-to-Go Solution</h2> <a href="#pricing" class="btn-gradient scroll btn btn-round btn-lg btn-material-pink tie-to-modal" type="button" contenteditable="false" data-placeholder="" data-medium-element="true">BUY NOW ONLY FROM $49! &gt;&gt;</a> <div class="col-md-12 text-align-center tie-to-modal sortableCols ui-sortable" style="">  </div> </div> </div> </div> </section>

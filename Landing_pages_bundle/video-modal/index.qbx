@@ -1,0 +1,551 @@
+<link id="stylesChange" href="css/bootstrap.min.css" rel="stylesheet">
+<header class="box-layer tie-to-modal" role="banner" itemscope="" itemtype="http://schema.org/WPHeader" style="display: block;"><span style="font-size:28px;  letter-spacing:0;" class="m__move_arrow"><i class="mdi-hardware-keyboard-arrow-up md_up"></i> <i class="mdi-hardware-keyboard-arrow-down md_down"></i></span>
+	
+	<nav class="navbar navbar-material-white tie-to-modal">
+		
+		<div class="container">
+			<div class="navbar-header">
+				 <button type="button" class="navbar-toggle medium-editor-placeholder tie-to-modal" data-toggle="collapse" data-target=".navbar-inverse-collapse" contenteditable="false" data-placeholder="" data-medium-element="true"><span class="icon-bar"></span><span class="icon-bar"></span><span class="icon-bar"></span></button> <a class="navbar-brand tie-to-modal" href="#" title="material design bootstrap" contenteditable="false" data-placeholder="" data-medium-element="true">SITENAME</a>
+				<div class="ripple-wrapper">
+				</div>
+			</div>
+			<div class="navbar-collapse collapse navbar-inverse-collapse">
+				<ul class="nav navbar-nav ui-sortable">
+					<li class="not-editable tie-to-modal">
+						 <a class="scroll" href="#new" contenteditable="false" data-placeholder="" data-medium-element="true">ABOUT US</a>
+					</li>
+					<li class="not-editable tie-to-modal">
+						 <a class="scroll" href="#features" contenteditable="false" data-placeholder="" data-medium-element="true">PROJECTS</a>
+					</li>
+					<li class="not-editable tie-to-modal">
+						 <a class="scroll" href="#about" contenteditable="false" data-placeholder="" data-medium-element="true">CONTACT US</a>
+					</li>
+				</ul>
+				<ul class="nav navbar-nav navbar-right ui-sortable">
+					<li class="not-editable tie-to-modal">
+						 <a href="#pricing" class="btn navbar-btn scroll ai-color btn-material-blue-grey tie-to-modal" style="border-color: rgb(6, 7, 6);" contenteditable="false" data-placeholder="" data-medium-element="true">HIRE us NOW!</a>
+					</li>
+				</ul>
+			</div>
+		</div>
+	</nav>
+	
+</header><section class="well padding-top-80 text-align-center cover bgp-tc  box-layer tie-to-modal mode-elements-column-hover padding-bottom-30" style="display: block; color: rgb(0, 0, 0);"><span style="font-size:28px;  letter-spacing:0;" class="m__move_arrow"><i class="mdi-hardware-keyboard-arrow-up md_up"></i> <i class="mdi-hardware-keyboard-arrow-down md_down"></i></span> <div class="container"> <div class="row"> <div class="col-md-2 hovered hovered-content sortableCols ui-sortable" style=""> </div> <div class="col-md-8 sortableCols ui-sortable" style=""> <h1 class="headline-xl tie-to-modal" contenteditable="false" data-placeholder="" data-medium-element="true"> Title or event goes here </h1> <h2 class="margin-bottom-80 tie-to-modal" contenteditable="false" data-placeholder="" data-medium-element="true"> Call to action sub-headline goes here </h2><a href="#" class="btn btn-fab card-5 btn-xs scroll margin-top-10 margin-bottom-60 btn-material-blue-grey medium-editor-placeholder tie-to-modal" style="display: inline-block;" contenteditable="false" data-placeholder="" data-medium-element="true"><i class="mdi-av-play-arrow fa-lg"></i></a> </div> <div class="col-md-2 hovered hovered-content sortableCols ui-sortable" style=""> </div> </div> <div class="row"> <div class="col-md-4 sortableCols ui-sortable" style=""> <h3 class="text-align-left headline-sm tie-to-modal" contenteditable="false" data-placeholder="" data-medium-element="true"> Grumpy wizards make toxic brew </h3> <p class="text-align-left tie-to-modal" contenteditable="false" data-placeholder="" data-medium-element="true"> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </p> </div> <div class="col-md-4 sortableCols ui-sortable" style=""> <h3 class="text-align-left headline-sm tie-to-modal" style="display: block;" contenteditable="false" data-placeholder="" data-medium-element="true"> Grumpy wizards make toxic brew </h3> <p class="text-align-left tie-to-modal" style="display: block;" contenteditable="false" data-placeholder="" data-medium-element="true"> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </p> </div> <div class="col-md-4 sortableCols ui-sortable" style=""> <h3 class="text-align-left headline-sm tie-to-modal" style="display: block;" contenteditable="false" data-placeholder="" data-medium-element="true"> Grumpy wizards make toxic brew </h3> <p class="text-align-left tie-to-modal" style="display: block;" contenteditable="false" data-placeholder="" data-medium-element="true"> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </p> </div> </div> <div class="row"> <div class="col-md-12 sortableCols ui-sortable" style=""> <a href="#bbb" class="btn btn-fab btn-raised scroll btn-xs margin-top-60 btn-material-blue-grey btn-outline btn-black medium-editor-placeholder tie-to-modal" style="display: inline-block;" contenteditable="false" data-placeholder="" data-medium-element="true"><i class="mdi-navigation-expand-more fa-lg"></i></a> </div> </div> </div> <span id="addBlockBtn" style="position:absolute; left:50%; bottom:-10px; margin-left:-10px; z-index:1400"><button class="btn btn-white btn-xs " title="clone section"><i class="fa fa-copy"></i></button></span></section>
+
+
+
+
+
+<section class="well   box-layer text-align-center tie-to-modal padding-top-10" style="display: block;"><span style="font-size:28px;  letter-spacing:0;" class="m__move_arrow"><i class="mdi-hardware-keyboard-arrow-up md_up"></i> <i class="mdi-hardware-keyboard-arrow-down md_down"></i></span>
+	<div class="container">
+		<div class="row">
+	<div class="col-md-10 col-md-offset-1 col-lg-offset-1 col-lg-10 sortableCols ui-sortable">
+		<img class="img-responsive  margin-top-20 tie-to-modal" src="images/new/macbook.png" alt="">
+		</div>
+		</div>
+		<div class="row">
+			<div class="col-md-4 col-xs-12 col-sm-12 col-lg-4 text-center" style="margin-top: 30px; ">
+				<div class="row">
+					<div class="col-md-12 col-xs-12 col-lg-12 col-sm-3 sortableCols ui-sortable">
+						<i class="mdi-image-details fa-3x tie-to-modal" style="position: relative;    margin-top: 20px; margin-bottom: 10px;  "></i>
+					</div>
+					<div class="col-md-12 col-xs-12 col-lg-12 col-sm-9 sortableCols ui-sortable">
+						<p style="position: relative; opacity: 1; z-index: 0;" class="text-sm tie-to-modal" contenteditable="false" data-placeholder="" data-medium-element="true">
+							Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor. Duis mollis, est non commodo luctus.
+						</p>
+					</div>
+				</div>
+			</div>
+			<div class="col-md-4 col-xs-12 col-sm-12 col-lg-4 text-center" style="margin-top: 30px; ">
+				<div class="row">
+					<div class="col-md-12 col-xs-12 col-lg-12 col-sm-3 sortableCols ui-sortable">
+						<i class="mdi-social-whatshot fa-3x tie-to-modal" style="position: relative;    margin-top: 20px; margin-bottom: 10px;  "></i>
+					</div>
+					<div class="col-md-12 col-xs-12 col-lg-12 col-sm-9 sortableCols ui-sortable">
+						<p class="text-sm tie-to-modal" contenteditable="false" data-placeholder="" data-medium-element="true">
+							Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor. Duis mollis, est non commodo luctus.
+						</p>
+					</div>
+				</div>
+			</div>
+			<div class="col-md-4 col-xs-12 col-sm-12 col-lg-4 text-center" style="margin-top: 30px; ">
+				<div class="row">
+					<div class="col-md-12 col-xs-12 col-lg-12 col-sm-3 sortableCols ui-sortable">
+						<i class="mdi-social-cake fa-3x tie-to-modal" style="position: relative;    margin-top: 20px; margin-bottom: 10px;  "></i>
+					</div>
+					<div class="col-md-12 col-xs-12 col-lg-12 col-sm-9 sortableCols ui-sortable">
+						<p style="position: relative; opacity: 1; z-index: 0;" class="lead text-sm tie-to-modal" contenteditable="false" data-placeholder="" data-medium-element="true">
+							Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor. Duis mollis, est non commodo luctus.
+						</p>
+					</div>
+				</div>
+			</div>
+			</div>
+		
+	
+
+	</div>
+</section><section class="box-layer tie-to-modal" style="color: rgb(0, 0, 0); padding-top: 50px; padding-bottom: 50px; background-image: initial; background-attachment: initial; background-color: rgb(255, 255, 255); background-size: initial; background-origin: initial; background-clip: initial; background-repeat: initial; display: block;"><span style="font-size:28px;  letter-spacing:0;" class="m__move_arrow"><i class="mdi-hardware-keyboard-arrow-up md_up"></i> <i class="mdi-hardware-keyboard-arrow-down md_down"></i></span>
+	<div class="container">
+		<div class="row">
+	<div class="col-md-8 col-md-offset-2">
+		<h4 class="header-text margin-top-60 padding-bottom-20 text-align-center headline-sm tie-to-modal" style="color: rgb(48, 44, 44);" contenteditable="false" data-placeholder="" data-medium-element="true"><b>
+			And your app is also probably social, awesome, easy-to-use and vital to users. This is the place to enlist all the good things that your app has to share.
+		</b></h4>
+		<div class="row  margin-top-50">
+			<div class="col-md-6 sortableCols ui-sortable">
+				<p class="padding-bottom-10 tie-to-modal" contenteditable="false" data-placeholder="" data-medium-element="true">
+					And your app is also probably social, awesome, easy-to-use and vital to users. This is the place to enlist all the good things that your app has to share. Focus on the benefits that the uers will receive.
+				</p>
+			</div>
+			<div class="col-md-6 sortableCols ui-sortable">
+				<p class="padding-bottom-10 tie-to-modal" contenteditable="false" data-placeholder="" data-medium-element="true">
+					And your app is also probably social, awesome, easy-to-use and vital to users. This is the place to enlist all the good things that your app has to share. Focus on the benefits that the uers will receive.
+				</p>
+			</div>
+		</div>
+		<div class="row margin-top-50">
+			<div class="col-md-8 sortableCols ui-sortable">
+				<img src="images/new/macbook.png" class="img-responsive tie-to-modal" alt="">
+			</div>
+			<div class="col-md-4 sortableCols ui-sortable">
+				<h4 style="color: rgb(242, 14, 14);" class="tie-to-modal" contenteditable="false" data-placeholder="" data-medium-element="true"><b>
+					Responsive layout
+				</b></h4>
+				<p class="tie-to-modal" contenteditable="false" data-placeholder="" data-medium-element="true">
+					And your app is also probably social, awesome, easy-to-use and vital to users.
+				</p>
+				<h4 class="margin-top-30 tie-to-modal" style="color: rgb(242, 14, 14);" contenteditable="false" data-placeholder="" data-medium-element="true"><b>
+					Block model
+				</b></h4>
+				<p class="tie-to-modal" contenteditable="false" data-placeholder="" data-medium-element="true">
+					And your app is also probably social, awesome, easy-to-use and vital to users.
+				</p>
+				<h4 class="margin-top-30 tie-to-modal" style="color: rgb(242, 14, 14);" contenteditable="false" data-placeholder="" data-medium-element="true"><b>
+					Powerful wireframe
+				</b></h4>
+				<p class="tie-to-modal" contenteditable="false" data-placeholder="" data-medium-element="true">
+					And your app is also probably social, awesome, easy-to-use and vital to users.
+				</p>
+			</div>
+		</div>
+	</div>
+</div>
+	</div>
+</section>
+<section style="color: rgb(0, 0, 0); padding-top: 50px; padding-bottom: 50px; background-image: initial; background-attachment: initial; background-color: rgb(250, 250, 250); background-size: initial; background-origin: initial; background-clip: initial; background-repeat: initial;" class="box-layer tie-to-modal"><span style="font-size:28px;  letter-spacing:0;" class="m__move_arrow"><i class="mdi-hardware-keyboard-arrow-up md_up"></i> <i class="mdi-hardware-keyboard-arrow-down md_down"></i></span>
+	<div class="container">
+		<div class="row">
+			<div class="col-md-6 pull-right col-md-pull-3 sortableCols ui-sortable">
+				 <img src="images/new/macbook.png" class="margin-top-20 tie-to-modal" alt="">
+			</div>
+			<div class="col-md-3 sortableCols ui-sortable">
+				<div class="description tie-to-modal">
+					<div class="row margin-top-30">
+						<div class="col-xs-12 text-center margin-bottom-20 sortableCols ui-sortable">
+							<i class="mdi-device-developer-mode fa-2x tie-to-modal"></i>
+						</div>
+						<div class="col-xs-12 sortableCols ui-sortable">
+							<p class="text-sm tie-to-modal" contenteditable="false" data-placeholder="" data-medium-element="true">
+								Try to combine imaginery with text and show meaningful printscreens from your app, that will make it clear what exactly the basic functions are.
+							</p>
+						</div>
+					</div>
+					<div class="row margin-top-30">
+						<div class="col-xs-12 text-center margin-bottom-20 sortableCols ui-sortable">
+							<i class="mdi-device-multitrack-audio fa-2x tie-to-modal"></i>
+						</div>
+						<div class="col-xs-12 sortableCols ui-sortable">
+							<p class="text-sm tie-to-modal" contenteditable="false" data-placeholder="" data-medium-element="true">
+								Try to combine imaginery with text and show meaningful printscreens from your app, that will make it clear what exactly the basic functions are.
+							</p>
+						</div>
+					</div>
+					<div class="row margin-top-30">
+						<div class="col-xs-12 text-center margin-bottom-20 sortableCols ui-sortable">
+							<i class="mdi-device-devices fa-2x tie-to-modal"></i>
+						</div>
+						<div class="col-xs-12 sortableCols ui-sortable">
+							<p class="text-sm tie-to-modal" contenteditable="false" data-placeholder="" data-medium-element="true">
+								Try to combine imaginery with text and show meaningful printscreens from your app, that will make it clear what exactly the basic functions are.
+							</p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</section>
+<section style="color: rgb(0, 0, 0); padding-top: 50px; padding-bottom: 50px; background-image: initial; background-attachment: initial; background-color: rgb(250, 250, 250); background-size: initial; background-origin: initial; background-clip: initial; background-repeat: initial;" class="box-layer tie-to-modal"><span style="font-size:28px;  letter-spacing:0;" class="m__move_arrow"><i class="mdi-hardware-keyboard-arrow-up md_up"></i> <i class="mdi-hardware-keyboard-arrow-down md_down"></i></span>
+	<div class="container">
+		<div class="row">
+			<div class="col-md-6 col-md-pull-2 sortableCols ui-sortable">
+				 <img src="images/new/macbook.png" class="margin-top-20 tie-to-modal" alt="">
+			</div>
+			<div class="col-md-3 col-md-offset-2 sortableCols ui-sortable">
+				<div class="description tie-to-modal">
+					<div class="row margin-top-30">
+						<div class="col-xs-12 text-center margin-bottom-20 sortableCols ui-sortable">
+							<i class="mdi-device-nfc fa-2x tie-to-modal"></i>
+						</div>
+						<div class="col-xs-12 sortableCols ui-sortable">
+							<p class="text-sm tie-to-modal" contenteditable="false" data-placeholder="" data-medium-element="true">
+								Try to combine imaginery with text and show meaningful printscreens from your app, that will make it clear what exactly the basic functions are.
+							</p>
+						</div>
+					</div>
+					<div class="row margin-top-30">
+						<div class="col-xs-12 text-center margin-bottom-20 sortableCols ui-sortable">
+							<i class="mdi-device-now-wallpaper fa-2x tie-to-modal"></i>
+						</div>
+						<div class="col-xs-12 sortableCols ui-sortable">
+							<p class="text-sm tie-to-modal" contenteditable="false" data-placeholder="" data-medium-element="true">
+								Try to combine imaginery with text and show meaningful printscreens from your app, that will make it clear what exactly the basic functions are.
+							</p>
+						</div>
+					</div>
+					<div class="row margin-top-30">
+						<div class="col-xs-12 text-center margin-bottom-20 sortableCols ui-sortable">
+							<i class="mdi-file-cloud-download fa-2x tie-to-modal"></i>
+						</div>
+						<div class="col-xs-12 sortableCols ui-sortable">
+							<p class="text-sm tie-to-modal" contenteditable="false" data-placeholder="" data-medium-element="true">
+								Try to combine imaginery with text and show meaningful printscreens from your app, that will make it clear what exactly the basic functions are.
+							</p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</section>
+
+<section class="box-layer tie-to-modal" style="color: rgb(0, 0, 0); background-color: rgb(250, 250, 250);"><span style="font-size:28px;  letter-spacing:0;" class="m__move_arrow"><i class="mdi-hardware-keyboard-arrow-up md_up"></i> <i class="mdi-hardware-keyboard-arrow-down md_down"></i></span>
+	<div class="container">
+		<div class="row">
+			<div class="col-md-6 col-md-pull-3 hidden-xs sortableCols ui-sortable">
+				<img src="images/new/macbook.png" class="tie-to-modal" alt="">
+			</div>
+			<div class="col-md-6">
+				<div class="description  ">
+					<h4 class="header-text   padding-bottom-20 headline-lg margin-top-40 tie-to-modal" contenteditable="false" data-placeholder="" data-medium-element="true">
+						You are beautiful
+					</h4>
+					<p class="padding-bottom-10 text-sm margin-top-0 tie-to-modal" contenteditable="false" data-placeholder="" data-medium-element="true">
+						And your app is also probably social, awesome, easy-to-use and vital to users. This is the place to enlist all the good things that your app has to share. Focus on the benefits that the uers will receive. Try to combine imaginery with text and show meaningful printscreens from your app, that will make it clear what exactly the basic functions are.
+					</p>
+				</div>
+				<div class="row margin-top-50">
+					<div class="col-md-10 col-md-offset-1 sortableCols ui-sortable">
+						<div class="row">
+							<div class="col-md-6 sortableCols ui-sortable">
+								<div class="row margin-top-30">
+									<div class="col-xs-2 sortableCols ui-sortable">
+										<i class="mdi-image-compare tie-to-modal"></i>
+									</div>
+									<div class="col-xs-10 sortableCols ui-sortable">
+										<p class="text-sm tie-to-modal" contenteditable="false" data-placeholder="" data-medium-element="true">
+											Try to combine imaginery with text and show meaningful printscreens from your app, that will make it clear what exactly the basic functions are.
+										</p>
+									</div>
+								</div>
+							</div>
+							<div class="col-md-6 sortableCols ui-sortable">
+								<div class="row margin-top-30">
+									<div class="col-xs-2 sortableCols ui-sortable">
+										<i class="mdi-image-flip tie-to-modal"></i>
+									</div>
+									<div class="col-xs-10 sortableCols ui-sortable">
+										<p class="text-sm tie-to-modal" contenteditable="false" data-placeholder="" data-medium-element="true">
+											Try to combine imaginery with text and show meaningful printscreens from your app, that will make it clear what exactly the basic functions are.
+										</p>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</section>
+
+<section class="well section-team cover bgs-cover bgp-cc box-layer wellundefined tie-to-modal" style="display: block; padding-top: 50px; color: rgb(0, 0, 0);"><span style="font-size:28px;  letter-spacing:0;" class="m__move_arrow"><i class="mdi-hardware-keyboard-arrow-up md_up"></i> <i class="mdi-hardware-keyboard-arrow-down md_down"></i></span>
+	<div class="container">
+		<div class="row">
+			<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 margin-bottom-50 sortableCols ui-sortable">
+				<h3 class="page-header text-center headline-lg tie-to-modal" style="margin-bottom: 50px;" contenteditable="false" data-placeholder="" data-medium-element="true">
+					 <strong>What People Say</strong>
+				</h3>
+			</div>
+		</div>
+		<div class="row">
+			<div class="col-md-4">
+				<div class="row">
+					<div class="col-xs-3 sortableCols ui-sortable">
+						 <img class="card-5 img-circle img-responsive  card-5 tie-to-modal" src="C:\Users\Анатолий\AppData\Roaming\npm\node_modules\electron-prebuilt\dist\resources/Projects/CoversUIKIT/images/11m.jpg" alt="thumb">
+					</div>
+					<div class="col-xs-9 sortableCols ui-sortable">
+						<h4 class="tie-to-modal" contenteditable="false" data-placeholder="" data-medium-element="true">
+							John Doe<br><small class="text-muted">CEO &amp; Founder</small>
+						</h4>
+					</div>
+					<div class="col-xs-12 tie-to-modal sortableCols ui-sortable">
+						<p class="margin-top-20 tie-to-modal" contenteditable="false" data-placeholder="" data-medium-element="true">
+							Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been
+						</p>
+					</div>
+				</div>
+			</div>
+			<div class="col-md-4">
+				<div class="row">
+					<div class="col-xs-3 sortableCols ui-sortable">
+						 <img class="card-5 img-circle img-responsive  card-5 tie-to-modal" src="C:\Users\Анатолий\AppData\Roaming\npm\node_modules\electron-prebuilt\dist\resources/Projects/CoversUIKIT/images/31m.jpg" alt="thumb">
+					</div>
+					<div class="col-xs-9 sortableCols ui-sortable">
+						<h4 class="tie-to-modal" contenteditable="false" data-placeholder="" data-medium-element="true">
+							John Doe<br><small class="text-muted">CEO &amp; Founder</small>
+						</h4>
+					</div>
+					<div class="col-xs-12 tie-to-modal sortableCols ui-sortable">
+						<p class="margin-top-20 tie-to-modal" contenteditable="false" data-placeholder="" data-medium-element="true">
+							Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been
+						</p>
+					</div>
+				</div>
+			</div>
+			<div class="col-md-4">
+				<div class="row">
+					<div class="col-xs-3 sortableCols ui-sortable">
+						 <img class="card-5 img-circle img-responsive  card-5 tie-to-modal" src="C:\Users\Анатолий\AppData\Roaming\npm\node_modules\electron-prebuilt\dist\resources/Projects/CoversUIKIT/images/49w.jpg" alt="thumb">
+					</div>
+					<div class="col-xs-9 sortableCols ui-sortable">
+						<h4 class="tie-to-modal" contenteditable="false" data-placeholder="" data-medium-element="true">
+							John Doe<br><small class="text-muted">CEO &amp; Founder</small>
+						</h4>
+					</div>
+					<div class="col-xs-12 tie-to-modal sortableCols ui-sortable">
+						<p class="margin-top-20 tie-to-modal" contenteditable="false" data-placeholder="" data-medium-element="true">
+							Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been
+						</p>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="row margin-top-100">
+			<div class="col-md-4">
+				<div class="row">
+					<div class="col-xs-3 sortableCols ui-sortable">
+						 <img class="card-5 img-circle img-responsive  card-5 tie-to-modal" src="C:\Users\Анатолий\AppData\Roaming\npm\node_modules\electron-prebuilt\dist\resources/Projects/CoversUIKIT/images/27m.jpg" alt="thumb">
+					</div>
+					<div class="col-xs-9 sortableCols ui-sortable">
+						<h4 class="tie-to-modal" contenteditable="false" data-placeholder="" data-medium-element="true">
+							John Doe<br><small class="text-muted">CEO &amp; Founder</small>
+						</h4>
+					</div>
+					<div class="col-xs-12 tie-to-modal sortableCols ui-sortable">
+						<p class="margin-top-20 tie-to-modal" contenteditable="false" data-placeholder="" data-medium-element="true">
+							Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been
+						</p>
+					</div>
+				</div>
+			</div>
+			<div class="col-md-4">
+				<div class="row">
+					<div class="col-xs-3 sortableCols ui-sortable">
+						 <img class="card-5 img-circle img-responsive  card-5 tie-to-modal" src="C:\Users\Анатолий\AppData\Roaming\npm\node_modules\electron-prebuilt\dist\resources/Projects/CoversUIKIT/images/16w.jpg" alt="thumb">
+					</div>
+					<div class="col-xs-9 sortableCols ui-sortable">
+						<h4 class="tie-to-modal" contenteditable="false" data-placeholder="" data-medium-element="true">
+							John Doe<br><small class="text-muted">CEO &amp; Founder</small>
+						</h4>
+					</div>
+					<div class="col-xs-12 tie-to-modal sortableCols ui-sortable">
+						<p class="margin-top-20 tie-to-modal" contenteditable="false" data-placeholder="" data-medium-element="true">
+							Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been
+						</p>
+					</div>
+				</div>
+			</div>
+			<div class="col-md-4">
+				<div class="row">
+					<div class="col-xs-3 sortableCols ui-sortable">
+						 <img class="card-5 img-circle img-responsive  card-5 tie-to-modal" src="C:\Users\Анатолий\AppData\Roaming\npm\node_modules\electron-prebuilt\dist\resources/Projects/CoversUIKIT/images/14m.jpg" alt="thumb">
+					</div>
+					<div class="col-xs-9 sortableCols ui-sortable">
+						<h4 class="tie-to-modal" contenteditable="false" data-placeholder="" data-medium-element="true">
+							John Doe<br><small class="text-muted">CEO &amp; Founder</small>
+						</h4>
+					</div>
+					<div class="col-xs-12 tie-to-modal sortableCols ui-sortable">
+						<p class="margin-top-20 tie-to-modal" contenteditable="false" data-placeholder="" data-medium-element="true">
+							Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been
+						</p>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</section><section class="cover bgp-ct box-layer well tie-to-modal" style="color: rgb(0, 0, 0); padding-bottom: 100px; padding-top: 100px; background-image: initial; background-attachment: initial; background-color: rgb(245, 245, 245); background-size: initial; background-origin: initial; background-clip: initial; background-repeat: initial;"><span style="font-size:28px;  letter-spacing:0;" class="m__move_arrow"><i class="mdi-hardware-keyboard-arrow-up md_up"></i> <i class="mdi-hardware-keyboard-arrow-down md_down"></i></span>
+	<div class="container">
+		<div class="row">
+			<div class="col-sm-4 hidden-xs sortableCols ui-sortable">
+				<h3 class="margin-top-30 headline-md padding-bottom-20 tie-to-modal" contenteditable="false" data-placeholder="" data-medium-element="true">
+					Make Landing Pages That Sell
+				</h3>
+				<p class="text-md padding-bottom-20 tie-to-modal" contenteditable="false" data-placeholder="" data-medium-element="true">
+					Bootstrap clean, efficient code has a beautiful order to it that's simple to follow, resulting in faster programming and site speed.
+				</p> <a href="#" class="btn btn-lg btn-material-pink tie-to-modal" contenteditable="false" data-placeholder="" data-medium-element="true">Call to action!</a>
+			</div>
+			<div class="col-sm-8">
+				<div class="row">
+					<div class="col-md-6 sortableCols ui-sortable">
+						<div class="row margin-top-30">
+							<div class="col-md-3 sortableCols ui-sortable">
+								<i class="mdi-hardware-speaker fa-2x tie-to-modal" style="border-color:inherit;  border: 2px solid inherit; border-radius: 50%; margin-top: 10px; margin-right: 10px; margin-bottom: 10px; padding: 11px;"></i>
+							</div>
+							<div class="col-md-9 sortableCols ui-sortable">
+								<p class="text-sm margin-top-20 tie-to-modal" contenteditable="false" data-placeholder="" data-medium-element="true">
+									Your feature title goes here Your feature title goes Your feature title goes here Your feature title goes
+								</p>
+							</div>
+						</div>
+						<div class="row margin-top-30">
+							<div class="col-md-3 sortableCols ui-sortable">
+								<i class="mdi-hardware-tablet-mac fa-2x tie-to-modal" style="border-color:inherit;  border: 2px solid inherit; border-radius: 50%; margin-top: 10px; margin-right: 10px; margin-bottom: 10px; padding: 11px;"></i>
+							</div>
+							<div class="col-md-9 sortableCols ui-sortable">
+								<p class="text-sm margin-top-20 tie-to-modal" contenteditable="false" data-placeholder="" data-medium-element="true">
+									Your feature title goes here Your feature title goes Your feature title goes here Your feature title goes
+								</p>
+							</div>
+						</div>
+						<div class="row margin-top-30">
+							<div class="col-md-3 sortableCols ui-sortable">
+								<i class="mdi-image-camera-roll fa-2x tie-to-modal" style="border-color:inherit;  border: 2px solid inherit; border-radius: 50%; margin-top: 10px; margin-right: 10px; margin-bottom: 10px; padding: 11px;"></i>
+							</div>
+							<div class="col-md-9 sortableCols ui-sortable">
+								<p class="text-sm margin-top-20 tie-to-modal" contenteditable="false" data-placeholder="" data-medium-element="true">
+									Your feature title goes here Your feature title goes Your feature title goes here Your feature title goes
+								</p>
+							</div>
+						</div>
+					</div>
+					<div class="col-md-6 sortableCols ui-sortable">
+						<div class="row margin-top-30">
+							<div class="col-md-3 sortableCols ui-sortable">
+								<i class="mdi-hardware-watch fa-2x tie-to-modal" style="border-color:inherit;  border: 2px solid inherit; border-radius: 50%; margin-top: 10px; margin-right: 10px; margin-bottom: 10px; padding: 11px;"></i>
+							</div>
+							<div class="col-md-9 sortableCols ui-sortable">
+								<p class="text-sm margin-top-20 tie-to-modal" contenteditable="false" data-placeholder="" data-medium-element="true">
+									Your feature title goes here Your feature title goes Your feature title goes here Your feature title goes
+								</p>
+							</div>
+						</div>
+						<div class="row margin-top-30">
+							<div class="col-md-3 sortableCols ui-sortable">
+								<i class="mdi-image-camera-alt fa-2x tie-to-modal" style="border-color:inherit; border: 2px solid inherit; border-radius: 50%; margin-top: 10px; margin-right: 10px; margin-bottom: 10px; padding: 11px;"></i>
+							</div>
+							<div class="col-md-9 sortableCols ui-sortable">
+								<p class="text-sm margin-top-20 tie-to-modal" contenteditable="false" data-placeholder="" data-medium-element="true">
+									Your feature title goes here Your feature title goes Your feature title goes here Your feature title goes
+								</p>
+							</div>
+						</div>
+						<div class="row margin-top-30">
+							<div class="col-md-3 sortableCols ui-sortable">
+								<i class="mdi-image-camera-front fa-2x tie-to-modal" style="border-color:inherit;  border: 2px solid inherit; border-radius: 50%; margin-top: 10px; margin-right: 10px; margin-bottom: 10px; padding: 11px;"></i>
+							</div>
+							<div class="col-md-9 sortableCols ui-sortable">
+								<p class="text-sm margin-top-20 tie-to-modal" contenteditable="false" data-placeholder="" data-medium-element="true">
+									Your feature title goes here Your feature title goes Your feature title goes here Your feature title goes
+								</p>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</section>
+<section class="section-dark sticky-footerbox-layer well box-layer wellundefined tie-to-modal" style="display: block; color: rgb(255, 255, 255); background-image: initial; background-size: initial; background-repeat: initial; background-attachment: initial; background-origin: initial; background-clip: initial; background-color: rgb(12, 12, 12);"><span style="font-size:28px;  letter-spacing:0;" class="m__move_arrow"><i class="mdi-hardware-keyboard-arrow-up md_up"></i> <i class="mdi-hardware-keyboard-arrow-down md_down"></i></span>
+	<div class="container">
+		<div class="row">
+	<div class="col-xs-6 col-sm-6 col-md-4 col-lg-3 sortableCols ui-sortable">
+		<h4 class="tie-to-modal" contenteditable="false" data-placeholder="" data-medium-element="true">
+			 <span class="">Navigation</span>
+		</h4>
+		<ul class="footer-nav-links list-unstyled tie-to-modal ui-sortable">
+			<li class="not-editable tie-to-modal" data-placeholder="">
+				 <a href="#" class="" contenteditable="false" data-placeholder="" data-medium-element="true">Home</a>
+			</li>
+			<li class="not-editable tie-to-modal" data-placeholder="">
+				 <a href="#" class="" contenteditable="false" data-placeholder="" data-medium-element="true">project</a>
+			</li>
+			<li class="not-editable tie-to-modal" data-placeholder="">
+				 <a href="#" class="" contenteditable="false" data-placeholder="" data-medium-element="true">Elements</a>
+			</li>
+			<li class="not-editable tie-to-modal" data-placeholder="">
+				 <a href="#" class="" contenteditable="false" data-placeholder="" data-medium-element="true">Contact</a>
+			</li>
+			<li class="not-editable tie-to-modal" data-placeholder="">
+				 <a href="#" class="" contenteditable="false" data-placeholder="" data-medium-element="true">Blog</a>
+			</li>
+		</ul>
+	</div>
+	<div class="col-xs-6 col-sm-6 col-md-4 col-lg-3 sortableCols ui-sortable">
+		<h4 class="tie-to-modal" contenteditable="false" data-placeholder="" data-medium-element="true">
+			 <span class="">Useful Links</span>
+		</h4>
+		<ul class="footer-nav-links list-unstyled tie-to-modal ui-sortable">
+			<li class="not-editable tie-to-modal" data-placeholder="">
+				 <a href="http://www.bootstraptor.com" class="" contenteditable="false" data-placeholder="" data-medium-element="true">Bootstraptor.com</a>
+			</li>
+			<li class="not-editable tie-to-modal" data-placeholder="">
+				 <a href="http://www.bootstraptor.com" class="" contenteditable="false" data-placeholder="" data-medium-element="true">Bootstraptor.com</a>
+			</li>
+			<li class="not-editable tie-to-modal" data-placeholder="">
+				 <a href="http://www.bootstraptor.com" class="" contenteditable="false" data-placeholder="" data-medium-element="true">Bootstraptor.com</a>
+			</li>
+			<li class="not-editable tie-to-modal" data-placeholder="">
+				 <a href="http://www.bootstraptor.com" class="" contenteditable="false" data-placeholder="" data-medium-element="true">Bootstraptor.com</a>
+			</li>
+			<li class="not-editable tie-to-modal" data-placeholder="">
+				 <a href="http://www.bootstraptor.com" class="" contenteditable="false" data-placeholder="" data-medium-element="true">Bootstrap templates</a>
+			</li>
+		</ul>
+	</div>
+	<div class="col-xs-6 col-sm-6 col-md-4 col-lg-3 sortableCols ui-sortable">
+		<h4 class="tie-to-modal" contenteditable="false" data-placeholder="" data-medium-element="true">
+			 <span class="">Useful Links</span>
+		</h4>
+		<ul class="footer-nav-links list-unstyled tie-to-modal ui-sortable">
+			<li class="not-editable tie-to-modal" data-placeholder="">
+				 <a href="http://www.bootstraptor.com" class="" contenteditable="false" data-placeholder="" data-medium-element="true">Bootstraptor.com</a>
+			</li>
+			<li class="not-editable tie-to-modal" data-placeholder="">
+				 <a href="http://www.bootstraptor.com" class="" contenteditable="false" data-placeholder="" data-medium-element="true">Bootstraptor.com</a>
+			</li>
+			<li class="not-editable tie-to-modal" data-placeholder="">
+				 <a href="http://www.bootstraptor.com" class="" contenteditable="false" data-placeholder="" data-medium-element="true">Bootstraptor.com</a>
+			</li>
+			<li class="not-editable tie-to-modal" data-placeholder="">
+				 <a href="http://www.bootstraptor.com" class="" contenteditable="false" data-placeholder="" data-medium-element="true">Bootstraptor.com</a>
+			</li>
+			<li class="not-editable tie-to-modal" data-placeholder="">
+				 <a href="http://www.bootstraptor.com" class="" contenteditable="false" data-placeholder="" data-medium-element="true">Bootstrap templates</a>
+			</li>
+		</ul>
+	</div>
+	<div class="col-xs-6 col-sm-6 col-md-4 col-lg-3 sortableCols ui-sortable">
+		<h4 class="tie-to-modal" contenteditable="false" data-placeholder="" data-medium-element="true">
+			 <span class="">Our office</span>
+		</h4> <address class="tie-to-modal" contenteditable="false" data-placeholder="" data-medium-element="true"> <strong>bootstraptor.com, LLC.</strong><br><i class="icon-map-marker tie-to-modal"></i> 795 Folsom Ave, Suite 600<br> San Francisco, CA 94107<br><i class="icon-phone-sign tie-to-modal"></i> + 4 (123) 456-7890</address><hr class="tie-to-modal">
+		
+	</div>
+</div>
+	</div>
+</section>
+
+
+<script type="text/javascript" id="usersCarouselScripts"> var clickEvent24925 = false;$('#carousel-24925').find('li[data-target]').click(function () {   $(this).parent().find('.active').removeClass('active');  $(this).addClass('active');clickEvent24925 = true;});$('#carousel-24925').bind('slide.bs.carousel', function (e) {  if (!clickEvent24925) {  var nextLi = $('#carousel-24925').find('li.carousel-control.active').removeClass('active').next().addClass('active');  if (nextLi.length == 0) {  $('#carousel-24925').find('li.carousel-control').first().addClass('active');  }}  clickEvent24925 = false;}); var clickEvent540625 = false;$('#carousel-540625').find('li[data-target]').click(function () {   $(this).parent().find('.active').removeClass('active');  $(this).addClass('active');clickEvent540625 = true;});$('#carousel-540625').bind('slide.bs.carousel', function (e) {  if (!clickEvent540625) {  var nextLi = $('#carousel-540625').find('li.carousel-control.active').removeClass('active').next().addClass('active');  if (nextLi.length == 0) {  $('#carousel-540625').find('li.carousel-control').first().addClass('active');  }}  clickEvent540625 = false;}); var clickEvent385896 = false;$('#carousel-385896').find('li[data-target]').click(function () {   $(this).parent().find('.active').removeClass('active');  $(this).addClass('active');clickEvent385896 = true;});$('#carousel-385896').bind('slide.bs.carousel', function (e) {  if (!clickEvent385896) {  var nextLi = $('#carousel-385896').find('li.carousel-control.active').removeClass('active').next().addClass('active');  if (nextLi.length == 0) {  $('#carousel-385896').find('li.carousel-control').first().addClass('active');  }}  clickEvent385896 = false;}); var clickEvent414612 = false;$('#carousel-414612').find('li[data-target]').click(function () {   $(this).parent().find('.active').removeClass('active');  $(this).addClass('active');clickEvent414612 = true;});$('#carousel-414612').bind('slide.bs.carousel', function (e) {  if (!clickEvent414612) {  var nextLi = $('#carousel-414612').find('li.carousel-control.active').removeClass('active').next().addClass('active');  if (nextLi.length == 0) {  $('#carousel-414612').find('li.carousel-control').first().addClass('active');  }}  clickEvent414612 = false;}); var clickEvent491656 = false;$('#carousel-491656').find('li[data-target]').click(function () {   $(this).parent().find('.active').removeClass('active');  $(this).addClass('active');clickEvent491656 = true;});$('#carousel-491656').bind('slide.bs.carousel', function (e) {  if (!clickEvent491656) {  var nextLi = $('#carousel-491656').find('li.carousel-control.active').removeClass('active').next().addClass('active');  if (nextLi.length == 0) {  $('#carousel-491656').find('li.carousel-control').first().addClass('active');  }}  clickEvent491656 = false;}); var clickEvent181932 = false;$('#carousel-181932').find('li[data-target]').click(function () {   $(this).parent().find('.active').removeClass('active');  $(this).addClass('active');clickEvent181932 = true;});$('#carousel-181932').bind('slide.bs.carousel', function (e) {  if (!clickEvent181932) {  var nextLi = $('#carousel-181932').find('li.carousel-control.active').removeClass('active').next().addClass('active');  if (nextLi.length == 0) {  $('#carousel-181932').find('li.carousel-control').first().addClass('active');  }}  clickEvent181932 = false;}); var clickEvent981113 = false;$('#carousel-981113').find('li[data-target]').click(function () {   $(this).parent().find('.active').removeClass('active');  $(this).addClass('active');clickEvent981113 = true;});$('#carousel-981113').bind('slide.bs.carousel', function (e) {  if (!clickEvent981113) {  var nextLi = $('#carousel-981113').find('li.carousel-control.active').removeClass('active').next().addClass('active');  if (nextLi.length == 0) {  $('#carousel-981113').find('li.carousel-control').first().addClass('active');  }}  clickEvent981113 = false;}); var clickEvent483007 = false;$('#carousel-483007').find('li[data-target]').click(function () {   $(this).parent().find('.active').removeClass('active');  $(this).addClass('active');clickEvent483007 = true;});$('#carousel-483007').bind('slide.bs.carousel', function (e) {  if (!clickEvent483007) {  var nextLi = $('#carousel-483007').find('li.carousel-control.active').removeClass('active').next().addClass('active');  if (nextLi.length == 0) {  $('#carousel-483007').find('li.carousel-control').first().addClass('active');  }}  clickEvent483007 = false;}); var clickEvent872523 = false;$('#carousel-872523').find('li[data-target]').click(function () {   $(this).parent().find('.active').removeClass('active');  $(this).addClass('active');clickEvent872523 = true;});$('#carousel-872523').bind('slide.bs.carousel', function (e) {  if (!clickEvent872523) {  var nextLi = $('#carousel-872523').find('li.carousel-control.active').removeClass('active').next().addClass('active');  if (nextLi.length == 0) {  $('#carousel-872523').find('li.carousel-control').first().addClass('active');  }}  clickEvent872523 = false;}); var clickEvent934862 = false;$('#carousel-934862').find('li[data-target]').click(function () {   $(this).parent().find('.active').removeClass('active');  $(this).addClass('active');clickEvent934862 = true;});$('#carousel-934862').bind('slide.bs.carousel', function (e) {  if (!clickEvent934862) {  var nextLi = $('#carousel-934862').find('li.carousel-control.active').removeClass('active').next().addClass('active');  if (nextLi.length == 0) {  $('#carousel-934862').find('li.carousel-control').first().addClass('active');  }}  clickEvent934862 = false;}); var clickEvent375623 = false;$('#carousel-375623').find('li[data-target]').click(function () {   $(this).parent().find('.active').removeClass('active');  $(this).addClass('active');clickEvent375623 = true;});$('#carousel-375623').bind('slide.bs.carousel', function (e) {  if (!clickEvent375623) {  var nextLi = $('#carousel-375623').find('li.carousel-control.active').removeClass('active').next().addClass('active');  if (nextLi.length == 0) {  $('#carousel-375623').find('li.carousel-control').first().addClass('active');  }}  clickEvent375623 = false;}); var clickEvent365880 = false;$('#carousel-365880').find('li[data-target]').click(function () {   $(this).parent().find('.active').removeClass('active');  $(this).addClass('active');clickEvent365880 = true;});$('#carousel-365880').bind('slide.bs.carousel', function (e) {  if (!clickEvent365880) {  var nextLi = $('#carousel-365880').find('li.carousel-control.active').removeClass('active').next().addClass('active');  if (nextLi.length == 0) {  $('#carousel-365880').find('li.carousel-control').first().addClass('active');  }}  clickEvent365880 = false;});</script>

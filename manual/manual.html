@@ -1,0 +1,577 @@
+<!doctype html>
+<html lang="en">
+<head>
+
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta content="width=device-width, initial-scale=1, maximum-scale=1" name="viewport">
+<title>BuilderX manual</title>
+
+<link href=" http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css" rel="stylesheet">
+<link href="http://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
+<link href="" rel="stylesheet">
+<link href="assets/css/ripples.min.css" rel="stylesheet">
+<link href="assets/css/material-fullpalette.min.css" rel="stylesheet">
+<link href="assets/css/sections-frmwrk-styles.css" rel="stylesheet">
+<style>
+
+
+body{
+    background: #fff;
+}
+
+/* LEFT TABS SECTION */
+
+.left-tabs .nav-tabs > li {
+    float: none;
+    margin-bottom: 3px;
+}
+
+.left-tabs .nav-tabs {
+    border-bottom: none;
+    padding-right: 0px;
+    margin-right: 0px;
+    z-index: 1000;
+    position: relative;
+    float: left;
+    width: 30%;
+}
+
+    .left-tabs .nav-tabs > li > a {
+        margin-right: -1px;
+        line-height: 1.42857143;
+        border: 1px solid transparent;
+        border-radius: 4px 0px 0px 4px;
+        z-index: 1020;
+    }
+
+.left-tabs .tab-content {
+    -moz-border-radius-topleft: 0px;
+    -webkit-border-top-left-radius: 0px;
+    border-top-left-radius: 0px;
+    -moz-border-radius-topright: 4px;
+    -webkit-border-top-right-radius: 4px;
+    border-top-right-radius: 4px;
+    -moz-border-radius-bottomright: 4px;
+    -webkit-border-bottom-right-radius: 4px;
+    border-bottom-right-radius: 4px;
+    -moz-border-radius-bottomleft: 0px;
+    -webkit-border-bottom-left-radius: 0px;
+    border-bottom-left-radius: 0px;
+    float: left;
+    width: 70%;
+    padding: 20px;
+    border: 1px solid #cfcfcf;
+}
+
+.left-tabs .nav-tabs > li.active > a, .left-tabs .nav-tabs > li.active > a:hover, .left-tabs .nav-tabs > li.active > a:focus {
+    color: #555;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-right: 0px;
+    border-bottom-color: #ddd;
+    cursor: default;
+}
+
+.text-lg{
+	font-size:56px;
+}
+
+.nav-tabs [class^=mdi-] {
+	padding: 10px;
+    background-color: #2E2E2E!important;
+	border-bottom:1px solid rgba(221, 221, 221, 0.19) !important;
+    margin: 0 10px 0 0;
+}
+.nav-tabs>li.active>a,
+.nav-tabs>li>a:hover,
+.nav-tabs>li>a:focus {
+    background-color: #1A65AF!important;
+
+}
+
+.left-tabs .nav-tabs > li > a {
+    line-height: 1;
+    padding: 0;
+}
+.left-tabs .nav-tabs > li  {
+     margin-bottom: 0;
+}
+
+</style>
+
+</head>
+	<body>
+
+					<nav id="header" class="navbar navbar-material-blue-700 navbar-fixed-top paint-area" style="">
+		<div class="preloader ">
+			<div role="progressbar">
+			</div>
+		</div>
+		<div class="container-fluid">
+			<div class="navbar-header">
+				 <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-inverse-collapse">
+				 <span class="icon-bar"></span><span class="icon-bar"></span><span class="icon-bar"></span></button>
+				 <a class="navbar-brand" href="#" title="material design bootstrap">BuilderX <i class="mdi-content-add-circle-outline"></i></a>
+				<div class="ripple-wrapper">
+				</div>
+			</div>
+			<div class="navbar-collapse collapse navbar-inverse-collapse">
+				<ul class="nav navbar-nav navbar-right">
+					<li style="margin-top:15px;">
+					</li>
+
+
+				</ul>
+			</div>
+		</div>
+	</nav>
+
+
+	<section style="position: relative; opacity: 1; width: auto; height: auto;">
+
+	<div class="container-fluid" style="display: block;">
+	<div class="row">
+	<div class="col-md-12">
+
+				<div class="row">
+					<div class="col-md-10 col-md-offset-1">
+					<h1 class="" >
+						 BuilderX v.3.2.4 > Documentation
+					</h1>
+
+
+					</div>
+				</div>
+
+
+
+
+
+
+
+		<div class="">
+			<h3 class="page-header" style="opacity: 1; z-index: 0; margin-top: 60px;">
+				 <strong>Core fetures</strong>
+			</h3>
+			<div id="tabs-90525" class="left-tabs">
+				<ul class="nav nav-tabs border" style="background: #1976d2;">
+					<li class="active">
+						 <a href="#panel-1799" data-toggle="tab"><i class="mdi-file-folder-open"></i> Program Installation</a>
+					</li>
+					<li>
+						 <a href="#panel-179922" data-toggle="tab"><i class="mdi-av-my-library-add"></i> Templates &amp; content BuilderX</a>
+					</li>
+					<li>
+						 <a href="#panel-179975" data-toggle="tab"><i class="mdi-content-create"></i> Content mode</a>
+						<div class="ripple-wrapper">
+						</div>
+					</li>
+					<li>
+						 <a href="#panel-473760" data-toggle="tab"><i class="mdi-editor-format-paint"></i> Styles mode</a>
+						<div class="ripple-wrapper">
+						</div>
+						<div class="ripple-wrapper">
+						</div>
+					</li>
+					<li>
+						 <a href="#panel-973148" data-toggle="tab"><i class="mdi-action-polymer"></i> HTML x-ray mode</a>
+						<div class="ripple-wrapper">
+						</div>
+						<div class="ripple-wrapper">
+						</div>
+					</li>
+					<li>
+						 <a href="#panel-402105" data-toggle="tab"><i class="mdi-action-extension"></i> Elements mode</a>
+						<div class="ripple-wrapper">
+						</div>
+						<div class="ripple-wrapper">
+						</div>
+					</li>
+					<li>
+						 <a href="#panel-837509" data-toggle="tab"><i class="mdi-editor-format-size"></i> Font mode</a>
+						<div class="ripple-wrapper">
+						</div>
+					</li>
+					<li>
+						 <a href="#panel-837000" data-toggle="tab"><i class="mdi-av-play-arrow"></i> Preview mode</a>
+						<div class="ripple-wrapper">
+						</div>
+					</li>
+					<li>
+						 <a href="#panel-837002" data-toggle="tab"><i class="mdi-file-attachment"></i> Code editors</a>
+						<div class="ripple-wrapper">
+						</div>
+					</li>
+					<li>
+						 <a href="#panel-837001" data-toggle="tab"><i class="mdi-content-save"></i> Save/Open file</a>
+						<div class="ripple-wrapper">
+						</div>
+					</li>
+					<li>
+						 <a href="#panel-837003" data-toggle="tab"><i class="mdi-action-favorite"></i> Material design</a>
+						<div class="ripple-wrapper">
+						</div>
+					</li>
+					<li >
+						 <a href="#panel-837004" data-toggle="tab"><i class="mdi-content-send"></i> Contact form PHP</a>
+						<div class="ripple-wrapper">
+						</div>
+					</li>
+				</ul>
+				<div class="tab-content">
+					<div class="tab-pane" id="panel-179975">
+						<div class="">
+							<p class="lead">
+								In the Content(pic.1) mode you can edit text, add and / or change the image and video.
+							</p> <span class="img-wrapper"><img class="img-responsive" src="images/content_mode.jpg" alt="" style="opacity: 1; z-index: 0;" /></span>
+							<p class="img-capture" style="opacity: 1; z-index: 0;">
+								Pic.1
+							</p>
+							<p>
+								Click on the text to start editing. For additional parameters highlight the desired text fragment and select from the popup menu (pic.2).
+							</p><img class="img-responsive" src="images/content_popup.jpg" alt="" style="opacity: 1; z-index: 0;" />
+							<p class="img-capture">
+								Pic.2
+							</p>
+							<p style="opacity: 1; z-index: 0;">
+								To change the content of the image, click on the icon to edit the image (pic.3.) In the dialog box, enter the URL of the image placed in the web (pic.4) or conditional address of the image located on a local disk in the project folder
+							</p><img class="img-responsive" src="images/content_image.jpg" alt="" style="opacity: 1; z-index: 0;" />
+							<p class="img-capture">
+								Pic.3
+							</p>
+							<p>
+								You can also select one of the preset images, select <strong>Images tab</strong> Click on the image (pic.5), to select it and press <strong>Save changes</strong>
+							</p><img class="img-responsive" src="images/edit_image_url.jpg" alt="" />
+							<p class="img-capture">
+								Pic.4
+							</p><img class="img-responsive" src="images/edit_image.jpg" alt="" />
+							<p class="img-capture">
+								Pic.5
+							</p>
+							<p>
+								To change the video click on the button <strong>Change video</strong> (Pic.6)
+							</p><img class="img-responsive" src="images/change_video.jpg" alt="" />
+							<p class="img-capture">
+								Pic.6
+							</p>
+							<p>
+								in the dialog box, insert a link to a video on youtube.com or vimeo.com(Pic.7)
+							</p><img class="img-responsive" src="images/video_url.jpg" alt="" />
+							<p class="img-capture">
+								Pic.7
+							</p>
+							<p>
+								You can also add a video by importing html code to do this, go to the second tab in the pop-up window (Pic.8)
+							</p><img class="img-responsive" src="images/video_html.jpg" alt="" />
+							<p class="img-capture">
+								Pic.8
+							</p>
+						</div>
+					</div>
+					<div class="tab-pane" id="panel-473760">
+						<div class="row">
+							<div class="col-md-12">
+								<div class="alert alert-danger" style="display: block; opacity: 1; z-index: 0;">
+									<p class="lead">
+										NOTE! In the Styles mode all changes will be apply directly in inline code of an elements. If you are hard-coder you can write your own CSS styles in the code editor or modify LESS files as will be described below
+									</p>
+								</div>
+								<p>
+									In Styles mode you can edit some styles of selected items without having to write CSS code . For switching in to Styles mode click styles icon on the left menu bar.
+								</p><img class="img-responsive" src="images/styles_mode.jpg" alt="" />
+								<p class="img-capture">
+									Pic.1
+								</p>
+								<p style="    ">
+									Now when you hover over any element, you will see the selection of this item, click on the item to open the Edit window styles. (Pic.2) style editing window is divided into three tabs. The first tab is responsible for setting box-model elements, borders, padding, and the thickness of the frame in pixels. Enter the desired value in pixels and the new value will be automatically applied to the selected element.
+								</p><img class="img-responsive" src="images/box_model.jpg" alt="" />
+								<p class="img-capture">
+									Pic.2
+								</p>
+								<p>
+									In the <strong>border-radius</strong> tab , you can adjust the radius of an elements borders (corner rounding) (Pic.3). To change the value, use the slider or enter a numeric value in the form window, you can also select the unit of measurement - Percentage (%) or pixels (px), for this click on the appropriate button. Default settings are set for all angles of entry to disable all of the angles for editing, click on one of the BuilderX of green rectangle, which is located in the same tab.
+								</p><img class="img-responsive" src="images/border-radius.jpg" alt="" />
+								<p class="img-capture">
+									Pic.3
+								</p>
+								<p>
+									Background tab is responsible for setting the color of text elements, transparency, and background (Pic.4) To adjust the colors and background, select the desired color from the palette or enter a numeric value to RGB. To adjust the transparency of the element, drag the slider or enter a numeric value in the form window (%)
+								</p><img class="img-responsive" src="images/colors.jpg" alt="" />
+								<p class="img-capture">
+									Pic.4
+								</p>
+								<h4 class="page-header">
+									Drag-and-drop coloring tool
+								</h4>
+								<p>
+									After clicking on any component and activate the Styles mode window , you can also see at the bottom of the canvas the material design palette with colors droplets (Pic.5). This tool is insiring by <strong>http://tympanus.net/codrops</strong>/ Thanks <strong>Codrops</strong> for such a great tool. You can drag a color from the color palette and drop it on any area that lights up with a blue outline, including text elements. Once the droplet that you are dragging gets dropped on a content area, a fun little Google Material like animation happens and the whole area gets filled with a colored circle. For that effect we use an SVG element that we create on the fly and then scale it up and fade it in with a CSS transition. You can reset the whole thing by clicking on the droplet icon in the palette toolbar. You can change the color of any section and most of the components. However, this feature is still in beta, and we recommend to use it with caution. Sometimes, not all the components react to a change of color in full.
+								</p><img class="img-responsive" src="images/color_drag.jpg" alt="" />
+								<p class="img-capture">
+									Pic.5
+								</p>
+							</div>
+						</div>
+					</div>
+					<div class="tab-pane" id="panel-973148">
+						<div class="">
+							<p>
+								In the <strong>HTML x-ray mode</strong>, you can easily work with any element html code (Pic.1). you can edit html code of selected items in code editor.
+							</p> <span class="img-wrapper"><img class="img-responsive" src="images/x-ray.jpg" alt="" /></span>
+							<p class="img-capture">
+								Pic.1
+							</p>
+							<p>
+								Place your mouse over any item to select it (Pic.2), hereinafter click on the selected item to open the html code in editor (Pic.3)
+							</p> <span class="img-wrapper"><img class="img-responsive" src="images/x-ray-2.jpg" alt="" /></span>
+							<p class="img-capture">
+								Pic.2
+							</p>
+							<p>
+								In the code editor, you can edit the html code of any item or group of items. You can also use the tools Zen-coding (Emmet) integrated in the code editor for writing code faster. See examples of using Emmet going <a href="http://www.smashingmagazine.com/2013/03/26/goodbye-zen-coding-hello-emmet/" rel="nofollow">to this link &gt;&gt;</a> To activate a function in the code editor, type part of the code, for example div.container and press Tab + Space on the keyboard to see the transformation. We also have built in code editor autocompletion, including class-based elements of the framework Bootstrap. To use the auto-completion you can type in the editor, for example bs and click on the keyboard <code>Ctrl+Space</code> (Pic.4)
+							</p>
+							<p class="medium-editor-placeholder">
+							</p> <span class="img-wrapper"><img class="img-responsive" src="images/autosuggestion.jpg" alt="" /></span>
+							<p class="img-capture">
+								Pic.4
+							</p>
+						</div>
+					</div>
+					<div class="tab-pane" id="panel-402105">
+						<div class="">
+							<div class="alert alert-danger" style="display: block; opacity: 1; z-index: 0;">
+								<p class="lead">
+									Attention! Elements mode works in Beta mode, which means that some features may not work properly if you find any bugs, please let us know! Thanks!
+								</p>
+							</div>
+							<p>
+								In the <strong>Elements mode</strong>, you can add new elements of the Bootstrap framework version 3 *
+							</p> <span class="img-wrapper"><img class="img-responsive" src="images/elements.jpg" alt="" /></span>
+							<p class="img-capture">
+								Pic.1
+							</p>
+							<p>
+								Place your cursor on any column to activate the button Add Item (<strong>Add element</strong>)(Pic.2)
+							</p> <span class="img-wrapper"><img class="img-responsive" src="images/addelement.jpg" alt="" /></span>
+							<p class="img-capture">
+								Pic.2
+							</p>
+							<p>
+								In the opened window, you will find items available for adding to the project. Next, click on the selected item to select it and then click on the button at the bottom <strong>Save changes</strong> (Pic.3) to add an item to the project document
+							</p>
+							<p class="medium-editor-placeholder">
+							</p> <span class="img-wrapper"><img class="img-responsive" src="images/addelementwindow.jpg" alt="" /></span>
+							<p class="img-capture">
+								Pic.3
+							</p>
+							<p style="opacity: 1; z-index: 0;">
+								After adding the element to the project document, you can change its location by dragging element a desired position (Pic.4) To do this, move the cursor to selected element, press and hold down the mouse button, drag the item. You can also use drag and drop in this mode for all elements of the project. <strong>NOTE! An elements moving with drag-and-drop and added only to the Bootstrap columns (col-*-*) div's</strong>
+							</p> <span class="img-wrapper"><img class="img-responsive" src="images/dragelement.jpg" alt="" /></span>
+							<p class="img-capture">
+								Pic.4
+							</p>
+						</div>
+					</div>
+					<div class="tab-pane" id="panel-837509">
+						<div class="">
+							<div class="alert alert-warning" style="display: block; opacity: 1; z-index: 0;">
+								<p class="lead">
+									Attention! Font mode include several sub-modes of editing font properties for devices with different screens sizes .
+								</p>
+							</div> <span class="img-wrapper"><img class="img-responsive" src="images/font.jpg" alt="" style="opacity: 1; z-index: 0;" /></span>
+							<p class="img-capture" style="opacity: 1; z-index: 0;">
+								Pic.1
+							</p>
+							<p>
+								In the <strong>Font mode</strong> (pic.1), you can edit the of the project font styles - select font styles from Google fonts library, font size, inter-line spacing, inter-letter spacing. (Pic.2)
+							</p> <span class="img-wrapper"><img class="img-responsive" src="images/font_edit_par.jpg" alt="" /></span>
+							<p class="img-capture">
+								Pic.2
+							</p>
+							<p>
+								You can apply different font settings for the various elements of the header (h1-h5<span style="color: inherit; font-family: RobotoDraft, Roboto, 'Helvetica Neue', Helvetica, Arial, sans-serif; font-size: 14px; line-height: 1.1;">), paragraphs (p</span><span style="color: inherit; font-family: RobotoDraft, Roboto, 'Helvetica Neue', Helvetica, Arial, sans-serif; font-size: 14px; line-height: 1.1;">) or the whole document (body) (Pic.3.)</span>
+							</p> <span class="img-wrapper"><img class="img-responsive" src="images/font_edit_tag.jpg" alt="" /></span>
+							<p class="img-capture">
+								Pic.3
+							</p>
+							<p>
+								You can change the font settings for a variety of devices with different screen resolutions. For example, you can set a larger font size for desktop computers and smaller for mobile devices. (Pic.4) to select the various screen sizes, press on the relevant device button and changed font settings will be applyed for the device size.
+							</p>
+							<p class="medium-editor-placeholder">
+							</p> <span class="img-wrapper"><img class="img-responsive" src="images/font_screen_size.jpg" alt="" /></span>
+							<p class="img-capture">
+								Pic.4
+							</p>
+						</div>
+					</div>
+					<div class="tab-pane" id="panel-837000">
+						<h4 class="page-header">
+							Preview mode
+						</h4> <span class="img-wrapper"><img src="images/preview.jpg" alt="" class="img-responsive" /></span>
+						<p>
+							In Preview mode, you can set the view of your template for different devices. To do this, select the device size by clicking on the buttons at the top of the panel. To return to the editing mode, press back button (button with left direction arrow icon)
+						</p> <span class="img-wrapper"><img src="images/preview_mode.jpg" alt="" class="img-responsive" /></span>
+					</div>
+					<div class="tab-pane" id="panel-837001">
+						<h4 class="page-header">
+							Save/Open files
+						</h4> <span class="img-wrapper"><img src="images/save_file.jpg" alt="" class="img-responsive" /></span>
+						<p class="lead">
+							You can save your completed document as a html page is fully ready for uploading to hosting with <strong>GET CODE</strong> function. You can save your page in a special format using the <strong>Export</strong> function and thereafter to open it for editing with the <strong>Import</strong> function
+						</p>
+						<div class="alert alert-warning">
+							<p class="lead">
+								 <i><strong>Caution</strong></i> Saving function may not work properly or not work in some browsers or/and on Mac computers. And after pressing the save can be opened as a code in a new browser window. If this happens, simply save the page in the usual way in your browser by selecting Save page as html document. This also applies to export files in a special *.qbx format You can save your file with a text extension, and then manually replace the *.txt extension to *.qbx format
+							</p>
+						</div>
+						<h4 class="page-header">
+							Save as HTML
+						</h4>
+						<p>
+							You can save your completed document as a html page is fully ready for uploading to hosting with <strong>GET CODE</strong> function. Click on the File menu to get the code. In the modal window you will see the full code of your page, you can just copy the code from within the code editor, or press <strong>Download HTML code</strong> in bottom of the dialog box, select the location folder /<code><strong>myProjects</strong></code> and save your document. Then you can download all the contents of your folders on your hosting. If you added your own pictures, make sure you save these pictures in the appropriate sub-folder <code><strong>myProjects/images</strong></code> in <code><strong>/myProjects</strong></code> folder.
+						</p><img src="images/save_html.jpg" alt="" class="img-responsive" />
+					</div>
+					<div class="tab-pane" id="panel-837002">
+						<h4 class="page-header">
+							Code editors
+						</h4> <span class="img-wrapper"><img src="images/editors.jpg" alt="" class="img-responsive" /></span>
+						<p>
+							Code editors include CSS and javascript editors. You can add any styles and javascripts in an editors. Your style will take precedence over any preset styles. Javascript code will only be executed in Preview mode, as it can cause conflicts with the interface scripts and service scripts code of this program.
+						</p><img src="images/code_editors.jpg" alt="" class="img-responsive" />
+					</div>
+					<div class="tab-pane" id="panel-837003">
+						<h4 class="page-header">
+							Material design core framework
+						</h4> <span class="img-wrapper"><img src="images/material_colors.jpg" alt="" class="img-responsive" /></span>
+						<p>
+							This BuilderX template is based on Material Design for Bootstrap is a theme for Bootstrap 3 which lets you use the new Google Material Design in your favorite front-end framework. Theme styles and scripts are integrated into the core of the program. You can use all the available classes to change the style of components. For more information, please see the following link <a href="https://fezvrasta.github.io/bootstrap-material-design">Material Bootstrap theme</a> you can use all the elements and features as well as change styles and compile their own LESS styles as described on this page <a href="https://github.com/FezVrasta/bootstrap-material-design">Github page</a> All elements and icons available in the template described in this page <a href="http://fezvrasta.github.io/bootstrap-material-design/bootstrap-elements.html">Bootstrap components</a>
+						</p>
+						<h4 class="page-header">
+							Material Theme LICENSE
+						</h4>
+						<p>
+							The MIT License (MIT) Copyright (c) 2015, Federico Zivolo Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions: The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software. <strong>THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.</strong>
+						</p>
+					</div>
+					<div id="panel-837004" class="tab-pane ">
+						<h4 class="page-header">
+							Contact form
+						</h4>
+						<div class="alert alert-warning">
+							<p class="lead">
+								Attention! Contact form requires a PHP hosting with enabled send_mail feature
+							</p>
+						</div> <span class="img-wrapper"><img src="images/contact_form.jpg" alt="" class="img-responsive" /></span>
+						<h4 class="page-header">
+							Edit email properties
+						</h4>
+						<p>
+							In order to receive emails, change email adrdress in the file in the line 6 <code>myProjects/library/sendmail.php</code> to your own email address
+						</p> <span class="img-wrapper"><img src="images/sendmail.jpg" alt="" class="img-responsive" /></span>
+					</div>
+					<div id="panel-1799" class="tab-pane active">
+						<div class="page-header" style="opacity: 1; z-index: 0;">
+							<h2>
+								Installation <span style="font-size: 19.5px; line-height: 19.5px;">Project files</span>
+							</h2>
+						</div>
+						<div class="row">
+						<div class="col-md-12">
+							<p>
+									Download the BuilderX template archive, Then unzip the file to any folder on your local disk. You will see the file structure of the project (Pic 1.1.) The Builder not particularly required for the setup, you only need Internet connection, because some of the files are installed on remote servers
+								</p>
+								<p style="opacity: 1; z-index: 0;">
+									Double-click on the file app.html, to run the application in a browser. We recommend the latest version of the Chrome browser
+								</p>
+								<p style="opacity: 1; z-index: 0;">
+									When you save a project file, select the folder <code><strong>/myProjects</strong></code> (Pic 1.2.) In this folder you will also find simple example templates created with this tool. When you save a project file on the local disk, specify any file name, for example, <code>index.html</code> Then, after saving the project, you can publish a project in web, to move the entire contents of this folder <code><strong>/myProjects</strong></code> to your hosting
+								</p>
+						</div>
+						<div class="col-md-6">
+						 <span class="img-wrapper"><img class="img-responsive" src="images/file_struct.jpg" alt="" style="opacity: 1; z-index: 0;" /></span>
+							<p class="img-caption">
+								Pic 1.1.
+							</p> <span>
+						</div>
+						<div class="col-md-6">
+						<img class="img-responsive" src="images/file_struct2.jpg" alt="" style="opacity: 1; z-index: 0;" /></span>
+							<p class="img-caption">
+								Pic 1.2.
+							</p>
+						</div>
+
+
+
+
+						</div>
+					</div>
+					<div id="panel-179922" class="tab-pane">
+						<h4 class="page-header">
+							Import templates
+						</h4>
+						<p>
+							This program involves the use of specific templates. After loading proscale you see a welcome screen. You can create a template using predefined BuilderX from a template or import a preset. In the future, the number of ready-made templates and content BuilderX to be extended. Sign up for our newsletter to receive information about new templates and updates on a regular basis.
+						</p>
+						<p>
+							To import a template, click the <strong>Import</strong> button (Pic.1.1) (or on the left sidebar Menu File -&gt; Import). Before the opening, you will see a modal window (Pic. 1.1.2.), which will be offered the options to import the template. If you want to add a block previously exported or template to your current template (this will include all the styles and scripts), turn (Append to the current document.) checkbox on active state. (<strong><i>Attention</i></strong>, if you do not check this check box, all the current styles and scripts will be completely replaced with styles and scripts of imported template.) Than Open the folder <code>/templates</code>, select a template, click Open.
+						</p>
+						<div class="row">
+							<div class="col-md-6">
+								<img src="images/import.jpg" alt="" class="img-responsive" />
+								<div class="img-caption">
+									Pic.1.1
+								</div>
+							</div>
+							<div class="col-md-6">
+								<img src="images/import-template.jpg" alt="" class="img-responsive" />
+								<div class="img-caption">
+									Pic.1.1.2
+								</div>
+							</div>
+						</div>
+						<p style="margin-top: 20px;">
+							To add new block - press on menu button with "plus" icon (Pic. 1.2.) to open modal window with BuilderX (Pic. 1.3.). Then grab one of the BuilderX and holding his release in the canvas in the right place. Then you can change the position of the block by dragging it up or down.
+						</p>
+						<div class="row">
+							<div class="col-md-2">
+								<img src="images/drag-block.jpg" alt="" class="img-responsive" />
+								<div class="img-caption">
+									Pic.1.2
+								</div>
+							</div>
+							<div class="col-md-10">
+								<img src="images/drag-block-window.jpg" alt="" class="img-responsive" />
+								<div class="img-caption">
+									Pic.1.3
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	</div>
+	</div>
+</section>
+
+<script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+<script>window.jQuery || document.write('<script src="assets/js/jquery-2.1.1.min.js"><\/script>')</script>
+<script src="http://netdna.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+<script>(function($){if (typeof $().modal != 'function'){document.write('<script src="js/bootstrap.min.js"><\/script>')}})(window.jQuery)</script>
+<script src="assets/js/jquery.countdown.min.js" type="text/javascript"></script>
+<script src="assets/js/jquery.fitvids.min.js" type="text/javascript"></script>
+<script src="assets/js/jquery.waitforimages.js" type="text/javascript"></script>
+<script src="assets/js/jquery.isotope.min.js" type="text/javascript"></script>
+<script src="assets/js/stellar.js" type="text/javascript"></script>
+<script src="assets/js/ripples.min.js" type="text/javascript"></script>
+<script src="assets/js/material.min.js" type="text/javascript"></script>
+<script src="assets/js/particles.min.js" type="text/javascript"></script>
+<script src="assets/js/app.js" type="text/javascript"></script>
+<script>(function($) {$(function() {if ($('body').css('color') !== 'rgb(51, 51, 51)') {$('head').prepend('<link rel="stylesheet" href="assets/css/bootstrap.min.css">');}});})(window.jQuery);</script>
+<script>(function($){$('body').append('<div id="check" class="fa">');var check=$('#check');if(check.css('display')!=='inline-block'){$('head').prepend('<link rel="stylesheet" href="assets/css/font-awesome.min.css">');}check.remove();})(window.jQuery)</script>
+<script src="assets/js/custom-scripts.js" type="text/javascript"></script>
+
+
+</body>
+</html>

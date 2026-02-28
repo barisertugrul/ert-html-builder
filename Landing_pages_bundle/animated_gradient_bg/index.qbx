@@ -1,0 +1,486 @@
+<style id="userstyles">@-webkit-keyframes wheelHue {
+  from, to { background-color: hsl(324, 70%, 55%); }
+  10%      { background-color: hsl(360, 65%, 55%); }
+  20%      { background-color: hsl( 36, 80%, 55%); }
+  30%      { background-color: hsl( 72, 75%, 45%); }
+  40%      { background-color: hsl(108, 65%, 45%); }
+  50%      { background-color: hsl(144, 75%, 45%); }
+  60%      { background-color: hsl(180, 75%, 45%); }
+  70%      { background-color: hsl(216, 60%, 55%); }
+  80%      { background-color: hsl(252, 65%, 60%); }
+  90%      { background-color: hsl(288, 60%, 50%); }
+}
+
+@keyframes wheelHue {
+  from, to { background-color: hsl(324, 70%, 55%); }
+  10%      { background-color: hsl(360, 65%, 55%); }
+  20%      { background-color: hsl( 36, 80%, 55%); }
+  30%      { background-color: hsl( 72, 75%, 45%); }
+  40%      { background-color: hsl(108, 65%, 45%); }
+  50%      { background-color: hsl(144, 75%, 45%); }
+  60%      { background-color: hsl(180, 75%, 45%); }
+  70%      { background-color: hsl(216, 60%, 55%); }
+  80%      { background-color: hsl(252, 65%, 60%); }
+  90%      { background-color: hsl(288, 60%, 50%); }
+}
+@-webkit-keyframes wheelHueColor {
+  from, to { color: hsl(324, 70%, 45%); }
+  10%      { color: hsl(360, 65%, 45%); }
+  20%      { color: hsl( 36, 80%, 45%); }
+  30%      { color: hsl( 72, 75%, 35%); }
+  40%      { color: hsl(108, 65%, 35%); }
+  50%      { color: hsl(144, 75%, 35%); }
+  60%      { color: hsl(180, 75%, 35%); }
+  70%      { color: hsl(216, 60%, 45%); }
+  80%      { color: hsl(252, 65%, 50%); }
+  90%      { color: hsl(288, 60%, 40%); }
+}
+@keyframes wheelHueColor {
+  from, to { color: hsl(324, 70%, 45%); }
+  10%      { color: hsl(360, 65%, 45%); }
+  20%      { color: hsl( 36, 80%, 45%); }
+  30%      { color: hsl( 72, 75%, 35%); }
+  40%      { color: hsl(108, 65%, 35%); }
+  50%      { color: hsl(144, 75%, 35%); }
+  60%      { color: hsl(180, 75%, 35%); }
+  70%      { color: hsl(216, 60%, 45%); }
+  80%      { color: hsl(252, 65%, 50%); }
+  90%      { color: hsl(288, 60%, 40%); }
+}
+
+.Container {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+      -ms-flex-direction: column;
+          flex-direction: column;
+
+  background-color: hsl(324, 70%, 55%);
+}
+@media (min-width: 1000px) {
+  .Container {
+    -webkit-animation: wheelHue 100s infinite;
+            animation: wheelHue 100s infinite;
+  }
+}
+@supports (background-blend-mode: overlay) {
+  .Container {
+    background-size: cover;
+    background-image: -webkit-linear-gradient(bottom left, white 10%, black 90%);
+    background-image: linear-gradient(to top right, white 10%, black 90%);
+    background-blend-mode: overlay;
+  }
+}
+#browser {
+  width: 100%;
+  height: 50%;
+  border: 1px solid #ccc;
+
+  -webkit-border-radius: 5px;
+  border-radius: 1px;
+  left:0;
+  right:0;
+  top:0;
+  z-index:0;
+ 
+}
+
+#top {
+  padding: 10px 10px 5px;
+  border-bottom: 1px solid #ccc;
+}
+
+/* buttons (group) */
+
+#buttons {
+  position: relative;
+  top: -7px;
+}
+
+/* buttons (single) */
+
+.button {
+  display: inline-block;
+  border: 1px solid #ccc;
+  width: 10px;
+  height: 10px;
+  margin-right: 2px;
+  -webkit-border-radius: 50%;
+  border-radius: 50%;
+}
+  .button:last-child {
+    margin-right: 6px;
+  }
+
+/* bar */
+
+#bar {
+  border: 1px solid #ccc;
+  width: 85%;
+  height: 25px;
+  display: inline-block;
+  -webkit-border-radius: 3px;
+  border-radius: 3px;
+}</style><style id="font-face">
+@font-face{
+font-family:Advent Pro;
+src: url(http://fonts.gstatic.com/s/adventpro/v4/1NxMBeKVcNNH2H46AUR3wfesZW2xOQ-xsNqO47m55DA.ttf);}
+@font-face{
+font-family:Playfair Display;
+src: url(http://fonts.gstatic.com/s/playfairdisplay/v10/2NBgzUtEeyB-Xtpr9bm1CV6uyC_qD11hrFQ6EGgTJWI.ttf);}</style><link id="stylesChange" href="css/bootstrap.min.css" rel="stylesheet"><style id="font-styles">
+.demo h1,.font-body h1{font-family:Playfair Display !important;}
+.demo h2,.font-body h2{font-family:Advent Pro !important;}
+.demo ,.font-body {line-height:33px !important;}</style><header class="box-layer navbar-fixed-top" role="banner" itemscope="" itemtype="http://schema.org/WPHeader" style="display: block;" contenteditable="false" data-medium-element="true"><span style="font-size:28px;  letter-spacing:0;" class="m__move_arrow"><i class="mdi-hardware-keyboard-arrow-up md_up"></i> <i class="mdi-hardware-keyboard-arrow-down md_down"></i></span>
+	
+	<nav class="navbar navbar-material-white tie-to-modal">
+		
+		<div class="container">
+			<div class="navbar-header">
+				 <button type="button" class="navbar-toggle medium-editor-placeholder tie-to-modal" data-toggle="collapse" data-target=".navbar-inverse-collapse" contenteditable="false" data-placeholder="" data-medium-element="true"><span class="icon-bar tie-to-modal"></span><span class="icon-bar tie-to-modal"></span><span class="icon-bar tie-to-modal"></span></button> <a class="navbar-brand tie-to-modal" href="#" title="material design bootstrap" contenteditable="false" data-placeholder="" data-medium-element="true">SITENAME</a>
+				<div class="ripple-wrapper">
+				</div>
+			</div>
+			<div class="navbar-collapse collapse navbar-inverse-collapse">
+				<ul class="nav navbar-nav ui-sortable">
+					<li class="not-editable tie-to-modal">
+						 <a class="scroll" href="#new" contenteditable="false" data-placeholder="" data-medium-element="true">ABOUT US</a>
+					</li>
+					<li class="not-editable tie-to-modal">
+						 <a class="scroll" href="#features" contenteditable="false" data-placeholder="" data-medium-element="true">PROJECTS</a>
+					</li>
+					<li class="not-editable tie-to-modal">
+						 <a class="scroll" href="#about" contenteditable="false" data-placeholder="" data-medium-element="true">CONTACT US</a>
+					</li>
+				</ul>
+				<ul class="nav navbar-nav navbar-right ui-sortable">
+					<li class="not-editable tie-to-modal">
+						 <a href="#pricing" class="btn navbar-btn scroll ai-color btn-material-blue-grey tie-to-modal" style="border-color: rgb(6, 7, 6);" contenteditable="false" data-placeholder="" data-medium-element="true">HIRE us NOW!</a>
+					</li>
+				</ul>
+			</div>
+		</div>
+	</nav>
+	
+</header>
+
+<section class="well cover text-align-center Container box-layer tie-to-modal" style="display: block; color: rgb(255, 255, 255);" contenteditable="false" data-medium-element="true"><span style="font-size:28px;  letter-spacing:0;" class="m__move_arrow"><i class="mdi-hardware-keyboard-arrow-up md_up"></i> <i class="mdi-hardware-keyboard-arrow-down md_down"></i></span>
+	<div class="container">
+		<div class="row">
+	<div class="text-align-center col-md-offset-1 col-md-10 col-xs-12 mode-elements-column-hover2 sortableChildren sortableCols ui-sortable">
+		
+		<h1 class="headline-lg margin-bottom-30 margin-top-90 tag-outline tie-to-modal" contenteditable="false" data-placeholder="" data-medium-element="true" style="display: block;">ANIMATED GRADIENTS&nbsp;</h1><h2 class="page-section margin-top-0 hero-title-xl text-color-primary margin-bottom-50 headline-md tag-outline tie-to-modal" style="display: block;" contenteditable="false" data-placeholder="" data-medium-element="true">See it in action on this block section</h2> <a href="#features-section" class="scroll btn btn-lg btn-material-deep-orange btn-white btn-outline tie-to-modal" type="button" contenteditable="false" data-placeholder="" data-medium-element="true">HOW IT WORK</a>
+		<div class="col-md-12 text-align-center tie-to-modal sortableCols ui-sortable">
+			 <a href="#features-section" class="btn btn-fab btn-raised scroll btn-xs btn-material-blue-grey medium-editor-placeholder btn-white btn-outline margin-top-90 tie-to-modal" contenteditable="false" data-placeholder="" data-medium-element="true"><i class="mdi-navigation-expand-more fa-lg tie-to-modal"></i></a>
+		</div>
+	</div>
+</div>
+	</div>
+<span id="addBlockBtn" style="position:absolute; left:50%; bottom:-10px; margin-left:-10px; z-index:1400"><button class="btn btn-white btn-xs " title="clone section"><i class="fa fa-copy"></i></button></span></section><section class="well  box-layer padding-top-20 bgp-cc wellundefined text-align-center bg-pattern-13 tie-to-modal" style="display: block; color: rgb(0, 255, 255); background-image: initial; background-size: initial; background-repeat: initial; background-attachment: initial; background-origin: initial; background-clip: initial; background-color: rgb(54, 21, 255);" contenteditable="false" data-medium-element="true"><span style="font-size:28px;  letter-spacing:0;" class="m__move_arrow"><i class="mdi-hardware-keyboard-arrow-up md_up"></i> <i class="mdi-hardware-keyboard-arrow-down md_down"></i></span> <div class="container"> <div class="row"> <div class="col-md-4 sortableCols ui-sortable" style="">  <div style="display: block;" class="tie-to-modal"> <i class="mdi-action-view-quilt fa-3x tie-to-modal" style="border-radius: 50%; margin-top: 10px; margin-right: 10px; margin-bottom: 10px; padding: 11px;"></i> <h4 class="headline-sm tie-to-modal" contenteditable="false" data-placeholder="" data-medium-element="true">Example Pages </h4> <p class="text-lg tie-to-modal" contenteditable="false" data-placeholder="" data-medium-element="true"> If you want to get inspiration - kick-start your development with &nbsp;pre-built example pages. </p> </div></div> <div class="col-md-4 sortableCols ui-sortable" style="">  
+                                    
+                                    
+                                   
+	
+                                <div style="display: block;" class="tie-to-modal"> <i class="mdi-action-view-carousel fa-3x tie-to-modal" style="border-radius: 50%; margin-top: 10px; margin-right: 10px; margin-bottom: 10px; padding: 11px;"></i> <h4 class="headline-sm tag-outline tie-to-modal" contenteditable="false" data-placeholder="" data-medium-element="true"> Multi-Purpose Sections </h4> <p class="text-lg tie-to-modal" contenteditable="false" data-placeholder="" data-medium-element="true"> Putting together a page has never been easier than matching together sections.&nbsp;</p> </div></div> <div class="col-md-4 sortableCols ui-sortable" style=""> <div class="tie-to-modal" style="display: block;"> <i class="mdi-device-now-widgets fa-3x tie-to-modal" style="border-radius: 50%; margin-top: 10px; margin-right: 10px; margin-bottom: 10px; padding: 11px;"></i> <h4 class="headline-sm tie-to-modal" contenteditable="false" data-placeholder="" data-medium-element="true"> Huge Number of Components </h4> <p class="text-lg tie-to-modal" contenteditable="false" data-placeholder="" data-medium-element="true"> Every element that you need in a product comes built in as a component.&nbsp;</p> </div> </div> </div> </div> </section><section class="well box-layer tie-to-modal" style="display: block;"><span style="font-size:28px;  letter-spacing:0;" class="m__move_arrow"><i class="mdi-hardware-keyboard-arrow-up md_up"></i> <i class="mdi-hardware-keyboard-arrow-down md_down"></i></span>
+
+	<div class="container">
+		<div class="row">
+			<div class="col-md-4 mode-elements-column-hover2 sortableCols ui-sortable">
+			<div style="display: block;" class="tie-to-modal">  <h4 class="headline-sm tie-to-modal" contenteditable="false" data-placeholder="" data-medium-element="true">Combine&nbsp;<b class="tie-to-modal">layouts</b> that fit your <b class="tie-to-modal">contents. C</b>reate <b class="tie-to-modal">unique</b> themes in just a minutes.</h4>  </div></div>
+			<div class="col-md-4 sortableCols ui-sortable">
+			<div style="display: block;" class="tie-to-modal">  <h4 class="headline-sm tie-to-modal" contenteditable="false" data-placeholder="" data-medium-element="true"><b class="tie-to-modal">Create a static website or html template. CMS</b> freedom - clean Bootstrap&nbsp;<b class="tie-to-modal">index.html</b>&nbsp;on the end.<br></h4>  </div></div>
+			<div class="col-md-4 sortableCols ui-sortable">
+			<div class="tie-to-modal" style="display: block;">  <h4 class="headline-sm tie-to-modal" contenteditable="false" data-placeholder="" data-medium-element="true"><b class="tie-to-modal"> Export </b>&nbsp;themes and templates. <b class="tie-to-modal">Buy, Sell, Share &nbsp;with Bootstraptor community &nbsp;</b></h4>  </div></div>
+		</div>
+	</div>
+	
+</section><section class="well text-align-center  bg-colorful-6 padding-top-100 padding-bottom-100 box-layer tie-to-modal" style="display: block; color: rgb(255, 255, 255);"><span style="font-size:28px;  letter-spacing:0;" class="m__move_arrow"><i class="mdi-hardware-keyboard-arrow-up md_up"></i> <i class="mdi-hardware-keyboard-arrow-down md_down"></i></span>
+	<div class="container">
+		<div class="row">
+			<div class="col-xs-6 col-sm-6 col-md-3 hovered hovered-content sortableChildren sortableCols ui-sortable">
+				<i class="mdi-action-info-outline fa-2x tie-to-modal"></i>
+				<h3 class="tie-to-modal" contenteditable="false" data-placeholder="" data-medium-element="true">
+					Beautiful colors
+				</h3>
+			</div>
+			<div class="col-xs-6 col-sm-6 col-md-3 hovered hovered-content sortableChildren sortableCols ui-sortable">
+				<i class="mdi-action-info-outline fa-2x tie-to-modal" style="display: inline-block;"></i>
+				<h3 class="tie-to-modal" contenteditable="false" data-placeholder="" data-medium-element="true">
+					Awesome backgrounds
+				</h3>
+			</div>
+			<div class="col-xs-6 col-sm-6 col-md-3 hovered hovered-content mode-elements-column-hover2 sortableChildren sortableCols ui-sortable">
+				<i class="mdi-action-info-outline fa-2x tie-to-modal" style="display: inline-block;"></i>
+				<h3 class="tie-to-modal" contenteditable="false" data-placeholder="" data-medium-element="true">
+					Best typography
+				</h3>
+			</div>
+			<div class="col-xs-6 col-sm-6 col-md-3 hovered hovered-content mode-elements-column-hover2 sortableChildren sortableCols ui-sortable">
+				<i class="mdi-action-info-outline fa-2x tie-to-modal" style="display: inline-block;"></i>
+				<h3 class="tie-to-modal" contenteditable="false" data-placeholder="" data-medium-element="true">
+					Unique themes
+				</h3>
+			</div>
+		</div>
+	</div>
+</section><section class="well box-layer cover bgp-cc wellundefined text-align-left tie-to-modal" style="display: block; color: rgb(0, 0, 0);" contenteditable="false" data-medium-element="true"><span style="font-size:28px;  letter-spacing:0;" class="m__move_arrow"><i class="mdi-hardware-keyboard-arrow-up md_up"></i> <i class="mdi-hardware-keyboard-arrow-down md_down"></i></span>
+	<div class="container">
+		<div class="row">
+			<div class="col-md-7 sortableCols ui-sortable" style="">
+			
+										
+                                            
+                                            
+                                        
+                            <h3 class="margin-bottom-30 headline-lg tie-to-modal" contenteditable="false" data-medium-element="true" data-placeholder="" style="display: block;">Beautiful colors palette</h3></div>
+			<div class="col-md-5 hovered sortableCols ui-sortable" style="">
+			</div>
+		</div>
+		<div class="row">
+			<div class="col-md-5 sortableCols ui-sortable" style="">
+			
+                                              
+												
+                                            
+                                        <p class="tie-to-modal text-lg" contenteditable="false" data-medium-element="true" data-placeholder="" style="display: block;">Take variation in colours and easily customise any element with colors editor tool.</p></div>
+			<div class="col-md-7 sortableCols ui-sortable" style="">
+			<div class="well padding-bottom-60 wellundefined tie-to-modal" style="display: block; color: rgb(0, 0, 0); background: rgb(255, 255, 255);">
+	<ul class="color-tool tie-to-modal ui-sortable">
+		<!--
+		<li class="color-1">
+		</li>
+		<li class="color-2">
+		</li> -->
+		<li class="btn-material-red medium-editor-placeholder tie-to-modal" contenteditable="false" data-placeholder="" data-medium-element="true">
+		</li>
+		<li class="btn-material-pink medium-editor-placeholder tie-to-modal" contenteditable="false" data-placeholder="" data-medium-element="true">
+		</li>
+		<li class="btn-material-purple medium-editor-placeholder tie-to-modal" contenteditable="false" data-placeholder="" data-medium-element="true">
+		</li>
+		<li class="btn-material-deep-purple medium-editor-placeholder tie-to-modal" contenteditable="false" data-placeholder="" data-medium-element="true">
+		</li>
+		<li class="btn-material-indigo medium-editor-placeholder tie-to-modal" contenteditable="false" data-placeholder="" data-medium-element="true">
+		</li>
+		<li class="btn-material-blue medium-editor-placeholder tie-to-modal" contenteditable="false" data-placeholder="" data-medium-element="true">
+		</li>
+		<li class="btn-material-light-blue medium-editor-placeholder tie-to-modal" contenteditable="false" data-placeholder="" data-medium-element="true">
+		</li>
+		<li class="btn-material-cyan medium-editor-placeholder tie-to-modal" contenteditable="false" data-placeholder="" data-medium-element="true">
+		</li>
+		<li class="btn-material-teal medium-editor-placeholder tie-to-modal" contenteditable="false" data-placeholder="" data-medium-element="true">
+		</li>
+		<li class="btn-material-green medium-editor-placeholder tie-to-modal" contenteditable="false" data-placeholder="" data-medium-element="true">
+		</li>
+		<li class="btn-material-light-green medium-editor-placeholder tie-to-modal" contenteditable="false" data-placeholder="" data-medium-element="true">
+		</li>
+		<li class="btn-material-lime medium-editor-placeholder tie-to-modal" contenteditable="false" data-placeholder="" data-medium-element="true">
+		</li>
+		<li class="btn-material-yellow medium-editor-placeholder tie-to-modal" contenteditable="false" data-placeholder="" data-medium-element="true">
+		</li>
+		<li class="btn-material-amber medium-editor-placeholder tie-to-modal" contenteditable="false" data-placeholder="" data-medium-element="true">
+		</li>
+		<li class="btn-material-orange medium-editor-placeholder tie-to-modal" contenteditable="false" data-placeholder="" data-medium-element="true">
+		</li>
+		<li class="btn-material-blue-grey medium-editor-placeholder tie-to-modal" style="position: relative; left: 0px; top: 0px;" contenteditable="false" data-placeholder="" data-medium-element="true">
+		</li>
+		<li class="btn-material-deep-orange medium-editor-placeholder tie-to-modal" contenteditable="false" data-placeholder="" data-medium-element="true">
+		</li>
+		<li class="btn-material-brown medium-editor-placeholder tie-to-modal" contenteditable="false" data-placeholder="" data-medium-element="true">
+		</li>
+		
+		<li class="medium-editor-placeholder tie-to-modal" style="position: relative; left: 0px; top: 0px;" contenteditable="false" data-placeholder="" data-medium-element="true">
+		</li>
+	</ul>
+</div></div>
+		</div>
+	</div>
+</section><section class="well box-layer bgp-cc wellundefined text-align-left bg-pattern-6 tie-to-modal" style="display: block; color: rgb(237, 222, 222);" contenteditable="false" data-medium-element="true"><span style="font-size:28px;  letter-spacing:0;" class="m__move_arrow"><i class="mdi-hardware-keyboard-arrow-up md_up"></i> <i class="mdi-hardware-keyboard-arrow-down md_down"></i></span>
+	<div class="container">
+		<div class="row">
+			<div class="col-md-7 sortableCols ui-sortable" style="">
+			
+										
+                                            
+                                            
+                                        
+                            <h3 class="margin-bottom-30 headline-lg tie-to-modal" contenteditable="false" data-medium-element="true" data-placeholder="" style="display: block;">Build as framework</h3></div>
+			<div class="col-md-5 hovered sortableCols ui-sortable" style="">
+			</div>
+		</div>
+		<div class="row">
+			<div class="col-md-5 sortableCols ui-sortable" style="">
+			
+                                              
+												
+                                            
+                                        <p class="tie-to-modal" contenteditable="false" data-medium-element="true" data-placeholder="" style="display: block;">Design controls &nbsp;= CSS classes. When you change some elements design such as &nbsp;backgrounds, margins, buttons colors, sizes &nbsp;an so on, you are actually switch a predefined CSS classes so you can change it via CSS file.</p></div>
+			<div class="col-md-7 sortableCols ui-sortable" style="">
+			<div class="well padding-bottom-60 wellundefined tie-to-modal" style="display: block; color: rgb(0, 0, 0); background: rgb(45, 44, 44);">
+	<ul class="color-tool tie-to-modal ui-sortable">
+		<!--
+		<li class="color-1">
+		</li>
+		<li class="color-2">
+		</li> -->
+		<li class="btn-material-red medium-editor-placeholder tie-to-modal" contenteditable="false" data-placeholder="" data-medium-element="true">
+		</li>
+		<li class="btn-material-pink medium-editor-placeholder tie-to-modal" contenteditable="false" data-placeholder="" data-medium-element="true">
+		</li>
+		<li class="btn-material-purple medium-editor-placeholder tie-to-modal" contenteditable="false" data-placeholder="" data-medium-element="true">
+		</li>
+		<li class="btn-material-deep-purple medium-editor-placeholder tie-to-modal" contenteditable="false" data-placeholder="" data-medium-element="true">
+		</li>
+		<li class="btn-material-indigo medium-editor-placeholder tie-to-modal" contenteditable="false" data-placeholder="" data-medium-element="true">
+		</li>
+		<li class="btn-material-blue medium-editor-placeholder tie-to-modal" contenteditable="false" data-placeholder="" data-medium-element="true">
+		</li>
+		<li class="btn-material-light-blue medium-editor-placeholder tie-to-modal" contenteditable="false" data-placeholder="" data-medium-element="true">
+		</li>
+		<li class="btn-material-cyan medium-editor-placeholder tie-to-modal" contenteditable="false" data-placeholder="" data-medium-element="true">
+		</li>
+		<li class="btn-material-teal medium-editor-placeholder tie-to-modal" contenteditable="false" data-placeholder="" data-medium-element="true">
+		</li>
+		<li class="btn-material-green medium-editor-placeholder tie-to-modal" contenteditable="false" data-placeholder="" data-medium-element="true">
+		</li>
+		<li class="btn-material-light-green medium-editor-placeholder tie-to-modal" contenteditable="false" data-placeholder="" data-medium-element="true">
+		</li>
+		<li class="btn-material-lime medium-editor-placeholder tie-to-modal" contenteditable="false" data-placeholder="" data-medium-element="true">
+		</li>
+		<li class="btn-material-yellow medium-editor-placeholder tie-to-modal" contenteditable="false" data-placeholder="" data-medium-element="true">
+		</li>
+		<li class="btn-material-amber medium-editor-placeholder tie-to-modal" contenteditable="false" data-placeholder="" data-medium-element="true">
+		</li>
+		<li class="btn-material-orange medium-editor-placeholder tie-to-modal" contenteditable="false" data-placeholder="" data-medium-element="true">
+		</li>
+		<li class="btn-material-blue-grey medium-editor-placeholder tie-to-modal" style="position: relative; left: 0px; top: 0px;" contenteditable="false" data-placeholder="" data-medium-element="true">
+		</li>
+		<li class="btn-material-deep-orange medium-editor-placeholder tie-to-modal" contenteditable="false" data-placeholder="" data-medium-element="true">
+		</li>
+		<li class="btn-material-brown medium-editor-placeholder tie-to-modal" contenteditable="false" data-placeholder="" data-medium-element="true">
+		</li>
+		
+		<li class="medium-editor-placeholder tie-to-modal" style="position: relative; left: 0px; top: 0px;" contenteditable="false" data-placeholder="" data-medium-element="true">
+		</li>
+	</ul>
+</div></div>
+		</div>
+	</div>
+</section><section class="well text-align-center wellundefined cover padding-bottom-100 padding-top-100 box-layer bgp-cc ov-50 tie-to-modal" style="display: block; color: rgb(239, 230, 230); background-image: url(&quot;https://images.unsplash.com/photo-1489051030873-656b14888383?ixlib=rb-0.3.5&amp;q=80&amp;fm=jpg&amp;crop=entropy&amp;cs=tinysrgb&amp;w=1080&amp;fit=max&amp;s=eedf30e16c34c8ddee6dfd7f47ca5c74&quot;);" id="features-section"><span style="font-size:28px;  letter-spacing:0;" class="m__move_arrow"><i class="mdi-hardware-keyboard-arrow-up md_up"></i> <i class="mdi-hardware-keyboard-arrow-down md_down"></i></span>
+	<div class="container">
+		<div class="row">
+			<div class="col-sm-4 col-xs-12 hovered-content sortableChildren sortableCols ui-sortable">
+				<i class="mdi-action-favorite fa-3x tie-to-modal" style="display: inline-block;"></i>
+				<h3 class="headline-md tie-to-modal" style="display: block;" contenteditable="false" data-placeholder="" data-medium-element="true">BUILD WITH <b class="tie-to-modal">LOVE</b></h3> <a href="#pricing" class="card-5 btn btn-material-blue-grey margin-top-20 margin-bottom-50 btn-round lightbox-toggle btn-md btn-white btn-outline tie-to-modal mode-elements-column-hover" type="button" style="display: inline-block;" contenteditable="false" data-placeholder="" data-medium-element="true">watch the video</a>
+			</div>
+			<div class="col-sm-4 col-xs-12 hovered-content sortableChildren sortableCols ui-sortable">
+				<i class="mdi-action-alarm fa-3x tie-to-modal" style="display: inline-block;"></i>
+				<h3 class="headline-md tag-outline tie-to-modal" style="display: block;" contenteditable="false" data-placeholder="" data-medium-element="true">
+					SAVES YOUR TIME
+				</h3> <a href="#pricing" class="card-5 btn btn-material-blue-grey margin-top-20 margin-bottom-50 lightbox-toggle btn-md btn-round btn-white btn-outline tie-to-modal" type="button" style="display: inline-block;" contenteditable="false" data-placeholder="" data-medium-element="true">watch the video</a>
+			</div>
+			<div class="col-sm-4  col-xs-12 hovered-content sortableChildren sortableCols ui-sortable">
+				<i class="mdi-action-account-balance-wallet fa-3x tie-to-modal" style="display: inline-block;"></i>
+				<h3 class="headline-md tie-to-modal" style="display: block;" contenteditable="false" data-placeholder="" data-medium-element="true">
+					SAVES YOUR MONEY
+				</h3> <a href="#pricing" class="card-5 btn btn-material-blue-grey margin-top-20 margin-bottom-50 btn-round lightbox-toggle btn-md btn-white btn-outline tie-to-modal" type="button" style="display: inline-block;" contenteditable="false" data-placeholder="" data-medium-element="true">watch the video</a>
+			</div>
+		</div>
+	</div>
+</section><section class="well cover padding-bottom-70 Container padding-top-90 wellundefined bgp-cc box-layer tie-to-modal" style="display: block; color: rgb(244, 235, 235);" data-stellar-background-ratio="0.5" id="price"><span style="font-size:28px;  letter-spacing:0;" class="m__move_arrow"><i class="mdi-hardware-keyboard-arrow-up md_up"></i> <i class="mdi-hardware-keyboard-arrow-down md_down"></i></span>
+	<div class="container">
+		<div class="row">
+			<div class="col-md-8 col-md-offset-2 sortableCols ui-sortable">
+				<h3 class="text-align-center margin-bottom-60 headline-md tie-to-modal" style="display: block;" contenteditable="false" data-placeholder="" data-medium-element="true">
+					Simple Plans &amp; Pricing
+				</h3>
+			</div>
+		</div>
+		<div class="row">
+			<div class="col-md-10 col-md-offset-1 sortableCols ui-sortable">
+				<div class="col-xs-12 col-sm-4 col-md-4 col-lg-4 text-center  tie-to-modal sortableCols ui-sortable">
+					<div class="panel card-2 z-i-0 relative margin-top-20 margin-bottom-30 tie-to-modal" style="position: relative; z-index: 0;">
+						<div class="panel-body tie-to-modal" style="color: rgb(0, 0, 0); opacity: 1; z-index: 0;">
+							<h3 class="margin-bottom-20 tie-to-modal" contenteditable="false" data-placeholder="" data-medium-element="true">
+								LITE
+							</h3>
+							<h4 class="text-color-default headline-lg margin-bottom-40 tie-to-modal" style=" " contenteditable="false" data-placeholder="" data-medium-element="true">
+								 <strong class="tie-to-modal">$19 / yr</strong>
+							</h4>
+							<ul class="list-unstyled ui-sortable">
+								<li style="padding-top: 10px; padding-bottom: 10px;" class="tie-to-modal" contenteditable="false" data-placeholder="" data-medium-element="true">
+									Personal usage</li>
+								<li style="padding-top: 10px; padding-bottom: 10px;" class="tie-to-modal" contenteditable="false" data-placeholder="" data-medium-element="true">
+									One project
+								</li>
+								<li style="padding-top: 10px; padding-bottom: 10px;" class="tie-to-modal" contenteditable="false" data-placeholder="" data-medium-element="true">
+									3 months support
+								</li>
+							</ul> <a href="#" class="btn margin-bottom-30 margin-top-30 card-3 btn-md btn-round btn-primary btn-material-indigo tie-to-modal" type="submit" contenteditable="false" data-placeholder="" data-medium-element="true">BUY NOW!</a>
+						</div>
+					</div>
+				</div>
+				<div class="col-xs-12 col-sm-4 col-md-4 col-lg-4 text-center no-margin padding-left-0 padding-right-0 tie-to-modal sortableCols ui-sortable">
+					<div class="panel card-4 z-i-1 relative padding-top-30 padding-bottom-30 tie-to-modal" style="position: relative; z-index: 1; color: rgb(0, 0, 0); background-image: initial; background-attachment: initial; background-size: initial; background-origin: initial; background-clip: initial; background-position: initial; background-repeat: initial; display: block;">
+						<div class="panel-body tie-to-modal" style="color: rgb(0, 0, 0);">
+							<h3 class="headline-sm margin-top-0 margin-bottom-20 tie-to-modal" contenteditable="false" data-placeholder="" data-medium-element="true">
+								PRO
+							</h3>
+							<h4 class="text-color-default headline-lg margin-bottom-30 tie-to-modal" contenteditable="false" data-placeholder="" data-medium-element="true">
+								 <strong class="tie-to-modal">$99 / yr</strong>
+							</h4>
+							<ul class="list-unstyled ui-sortable">
+								<li style="padding-top: 10px; padding-bottom: 10px;" class="tie-to-modal" contenteditable="false" data-placeholder="" data-medium-element="true">
+									Commercial use
+								</li>
+								<li style="padding-top: 10px; padding-bottom: 10px;" class="tie-to-modal" contenteditable="false" data-placeholder="" data-medium-element="true">
+									Unlimited projects
+								</li>
+								<li style="padding-top: 10px; padding-bottom: 10px;" class="tie-to-modal" contenteditable="false" data-placeholder="" data-medium-element="true">
+									6 months support
+								</li>
+							</ul> <a href="#" class="btn card-5 margin-bottom-30 margin-top-30 btn-primary btn-md btn-material-red btn-round tie-to-modal" type="submit" contenteditable="false" data-placeholder="" data-medium-element="true">BUY NOW!</a>
+						</div>
+					</div>
+				</div>
+				<div class="col-xs-12 col-sm-4 col-md-4 col-lg-4 text-center  tie-to-modal sortableCols ui-sortable">
+					<div class="panel card-2 z-i-0 relative margin-top-20 tie-to-modal" style="display: block;">
+						<div class="panel-body tie-to-modal" style="color: rgb(0, 0, 0); opacity: 1; z-index: 0;">
+							<h3 class="margin-bottom-30 tie-to-modal" contenteditable="false" data-placeholder="" data-medium-element="true">
+								EXTENDED
+							</h3>
+							<h4 class="text-color-default headline-lg margin-bottom-30 tie-to-modal" style=" " contenteditable="false" data-placeholder="" data-medium-element="true">
+								 <strong class="tie-to-modal">$299 / yr</strong>
+							</h4>
+							<ul class="list-unstyled ui-sortable">
+								<li style="padding-top: 10px; padding-bottom: 10px;" class="tie-to-modal" contenteditable="false" data-placeholder="" data-medium-element="true">
+									Unlimited projects
+								</li><li style="padding-top: 10px; padding-bottom: 10px;" class="tie-to-modal" contenteditable="false" data-placeholder="" data-medium-element="true">
+									Extended Use
+								</li>
+								
+								<li style="padding-top: 10px; padding-bottom: 10px;" class="tie-to-modal" contenteditable="false" data-placeholder="" data-medium-element="true">
+									1 year support
+								</li>
+							</ul> <a href="#" class="btn card-3 margin-bottom-30 margin-top-30 btn-md btn-round btn-primary btn-material-indigo tie-to-modal" type="submit" contenteditable="false" data-placeholder="" data-medium-element="true">BUY NOW!</a>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</section><section class="well text-align-center vh100 padding-top-90 cover box-layer wellundefined ov-50 bgp-cc tie-to-modal" style="display: block; color: rgb(247, 247, 247); background-image: url(&quot;https://images.unsplash.com/photo-1488842817413-6e197d6d8d53?ixlib=rb-0.3.5&amp;q=80&amp;fm=jpg&amp;crop=entropy&amp;cs=tinysrgb&amp;w=1080&amp;fit=max&amp;s=9e8a183707e596881d9beeb884026f34&quot;);" contenteditable="false" data-medium-element="true" id="subscribe-section"><span style="font-size:28px;  letter-spacing:0;" class="m__move_arrow"><i class="mdi-hardware-keyboard-arrow-up md_up"></i> <i class="mdi-hardware-keyboard-arrow-down md_down"></i></span> <div class="container"> <div class="row"> <div class="text-align-center col-md-offset-1 col-md-10 mode-elements-column-hover2 sortableChildren sortableCols ui-sortable">
+	<h2 class="page-section hero-title-xl tag-outline headline-sm margin-bottom-30 margin-top-60 tie-to-modal" style="display: block;" contenteditable="false" data-placeholder="" data-medium-element="true">
+		Make beautiful websites in minutes with new web BLOCKS
+	</h2>
+	<h1 class="tag-outline margin-top-0 headline-lg margin-bottom-30 tie-to-modal" style="display: block;" contenteditable="false" data-placeholder="" data-medium-element="true">DESIGN FREEDOM RIGHT TO YOUR INBOX</h1>
+	<p style="display: block;" class="margin-top-20 margin-bottom-30 tie-to-modal" contenteditable="false" data-placeholder="" data-medium-element="true">
+		Get free templates and design resoursec to email weekly. Subscribe to get &nbsp;first &nbsp;website template now.</p>
+	<form class="contact-form form-inline tie-to-modal" style="display: block;">
+		<div class="form-group tie-to-modal">
+			<input type="hidden" name="project_name" value="Site Name"><input class="EmailUs" type="hidden" name="admin_email" value="bootstraptor@gmail.com"><input type="hidden" name="form_subject" value="Form Subject"><input class="form-control hide" placeholder="Enter name" type="text" name="Name"><input class="form-control" placeholder="Your email" type="text" name="E-mail"><input class="form-control hide" placeholder="Your phone" type="text" name="Phone">
+		</div> <button class="btn btn-warning btn-lg btn-material-deep-orange btneditmaterial btn-primary tie-to-modal" contenteditable="false" data-placeholder="" data-medium-element="true">GET FIRST NOW!</button>
+	</form>  
+</div> </div> </div> </section><section class="well well-material-black box-layer tie-to-modal" style="display: block;" contenteditable="false" data-medium-element="true"><span style="font-size:28px;  letter-spacing:0;" class="m__move_arrow"><i class="mdi-hardware-keyboard-arrow-up md_up"></i> <i class="mdi-hardware-keyboard-arrow-down md_down"></i></span> <div class="container"> <div class="row"> <div class="col-xs-5 col-sm-6 col-md-2 col-lg-3 sortableCols ui-sortable" style=""> <img class="img-responsive image-center tie-to-modal" src="images/logo_hip.png" alt=""> </div> <div class="col-xs-7 col-sm-6 col-md-2 col-lg-3 sortableCols ui-sortable" style=""> <h4 class="margin-top-20 tie-to-modal" style="color: rgb(255, 255, 255);" contenteditable="false" data-placeholder="" data-medium-element="true"> <span style="background-" class="tie-to-modal">Our office</span> </h4> <address class="tie-to-modal" contenteditable="false" data-placeholder="" data-medium-element="true"> <strong class="">bootstraptor.com, LLC.</strong><br><i class="icon-map-marker tie-to-modal"></i> 795 Folsom Ave, Suite 600<br> San Francisco, CA 94107<br><i class="icon-phone-sign tie-to-modal"></i> + 4 (123) 456-7890</address> <ul class="list-unstyled social-links list-inline tie-to-modal ui-sortable"> <li class="not-editable tie-to-modal"> <a href="http://www.bootstraptor.com" class=""><i class="fa fa-twitter tie-to-modal"></i></a> </li> <li class="not-editable tie-to-modal"> <a href="http://www.bootstraptor.com" class=""><i class="fa fa-google-plus tie-to-modal"></i></a> </li> <li class="not-editable tie-to-modal"> <a href="http://www.bootstraptor.com" class=""><i class="fa fa-dribbble tie-to-modal"></i></a> </li> <li class="not-editable tie-to-modal"> <a href="http://www.bootstraptor.com" class=""><i class="fa fa-facebook tie-to-modal"></i></a> </li> <li class="not-editable tie-to-modal"> <a href="http://www.bootstraptor.com" class=""><i class="fa fa-github tie-to-modal"></i></a> </li> <li class="not-editable tie-to-modal"> <a href="http://www.bootstraptor.com" class=""><i class="fa fa-flickr tie-to-modal"></i></a> </li> </ul> </div> <div class="col-xs-4 col-sm-6 col-md-2 col-lg-2 sortableCols ui-sortable" style=""> <h4 style="color: rgb(255, 255, 255);" class="tie-to-modal" contenteditable="false" data-placeholder="" data-medium-element="true"> <span class="tie-to-modal">Useful Links</span> </h4> <ul class="footer-nav-links list-unstyled tie-to-modal ui-sortable"> <li class="not-editable tie-to-modal"> <a href="http://www.bootstraptor.com" class="" contenteditable="false" data-placeholder="" data-medium-element="true">Bootstraptor.com</a> </li> <li class="not-editable tie-to-modal"> <a href="http://www.bootstraptor.com" class="" contenteditable="false" data-placeholder="" data-medium-element="true">Bootstraptor.com</a> </li> <li class="not-editable tie-to-modal"> <a href="http://www.bootstraptor.com" class="" contenteditable="false" data-placeholder="" data-medium-element="true">Bootstraptor.com</a> </li> <li class="not-editable tie-to-modal"> <a href="http://www.bootstraptor.com" class="" contenteditable="false" data-placeholder="" data-medium-element="true">Bootstraptor.com</a> </li> <li class="not-editable tie-to-modal"> <a href="http://www.bootstraptor.com" class="" contenteditable="false" data-placeholder="" data-medium-element="true">Bootstrap templates</a> </li> </ul> </div> <div class="col-xs-4 col-sm-6 col-md-2 col-lg-2 sortableCols ui-sortable" style=""> <h4 style="color: rgb(255, 255, 255);" class="tie-to-modal" contenteditable="false" data-placeholder="" data-medium-element="true"> <span class="tie-to-modal">Useful Links</span> </h4> <ul class="footer-nav-links list-unstyled tie-to-modal ui-sortable"> <li class="not-editable tie-to-modal"> <a href="http://www.bootstraptor.com" class="" contenteditable="false" data-placeholder="" data-medium-element="true">Bootstraptor.com</a> </li>  <li class="not-editable tie-to-modal"> <a href="http://www.bootstraptor.com" class="" contenteditable="false" data-placeholder="" data-medium-element="true">Bootstraptor.com</a> </li> <li class="not-editable tie-to-modal"> <a href="http://www.bootstraptor.com" class="" contenteditable="false" data-placeholder="" data-medium-element="true">Bootstraptor.com</a> </li>  </ul> </div> <div class="col-xs-4 col-sm-6 col-md-2 col-lg-2 sortableCols ui-sortable" style=""> <h4 style="color: rgb(255, 255, 255);" class="tie-to-modal" contenteditable="false" data-placeholder="" data-medium-element="true"> <span class="tie-to-modal">Useful Links</span> </h4> <ul class="footer-nav-links list-unstyled tie-to-modal ui-sortable">  <li class="not-editable tie-to-modal"> <a href="http://www.bootstraptor.com" class="" contenteditable="false" data-placeholder="" data-medium-element="true">Bootstraptor.com</a> </li> <li class="not-editable tie-to-modal"> <a href="http://www.bootstraptor.com" class="" contenteditable="false" data-placeholder="" data-medium-element="true">Bootstraptor.com</a> </li> <li class="not-editable tie-to-modal"> <a href="http://www.bootstraptor.com" class="" contenteditable="false" data-placeholder="" data-medium-element="true">Bootstraptor.com</a> </li><li class="not-editable tie-to-modal"> <a href="http://www.bootstraptor.com" class="" contenteditable="false" data-placeholder="" data-medium-element="true">Bootstraptor.com</a> </li> <li class="not-editable tie-to-modal"> <a href="http://www.bootstraptor.com" class="" contenteditable="false" data-placeholder="" data-medium-element="true">Bootstrap templates</a> </li> </ul> </div> </div> </div> </section><script type="text/javascript" id="usersCarouselScripts"> var clickEvent341222 = false;$('#carousel-341222').find('li[data-target]').click(function () {   $(this).parent().find('.active').removeClass('active');  $(this).addClass('active');clickEvent341222 = true;});$('#carousel-341222').bind('slide.bs.carousel', function (e) {  if (!clickEvent341222) {  var nextLi = $('#carousel-341222').find('li.carousel-control.active').removeClass('active').next().addClass('active');  if (nextLi.length == 0) {  $('#carousel-341222').find('li.carousel-control').first().addClass('active');  }}  clickEvent341222 = false;}); var clickEvent904260 = false;$('#carousel-904260').find('li[data-target]').click(function () {   $(this).parent().find('.active').removeClass('active');  $(this).addClass('active');clickEvent904260 = true;});$('#carousel-904260').bind('slide.bs.carousel', function (e) {  if (!clickEvent904260) {  var nextLi = $('#carousel-904260').find('li.carousel-control.active').removeClass('active').next().addClass('active');  if (nextLi.length == 0) {  $('#carousel-904260').find('li.carousel-control').first().addClass('active');  }}  clickEvent904260 = false;}); var clickEvent266724 = false;$('#carousel-266724').find('li[data-target]').click(function () {   $(this).parent().find('.active').removeClass('active');  $(this).addClass('active');clickEvent266724 = true;});$('#carousel-266724').bind('slide.bs.carousel', function (e) {  if (!clickEvent266724) {  var nextLi = $('#carousel-266724').find('li.carousel-control.active').removeClass('active').next().addClass('active');  if (nextLi.length == 0) {  $('#carousel-266724').find('li.carousel-control').first().addClass('active');  }}  clickEvent266724 = false;}); var clickEvent389389 = false;$('#carousel-389389').find('li[data-target]').click(function () {   $(this).parent().find('.active').removeClass('active');  $(this).addClass('active');clickEvent389389 = true;});$('#carousel-389389').bind('slide.bs.carousel', function (e) {  if (!clickEvent389389) {  var nextLi = $('#carousel-389389').find('li.carousel-control.active').removeClass('active').next().addClass('active');  if (nextLi.length == 0) {  $('#carousel-389389').find('li.carousel-control').first().addClass('active');  }}  clickEvent389389 = false;}); var clickEvent349363 = false;$('#carousel-349363').find('li[data-target]').click(function () {   $(this).parent().find('.active').removeClass('active');  $(this).addClass('active');clickEvent349363 = true;});$('#carousel-349363').bind('slide.bs.carousel', function (e) {  if (!clickEvent349363) {  var nextLi = $('#carousel-349363').find('li.carousel-control.active').removeClass('active').next().addClass('active');  if (nextLi.length == 0) {  $('#carousel-349363').find('li.carousel-control').first().addClass('active');  }}  clickEvent349363 = false;}); var clickEvent250405 = false;$('#carousel-250405').find('li[data-target]').click(function () {   $(this).parent().find('.active').removeClass('active');  $(this).addClass('active');clickEvent250405 = true;});$('#carousel-250405').bind('slide.bs.carousel', function (e) {  if (!clickEvent250405) {  var nextLi = $('#carousel-250405').find('li.carousel-control.active').removeClass('active').next().addClass('active');  if (nextLi.length == 0) {  $('#carousel-250405').find('li.carousel-control').first().addClass('active');  }}  clickEvent250405 = false;}); var clickEvent558867 = false;$('#carousel-558867').find('li[data-target]').click(function () {   $(this).parent().find('.active').removeClass('active');  $(this).addClass('active');clickEvent558867 = true;});$('#carousel-558867').bind('slide.bs.carousel', function (e) {  if (!clickEvent558867) {  var nextLi = $('#carousel-558867').find('li.carousel-control.active').removeClass('active').next().addClass('active');  if (nextLi.length == 0) {  $('#carousel-558867').find('li.carousel-control').first().addClass('active');  }}  clickEvent558867 = false;}); var clickEvent16904 = false;$('#carousel-16904').find('li[data-target]').click(function () {   $(this).parent().find('.active').removeClass('active');  $(this).addClass('active');clickEvent16904 = true;});$('#carousel-16904').bind('slide.bs.carousel', function (e) {  if (!clickEvent16904) {  var nextLi = $('#carousel-16904').find('li.carousel-control.active').removeClass('active').next().addClass('active');  if (nextLi.length == 0) {  $('#carousel-16904').find('li.carousel-control').first().addClass('active');  }}  clickEvent16904 = false;}); var clickEvent995775 = false;$('#carousel-995775').find('li[data-target]').click(function () {   $(this).parent().find('.active').removeClass('active');  $(this).addClass('active');clickEvent995775 = true;});$('#carousel-995775').bind('slide.bs.carousel', function (e) {  if (!clickEvent995775) {  var nextLi = $('#carousel-995775').find('li.carousel-control.active').removeClass('active').next().addClass('active');  if (nextLi.length == 0) {  $('#carousel-995775').find('li.carousel-control').first().addClass('active');  }}  clickEvent995775 = false;}); var clickEvent770770 = false;$('#carousel-770770').find('li[data-target]').click(function () {   $(this).parent().find('.active').removeClass('active');  $(this).addClass('active');clickEvent770770 = true;});$('#carousel-770770').bind('slide.bs.carousel', function (e) {  if (!clickEvent770770) {  var nextLi = $('#carousel-770770').find('li.carousel-control.active').removeClass('active').next().addClass('active');  if (nextLi.length == 0) {  $('#carousel-770770').find('li.carousel-control').first().addClass('active');  }}  clickEvent770770 = false;});</script>

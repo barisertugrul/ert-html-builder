@@ -1,0 +1,760 @@
+<style id="font-face">
+@font-face{
+font-family:Advent Pro;
+src: url(http://fonts.gstatic.com/s/adventpro/v4/1NxMBeKVcNNH2H46AUR3wfesZW2xOQ-xsNqO47m55DA.ttf);}
+@font-face{
+font-family:Actor;
+src: url(http://fonts.gstatic.com/s/actor/v6/ugMf40CrRK6Jf6Yz_xNSmQ.ttf);}
+@font-face{
+font-family:Aguafina Script;
+src: url(http://fonts.gstatic.com/s/aguafinascript/v5/65g7cgMtMGnNlNyq_Z6CvMxLhO8OSNnfAp53LK1_iRs.ttf);}
+@font-face{
+font-family:Cantata One;
+src: url(http://fonts.gstatic.com/s/cantataone/v6/-a5FDvnBqaBMDaGgZYnEfqCWcynf_cDxXwCLxiixG1c.ttf);}
+@font-face{
+font-family:Candal;
+src: url(http://fonts.gstatic.com/s/candal/v6/x44dDW28zK7GR1gGDBmj9g.ttf);}
+@font-face{
+font-family:Calligraffitti;
+src: url(http://fonts.gstatic.com/s/calligraffitti/v7/vLVN2Y-z65rVu1R7lWdvyDXz_orj3gX0_NzfmYulrko.ttf);}
+@font-face{
+font-family:Antic Didone;
+src: url(http://fonts.gstatic.com/s/anticdidone/v4/r3nJcTDuOluOL6LGDV1vRy3USBnSvpkopQaUR-2r7iU.ttf);}
+@font-face{
+font-family:Noto Sans;
+src: url(http://fonts.gstatic.com/s/notosans/v6/0Ue9FiUJwVhi4NGfHJS5uA.ttf);}
+@font-face{
+font-family:Nova Slim;
+src: url(http://fonts.gstatic.com/s/novaslim/v8/rPYXC81_VL2EW-4CzBX65g.ttf);}
+@font-face{
+font-family:Catamaran;
+src: url(http://fonts.gstatic.com/s/catamaran/v1/MdNkM-DU8f6R-25Nxpr_XA.ttf);}
+@font-face{
+font-family:Yeseva One;
+src: url(http://fonts.gstatic.com/s/yesevaone/v11/eenQQxvpzSA80JmisGcgX_esZW2xOQ-xsNqO47m55DA.ttf);}
+@font-face{
+font-family:Zeyada;
+src: url(http://fonts.gstatic.com/s/zeyada/v6/hmonmGYYFwqTZQfG2nRswQ.ttf);}
+@font-face{
+font-family:Work Sans;
+src: url(http://fonts.gstatic.com/s/worksans/v2/zVvigUiMvx7JVEnrJgc-5Q.ttf);}
+@font-face{
+font-family:Wendy One;
+src: url(http://fonts.gstatic.com/s/wendyone/v4/R8CJT2oDXdMk_ZtuHTxoxw.ttf);}
+@font-face{
+font-family:Walter Turncoat;
+src: url(http://fonts.gstatic.com/s/walterturncoat/v6/sG9su5g4GXy1KP73cU3hvQplL2YwNeota48DxFlGDUo.ttf);}
+@font-face{
+font-family:Wallpoet;
+src: url(http://fonts.gstatic.com/s/wallpoet/v8/hmum4WuBN4A0Z_7367NDIg.ttf);}
+@font-face{
+font-family:Vollkorn;
+src: url(http://fonts.gstatic.com/s/vollkorn/v6/IiexqYAeh8uII223thYx3w.ttf);}
+@font-face{
+font-family:Unkempt;
+src: url(http://fonts.gstatic.com/s/unkempt/v7/NLLBeNSspr0RGs71R5LHWA.ttf);}
+@font-face{
+font-family:UnifrakturCook;
+src: url(undefined);}
+@font-face{
+font-family:Unica One;
+src: url(http://fonts.gstatic.com/s/unicaone/v4/KbYKlhWMDpatWViqDkNQgA.ttf);}
+@font-face{
+font-family:Uncial Antiqua;
+src: url(http://fonts.gstatic.com/s/uncialantiqua/v4/F-leefDiFwQXsyd6eaSllqrFJ4O13IHVxZbM6yoslpo.ttf);}
+@font-face{
+font-family:Trocchi;
+src: url(http://fonts.gstatic.com/s/trocchi/v5/uldNPaKrUGVeGCVsmacLwA.ttf);}
+@font-face{
+font-family:Trade Winds;
+src: url(http://fonts.gstatic.com/s/tradewinds/v5/sDOCVgAxw6PEUi2xdMsoDaCWcynf_cDxXwCLxiixG1c.ttf);}
+@font-face{
+font-family:Titillium Web;
+src: url(http://fonts.gstatic.com/s/titilliumweb/v4/7XUFZ5tgS-tD6QamInJTcTyagQBwYgYywpS70xNq8SQ.ttf);}
+@font-face{
+font-family:Titan One;
+src: url(http://fonts.gstatic.com/s/titanone/v4/FbvpRvzfV_oipS0De3iAZg.ttf);}
+@font-face{
+font-family:Stardos Stencil;
+src: url(http://fonts.gstatic.com/s/stardosstencil/v6/ygEOyTW9a6u4fi4OXEZeTFf2eT4jUldwg_9fgfY_tHc.ttf);}
+@font-face{
+font-family:Stalinist One;
+src: url(http://fonts.gstatic.com/s/stalinistone/v8/MQpS-WezM9W4Dd7D3B7I-UT7eZ8.ttf);}
+@font-face{
+font-family:Scada;
+src: url(http://fonts.gstatic.com/s/scada/v5/iZNC3ZEYwe3je6H-28d5Ug.ttf);}
+@font-face{
+font-family:Sarpanch;
+src: url(http://fonts.gstatic.com/s/sarpanch/v1/YMBZdT27b6O5a1DADbAGSg.ttf);}
+@font-face{
+font-family:Sarala;
+src: url(http://fonts.gstatic.com/s/sarala/v1/ohip9lixCHoBab7hTtgLnw.ttf);}
+@font-face{
+font-family:Passero One;
+src: url(http://fonts.gstatic.com/s/passeroone/v8/Yc-7nH5deCCv9Ed0MMnAQqCWcynf_cDxXwCLxiixG1c.ttf);}
+@font-face{
+font-family:Parisienne;
+src: url(http://fonts.gstatic.com/s/parisienne/v4/TW74B5QISJNx9moxGlmJfvesZW2xOQ-xsNqO47m55DA.ttf);}
+@font-face{
+font-family:Paprika;
+src: url(http://fonts.gstatic.com/s/paprika/v4/b-VpyoRSieBdB5BPJVF8HQ.ttf);}
+@font-face{
+font-family:Palanquin Dark;
+src: url(http://fonts.gstatic.com/s/palanquindark/v1/PamTqrrgbBh_M3702w39rOfChn3JSg5yz_Q_xmrKQN0.ttf);}
+@font-face{
+font-family:Palanquin;
+src: url(http://fonts.gstatic.com/s/palanquin/v1/xCwBUoAEV0kzCDwerAZ0Aw.ttf);}
+@font-face{
+font-family:Oxygen;
+src: url(http://fonts.gstatic.com/s/oxygen/v5/uhoyAE7XlQL22abzQieHjw.ttf);}
+@font-face{
+font-family:Oswald;
+src: url(http://fonts.gstatic.com/s/oswald/v13/uLEd2g2vJglLPfsBF91DCg.ttf);}
+@font-face{
+font-family:Orienta;
+src: url(http://fonts.gstatic.com/s/orienta/v4/_NKSk93mMs0xsqtfjCsB3Q.ttf);}
+@font-face{
+font-family:Open Sans;
+src: url(http://fonts.gstatic.com/s/opensans/v13/IgZJs4-7SA1XX_edsoXWog.ttf);}
+@font-face{
+font-family:Orbitron;
+src: url(http://fonts.gstatic.com/s/orbitron/v7/DY8swouAZjR3RaUPRf0HDQ.ttf);}
+@font-face{
+font-family:Neuton;
+src: url(http://fonts.gstatic.com/s/neuton/v9/9R-MGIOQUdjAVeB6nE6PcQ.ttf);}
+@font-face{
+font-family:New Rocker;
+src: url(http://fonts.gstatic.com/s/newrocker/v5/EFUWzHJedEkpW399zYOHofesZW2xOQ-xsNqO47m55DA.ttf);}
+@font-face{
+font-family:News Cycle;
+src: url(http://fonts.gstatic.com/s/newscycle/v13/xyMAr8VfiUzIOvS1abHJO_esZW2xOQ-xsNqO47m55DA.ttf);}
+@font-face{
+font-family:Mystery Quest;
+src: url(http://fonts.gstatic.com/s/mysteryquest/v4/467jJvg0c7HgucvBB9PLDyeUSrabuTpOsMEiRLtKwk0.ttf);}
+@font-face{
+font-family:Muli;
+src: url(http://fonts.gstatic.com/s/muli/v10/KJiP6KznxbALQgfJcDdPAw.ttf);}
+@font-face{
+font-family:Mrs Sheppards;
+src: url(http://fonts.gstatic.com/s/mrssheppards/v5/2WFsWMV3VUeCz6UVH7UjCn8f0n03UdmQgF_CLvNR2vg.ttf);}
+@font-face{
+font-family:Mr Dafoe;
+src: url(http://fonts.gstatic.com/s/mrdafoe/v5/s32Q1S6ZkT7EaX53mUirvQ.ttf);}
+@font-face{
+font-family:Mr Bedfort;
+src: url(http://fonts.gstatic.com/s/mrbedfort/v5/81bGgHTRikLs_puEGshl7_esZW2xOQ-xsNqO47m55DA.ttf);}
+@font-face{
+font-family:Mouse Memoirs;
+src: url(http://fonts.gstatic.com/s/mousememoirs/v4/NBFaaJFux_j0AQbAsW3QeH8f0n03UdmQgF_CLvNR2vg.ttf);}
+@font-face{
+font-family:Moulpali;
+src: url(http://fonts.gstatic.com/s/moulpali/v9/diD74BprGhmVkJoerKmrKA.ttf);}
+@font-face{
+font-family:Moul;
+src: url(http://fonts.gstatic.com/s/moul/v8/Kb0ALQnfyXawP1a_P_gpTQ.ttf);}
+@font-face{
+font-family:Monofett;
+src: url(http://fonts.gstatic.com/s/monofett/v6/C6K5L799Rgxzg2brgOaqAw.ttf);}
+@font-face{
+font-family:Montserrat Alternates;
+src: url(http://fonts.gstatic.com/s/montserratalternates/v7/z2n1Sjxk9souK3HCtdHuklPuEVRGaG9GCQnmM16YWq0.ttf);}
+@font-face{
+font-family:Montserrat;
+src: url(http://fonts.gstatic.com/s/montserrat/v10/Kqy6-utIpx_30Xzecmeo8_esZW2xOQ-xsNqO47m55DA.ttf);}
+@font-face{
+font-family:Montez;
+src: url(http://fonts.gstatic.com/s/montez/v6/kx58rLOWQQLGFM4pDHv5Ng.ttf);}
+@font-face{
+font-family:Montaga;
+src: url(http://fonts.gstatic.com/s/montaga/v4/PwTwUboiD-M4-mFjZfJs2A.ttf);}
+@font-face{
+font-family:Monoton;
+src: url(http://fonts.gstatic.com/s/monoton/v6/aCz8ja_bE4dg-7agSvExdw.ttf);}
+@font-face{
+font-family:Miltonian Tattoo;
+src: url(http://fonts.gstatic.com/s/miltoniantattoo/v11/1oU_8OGYwW46eh02YHydn2uk0YtI6thZkz1Hmh-odwg.ttf);}
+@font-face{
+font-family:Miltonian;
+src: url(http://fonts.gstatic.com/s/miltonian/v10/Z4HrYZyqm0BnNNzcCUfzoQ.ttf);}
+@font-face{
+font-family:Michroma;
+src: url(http://fonts.gstatic.com/s/michroma/v7/0c2XrW81_QsiKV8T9thumA.ttf);}
+@font-face{
+font-family:Medula One;
+src: url(http://fonts.gstatic.com/s/medulaone/v6/AasPgDQak81dsTGQHc5zUPesZW2xOQ-xsNqO47m55DA.ttf);}
+@font-face{
+font-family:MedievalSharp;
+src: url(http://fonts.gstatic.com/s/medievalsharp/v8/85X_PjV6tftJ0-rX7KYQkOe45sJkivqprK7VkUlzfg0.ttf);}
+@font-face{
+font-family:McLaren;
+src: url(http://fonts.gstatic.com/s/mclaren/v4/OprvTGxaiINBKW_1_U0eoQ.ttf);}
+@font-face{
+font-family:Meddon;
+src: url(http://fonts.gstatic.com/s/meddon/v9/f8zJO98uu2EtSj9p7ci9RA.ttf);}
+@font-face{
+font-family:Maven Pro;
+src: url(http://fonts.gstatic.com/s/mavenpro/v8/sqPJIFG4gqsjl-0q_46Gbw.ttf);}
+@font-face{
+font-family:Mate SC;
+src: url(http://fonts.gstatic.com/s/matesc/v5/-YkIT2TZoPZF6pawKzDpWw.ttf);}
+@font-face{
+font-family:Londrina Shadow;
+src: url(http://fonts.gstatic.com/s/londrinashadow/v4/dNYuzPS_7eYgXFJBzMoKdbw6Z3rVA5KDSi7aQxS92Nk.ttf);}
+@font-face{
+font-family:Lobster;
+src: url(http://fonts.gstatic.com/s/lobster/v18/9LpJGtNuM1D8FAZ2BkJH2Q.ttf);}
+@font-face{
+font-family:Linden Hill;
+src: url(http://fonts.gstatic.com/s/lindenhill/v6/UgsC0txqd-E1yjvjutwm_KCWcynf_cDxXwCLxiixG1c.ttf);}
+@font-face{
+font-family:Limelight;
+src: url(http://fonts.gstatic.com/s/limelight/v7/5dTfN6igsXjLjOy8QQShcg.ttf);}
+@font-face{
+font-family:Gruppo;
+src: url(http://fonts.gstatic.com/s/gruppo/v7/pS_JM0cK_piBZve-lfUq9w.ttf);}
+@font-face{
+font-family:Faster One;
+src: url(http://fonts.gstatic.com/s/fasterone/v6/YxTOW2sf56uxD1T7byP5K_esZW2xOQ-xsNqO47m55DA.ttf);}
+@font-face{
+font-family:Ewert;
+src: url(http://fonts.gstatic.com/s/ewert/v4/Em8hrzuzSbfHcTVqMjbAQg.ttf);}
+@font-face{
+font-family:Esteban;
+src: url(http://fonts.gstatic.com/s/esteban/v4/ESyhLgqDDyK5JcFPp2svDw.ttf);}
+@font-face{
+font-family:Enriqueta;
+src: url(http://fonts.gstatic.com/s/enriqueta/v5/_p90TrIwR1SC-vDKtmrv6A.ttf);}
+@font-face{
+font-family:Economica;
+src: url(http://fonts.gstatic.com/s/economica/v4/G4rJRujzZbq9Nxngu9l3hg.ttf);}
+@font-face{
+font-family:Eater;
+src: url(http://fonts.gstatic.com/s/eater/v5/gm6f3OmYEdbs3lPQtUfBkA.ttf);}
+@font-face{
+font-family:Eagle Lake;
+src: url(http://fonts.gstatic.com/s/eaglelake/v4/ZKlYin7caemhx9eSg6RvPfesZW2xOQ-xsNqO47m55DA.ttf);}
+@font-face{
+font-family:Dorsa;
+src: url(http://fonts.gstatic.com/s/dorsa/v7/wCc3cUe6XrmG2LQE6GlIrw.ttf);}
+@font-face{
+font-family:Doppio One;
+src: url(http://fonts.gstatic.com/s/doppioone/v4/WHZ3HJQotpk_4aSMNBo_t_esZW2xOQ-xsNqO47m55DA.ttf);}
+@font-face{
+font-family:Donegal One;
+src: url(http://fonts.gstatic.com/s/donegalone/v4/6kN4-fDxz7T9s5U61HwfF6CWcynf_cDxXwCLxiixG1c.ttf);}
+@font-face{
+font-family:Domine;
+src: url(http://fonts.gstatic.com/s/domine/v4/wfVIgamVFjMNQAEWurCiHA.ttf);}
+@font-face{
+font-family:Diplomata;
+src: url(http://fonts.gstatic.com/s/diplomata/v8/u-ByBiKgN6rTMA36H3kcKg.ttf);}
+@font-face{
+font-family:ABeeZee;
+src: url(http://fonts.gstatic.com/s/abeezee/v9/mE5BOuZKGln_Ex0uYKpIaw.ttf);}
+@font-face{
+font-family:Abel;
+src: url(http://fonts.gstatic.com/s/abel/v6/RpUKfqNxoyNe_ka23bzQ2A.ttf);}
+@font-face{
+font-family:Acme;
+src: url(http://fonts.gstatic.com/s/acme/v5/-J6XNtAHPZBEbsifCdBt-g.ttf);}
+@font-face{
+font-family:Aclonica;
+src: url(http://fonts.gstatic.com/s/aclonica/v6/M6pHZMPwK3DiBSlo3jwAKQ.ttf);}
+@font-face{
+font-family:Abril Fatface;
+src: url(http://fonts.gstatic.com/s/abrilfatface/v8/X1g_KwGeBV3ajZIXQ9VnDojjx0o0jr6fNXxPgYh_a8Q.ttf);}
+@font-face{
+font-family:Abhaya Libre;
+src: url(http://fonts.gstatic.com/s/abhayalibre/v1/zTLc5Jxv6yvb1nHyqBasVy3USBnSvpkopQaUR-2r7iU.ttf);}
+@font-face{
+font-family:Playfair Display;
+src: url(http://fonts.gstatic.com/s/playfairdisplay/v10/2NBgzUtEeyB-Xtpr9bm1CV6uyC_qD11hrFQ6EGgTJWI.ttf);}</style><link id="stylesChange" href="css/bootstrap.min.css" rel="stylesheet"><style id="font-media">
+@media screen and (min-width: 0px) and (max-width: 480px){.demo h1,.font-body h1{letter-spacing:1px !important;line-height:55px !important;font-size:50px !important;}}</style><style id="font-styles">
+.demo ,.font-body {font-family:Playfair Display !important;letter-spacing:5px !important;font-size:12px !important;}
+.demo h1,.font-body h1{font-family:Advent Pro !important;font-size:115px !important;line-height:90px !important;}
+.demo h2,.font-body h2{font-family:Playfair Display !important;letter-spacing:4px !important;}
+.demo p,.font-body p{font-family:Noto Sans !important;font-size:13px !important;line-height:21px !important;letter-spacing:0px !important;}
+.demo h4,.font-body h4{letter-spacing:1px !important;font-family:Cantata One !important;}</style>
+<header class="box-layer tie-to-modal navbar-fixed-top" role="banner" itemscope="" itemtype="http://schema.org/WPHeader" style="display: block;" contenteditable="false" data-medium-element="true"><span style="font-size:28px;  letter-spacing:0;" class="m__move_arrow"><i class="mdi-hardware-keyboard-arrow-up md_up"></i> <i class="mdi-hardware-keyboard-arrow-down md_down"></i></span>
+	
+	<nav class="navbar ov-10 custom-navbar navbarundefined tie-to-modal" style="display: block; color: rgb(255, 255, 255); background: rgb(13, 15, 15);">
+		<div class="preloader hide">
+			<div role="progressbar">
+			</div>
+		</div>
+		<div class="container">
+			<div class="navbar-header">
+				 <button type="button" class="navbar-toggle medium-editor-placeholder tie-to-modal editable" data-toggle="collapse" data-target=".navbar-inverse-collapse" contenteditable="true" data-placeholder="" data-medium-element="true"><span class="icon-bar"></span><span class="icon-bar"></span><span class="icon-bar"></span></button> <div class="">
+    <a class="navbar-brand ai-color margin-top-10 editable" href="#" title="material design bootstrap" style="color: rgb(255, 255, 255); " contenteditable="true" data-placeholder="" data-medium-element="true"><strong>BLOCKS</strong><i class="mdi-action-dashboard tie-to-modal"></i></a>
+</div>
+				<div class="ripple-wrapper">
+				</div>
+			</div>
+			<div class="navbar-collapse collapse navbar-inverse-collapse">
+				<ul class="nav navbar-nav navbar-left text-center">
+					<li class="not-editable tie-to-modal">
+						 <a class="scroll editable" href="#new" contenteditable="true" data-placeholder="" data-medium-element="true">ABOUT</a>
+					</li>
+					<li class="not-editable text-center tie-to-modal">
+						 <a class="scroll editable" href="#features" contenteditable="true" data-placeholder="" data-medium-element="true">FEATURES</a>
+					</li>
+					<li class="not-editable text-center tie-to-modal" style="position: relative;">
+						 <a class="scroll editable" href="#features" contenteditable="true" data-placeholder="" data-medium-element="true">FEATURES</a>
+					</li>
+				</ul>
+				<ul class="nav navbar-nav navbar-right">
+					
+					<li class="not-editable text-center tie-to-modal" style="position: relative; left: 0px; top: 0px;">
+						 <a class="scroll editable" href="#features" contenteditable="true" data-placeholder="" data-medium-element="true">FEATURES</a>
+					</li><li class="not-editable text-center tie-to-modal" style="position: relative;">
+						 <a class="scroll editable" href="#features" contenteditable="true" data-placeholder="" data-medium-element="true">FEATURES</a>
+					</li>
+					<li class="not-editable text-center tie-to-modal">
+					</li>
+					<li class="not-editable text-center tie-to-modal">
+						 <a class="scroll editable my-outer-shadow" href="#contact" contenteditable="true" data-placeholder="" data-medium-element="true">CONTACT US</a>
+					</li>
+				</ul>
+			</div>
+		</div>
+	</nav>
+	
+</header><section class="100-vh well cover  text-align-center well-material-blue-grey padding-top-100 box-layer padding-bottom-100 ov-60 bgp-cc tie-to-modal" style="color: rgb(0, 0, 0); background-image: url(&quot;https://images.unsplash.com/photo-1464666495445-5a33228a808e?ixlib=rb-0.3.5&amp;q=80&amp;fm=jpg&amp;crop=entropy&amp;cs=tinysrgb&amp;w=1080&amp;fit=max&amp;s=7f79272f8cb75066c1e889c8292ddf2b&quot;);"><span style="font-size:28px;  letter-spacing:0;" class="m__move_arrow"><i class="mdi-hardware-keyboard-arrow-up md_up"></i> <i class="mdi-hardware-keyboard-arrow-down md_down"></i></span>
+	<div class="container">
+		<div class="row">
+			<div class="col-md-offset-1 col-md-10 sortableCols">
+				<div class="col-md-12  tie-to-modal sortableCols">
+					<h1 class="tag-outline margin-bottom-40 margin-top-10 headline-2xl tie-to-modal editable" style="display: block;" contenteditable="true" data-placeholder="" data-medium-element="true">MEET BLOCKS</h1>
+					<h2 class="page-section margin-top-0 hero-title-xl text-color-primary  headline-md margin-bottom-50 tag-outline tie-to-modal editable" style="display: block;" contenteditable="true" data-placeholder="" data-medium-element="true">Unique Design &amp; Web Style Creation</h2><a href="#bbb" class="btn btn-fab btn-raised scroll btn-xs btn-round btn-material-blue btn-white btn-outline medium-editor-placeholder tie-to-modal editable" style="display: inline-block;" contenteditable="true" data-placeholder="" data-medium-element="true"><i class="mdi-av-play-arrow tie-to-modal"></i></a> 
+				</div>
+			</div>
+		</div>
+	</div>
+<span id="addBlockBtn" style="position:absolute; left:50%; bottom:-10px; margin-left:-10px; z-index:1400"><button class="btn btn-white btn-xs " title="clone section"><i class="fa fa-copy"></i></button></span></section><section class="well wellundefined box-layer cover bgp-tc tie-to-modal text-align-left" style="display: block; color: rgb(0, 0, 0);"><span style="font-size:28px;  letter-spacing:0;" class="m__move_arrow"><i class="mdi-hardware-keyboard-arrow-up md_up"></i> <i class="mdi-hardware-keyboard-arrow-down md_down"></i></span>
+	<div class="container">
+		<div class="row lightbox-gallery">
+			<div class="col-md-2 col-xs-6 sortableCols">
+				<img src="http://placehold.it/200x150/EAEAEA/222&amp;text=logo" alt="" class="img-responsive tie-to-modal">
+			</div>
+			<div class="col-md-2 col-xs-6 sortableCols">
+				<img src="http://placehold.it/200x150/EAEAEA/222&amp;text=logo" alt="" class="img-responsive tie-to-modal">
+			</div>
+			<div class="col-md-2 col-xs-6 sortableCols">
+				<img src="http://placehold.it/200x150/EAEAEA/222&amp;text=logo" alt="" class="img-responsive tie-to-modal">
+			</div>
+			<div class="col-md-2 col-xs-6 sortableCols">
+				<img src="http://placehold.it/200x150/EAEAEA/222&amp;text=logo" alt="" class="img-responsive tie-to-modal">
+			</div>
+			<div class="col-md-2 col-xs-6 sortableCols">
+				<img src="http://placehold.it/200x150/EAEAEA/222&amp;text=logo" alt="" class="img-responsive tie-to-modal">
+			</div>
+			<div class="col-md-2 col-xs-6 sortableCols">
+				<img src="http://placehold.it/200x150/EAEAEA/222&amp;text=logo" alt="" class="img-responsive tie-to-modal">
+			</div>
+		</div>
+	</div>
+
+</section><section class="well bg-pattern-22 lightbox-gallery box-layer tie-to-modal" style="display: block;" id="about_us"><span style="font-size:28px;  letter-spacing:0;" class="m__move_arrow"><i class="mdi-hardware-keyboard-arrow-up md_up"></i> <i class="mdi-hardware-keyboard-arrow-down md_down"></i></span>
+	<div class="container">
+		<div class="row">
+			<div class="col-md-4 hovered-content sortableCols">
+				
+				<img class="img-responsive tie-to-modal" src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/4273/1.jpg" alt="" style="display: block;"><h3 style="display: block;" class="tie-to-modal editable" contenteditable="true" data-placeholder="" data-medium-element="true">
+					Grumpy wizards make toxic brew
+				</h3>
+				<p style="display: block;" class="tie-to-modal editable" contenteditable="true" data-placeholder="" data-medium-element="true">
+					Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+				</p>
+			</div>
+			<div class="col-md-4 hovered-content sortableCols">
+				
+				<img class="img-responsive tie-to-modal" src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/4273/6.jpg" alt="" style="display: block;"><h3 style="display: block;" class="tie-to-modal editable" contenteditable="true" data-placeholder="" data-medium-element="true">
+					Grumpy wizards make toxic brew
+				</h3><p class="margin-bottom-20 tie-to-modal editable" contenteditable="true" data-placeholder="" data-medium-element="true" style="display: block;">
+					Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+				</p>
+			</div>
+			<div class="col-md-4 hovered-content sortableCols">
+				
+				
+				<img class="img-responsive tie-to-modal" src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/4273/2.jpg" alt="" style="display: block;"><h3 style="display: block;" class="tie-to-modal editable" contenteditable="true" data-placeholder="" data-medium-element="true">
+					Grumpy wizards make toxic brew
+				</h3><p style="display: block;" class="tie-to-modal editable" contenteditable="true" data-placeholder="" data-medium-element="true">
+					Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+				</p>
+			</div>
+		</div>
+	</div>
+</section><section class="well bg-pattern-22 lightbox-gallery box-layer tie-to-modal" style="display: block;" id="about_us"><span style="font-size:28px;  letter-spacing:0;" class="m__move_arrow"><i class="mdi-hardware-keyboard-arrow-up md_up"></i> <i class="mdi-hardware-keyboard-arrow-down md_down"></i></span>
+	<div class="container">
+		<div class="row">
+			<div class="col-md-4 hovered-content sortableCols">
+				
+				<img class="img-responsive tie-to-modal" src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/4273/2.jpg" alt="" style="display: block;"><h3 style="display: block;" class="tie-to-modal editable" contenteditable="true" data-placeholder="" data-medium-element="true">
+					Grumpy wizards make toxic brew
+				</h3>
+				<p style="display: block;" class="tie-to-modal editable" contenteditable="true" data-placeholder="" data-medium-element="true">
+					Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+				</p>
+			</div>
+			<div class="col-md-4 hovered-content sortableCols">
+				
+				<img class="img-responsive tie-to-modal" src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/4273/6.jpg" alt="" style="display: block;"><h3 style="display: block;" class="tie-to-modal editable" contenteditable="true" data-placeholder="" data-medium-element="true">
+					Grumpy wizards make toxic brew
+				</h3><p class="margin-bottom-20 tie-to-modal editable" contenteditable="true" data-placeholder="" data-medium-element="true" style="display: block;">
+					Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+				</p>
+			</div>
+			<div class="col-md-4 hovered-content sortableCols">
+				
+				
+				<img class="img-responsive tie-to-modal" src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/4273/1.jpg" alt="" style="display: block;"><h3 style="display: block;" class="tie-to-modal editable" contenteditable="true" data-placeholder="" data-medium-element="true">
+					Grumpy wizards make toxic brew
+				</h3><p style="display: block;" class="tie-to-modal editable" contenteditable="true" data-placeholder="" data-medium-element="true">
+					Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+				</p>
+			</div>
+		</div>
+	</div>
+</section><section style="color: rgb(0, 0, 0);" class="well bgr-rr box-layer wellundefined bg-pattern-18 tie-to-modal mode-elements-column-hover padding-bottom-60" contenteditable="false" data-medium-element="true" https:="" images.unsplash.com="" background-color:=""><span style="font-size:28px;  letter-spacing:0;" class="m__move_arrow"><i class="mdi-hardware-keyboard-arrow-up md_up"></i> <i class="mdi-hardware-keyboard-arrow-down md_down"></i></span>
+	<div class="container">
+		<div class="row text-align-center">
+			<div class="col-xs-12 col-sm-12 col-md-6 col-md-offset-3 mode-elements-column-hover2 sortableChildren sortableCols">
+				<h2 class="headline-sm tie-to-modal editable" contenteditable="true" data-medium-element="true" style="display: block;" data-placeholder="">WATCH THE VIDEO</h2><h1 class="page-section text-align-center hero-title-xl headline-2xl tag-outline margin-top-0 margin-bottom-40 tie-to-modal editable" style="display: block;" contenteditable="true" data-placeholder="" data-medium-element="true">VIDEOS&amp; LOOKS</h1><a href="#bbb" class="btn btn-fab btn-raised scroll btn-xs btn-round btn-material-blue btn-outline margin-bottom-20 btn-black tie-to-modal editable medium-editor-placeholder" style="display: inline-block;" contenteditable="true" data-placeholder="" data-medium-element="true"><i class="mdi-av-play-arrow tie-to-modal"></i></a>
+										
+                                            
+                                            
+                                        
+				
+			</div>
+		</div>
+	</div>
+	<div class="next-container">
+		 <a href="#features-1" class="next-step-arrow scroll editable medium-editor-placeholder" contenteditable="true" data-placeholder="" data-medium-element="true"><span class="circle" style=""></span><span class="arrow over mdi-navigation-expand-more"></span><span class="arrow out mdi-navigation-expand-more"></span></a>
+	</div>
+</section><section class="well box-layer bg-pattern-33 tie-to-modal" style="display: block;" contenteditable="false" data-medium-element="true"><span style="font-size:28px;  letter-spacing:0;" class="m__move_arrow"><i class="mdi-hardware-keyboard-arrow-up md_up"></i> <i class="mdi-hardware-keyboard-arrow-down md_down"></i></span>
+
+	<div class="container">
+		<div class="row row-reverse">
+			<div class="col-md-5 hovered-content pull-right sortableCols">
+				
+			<h3 class="margin-top-20 margin-bottom-20 headline-3xl tie-to-modal editable" contenteditable="true" data-placeholder="" data-medium-element="true" style="display: block;">FRESH LOOK</h3><h4 class="headline-md tie-to-modal editable" contenteditable="true" data-placeholder="" data-medium-element="true" style="display: block;">
+					Model Name: Katya</h4><p class="text-lg tie-to-modal editable" contenteditable="true" data-placeholder="" data-medium-element="true" style="display: block;">
+					Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laudantium veniam exercitationem expedita laborum at voluptate. Labore, voluptates totam at aut nemo deserunt rem magni pariatur quos perspiciatis atque eveniet unde.
+				</p><p class="text-lg tie-to-modal editable" contenteditable="true" data-placeholder="" data-medium-element="true" style="display: block;">
+					Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laudantium veniam exercitationem expedita laborum at voluptate. Labore, voluptates totam at aut nemo deserunt rem magni pariatur quos perspiciatis atque eveniet unde.
+				</p><p class="text-lg tie-to-modal editable" contenteditable="true" data-placeholder="" data-medium-element="true" style="display: block;">
+					Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laudantium veniam exercitationem expedita laborum at voluptate. Labore, voluptates totam at aut nemo deserunt rem magni pariatur quos perspiciatis atque eveniet unde.
+				</p><p class="text-lg tie-to-modal editable" contenteditable="true" data-placeholder="" data-medium-element="true" style="display: block;">
+					Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laudantium veniam exercitationem expedita laborum at voluptate. Labore, voluptates totam at aut nemo deserunt rem magni pariatur quos perspiciatis atque eveniet unde.
+				</p>
+                                    
+                                    
+                                    <a href="#" class="btn btn-lg btn-raised margin-top-20 btn-material-red btn-black btn-outline tie-to-modal editable" title="my button title" contenteditable="true" data-medium-element="true" data-placeholder="" style="display: inline-block;">CALL TO ACTION!</a>
+                                </div>
+			<div class="col-md-7 hovered-content sortableCols">
+				
+				
+				 
+			<img class="img-responsive tie-to-modal" src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/4273/6.jpg" alt="" style="display: block;"></div>
+		</div>
+	</div>
+	
+</section><section class="well box-layer cover bgp-tc ov-80 tie-to-modal" style="display: block; background-image: url(&quot;https://images.unsplash.com/reserve/NnDHkyxLTFe7d5UZv9Bk_louvre.jpg?ixlib=rb-0.3.5&amp;q=80&amp;fm=jpg&amp;crop=entropy&amp;cs=tinysrgb&amp;w=1080&amp;fit=max&amp;s=0977a351ec881ab56a6260d170ae1ab4&quot;); color: rgb(219, 208, 208);" contenteditable="false" data-medium-element="true"><span style="font-size:28px;  letter-spacing:0;" class="m__move_arrow"><i class="mdi-hardware-keyboard-arrow-up md_up"></i> <i class="mdi-hardware-keyboard-arrow-down md_down"></i></span>
+
+	<div class="container">
+		<div class="row">
+			<div class="col-md-4 sortableCols">
+			<img class="img-responsive card-5 tie-to-modal" src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/4273/1.jpg" alt="" style="display: block;"></div>
+			<div class="col-md-8 sortableCols">
+			<h3 class="tie-to-modal editable" contenteditable="true" data-medium-element="true" style="display: block;" data-placeholder="">Headline &amp; &nbsp;event name&nbsp;</h3><h3 class="margin-top-20 margin-bottom-20 headline-3xl tie-to-modal editable" contenteditable="true" data-placeholder="" data-medium-element="true" style="display: block;">FRESH LOOK</h3>
+										
+                                            
+                                            
+                                        
+                            
+                                              
+												
+                                            <p class="tie-to-modal editable" contenteditable="true" data-medium-element="true" data-placeholder="">
+                                                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
+                                            </p>
+                                        
+                                              
+												
+                                            <p class="tie-to-modal editable" contenteditable="true" data-medium-element="true" data-placeholder="">
+                                                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
+                                            </p><a href="#bbb" class="btn btn-fab btn-raised scroll btn-xs btn-round btn-material-blue btn-outline margin-bottom-20 medium-editor-placeholder btn-white margin-top-30 tie-to-modal editable" style="display: inline-block;" contenteditable="true" data-placeholder="" data-medium-element="true"><i class="mdi-av-play-arrow tie-to-modal"></i></a><a href="#" class="btn btn-lg btn-raised margin-top-20 btn-material-red btn-outline btn-white btn-round tie-to-modal editable" title="my button title" contenteditable="true" data-medium-element="true" data-placeholder="" style="display: inline-block;">CALL TO ACTION!</a>
+                                        </div>
+		</div>
+	</div>
+	
+</section><section class="well box-layer bg-pattern-33 cover bgp-tc ov-70 text-align-center tie-to-modal" style="display: block; background-image: url(&quot;https://images.unsplash.com/photo-1475695752828-6d2b0a83cf8a?ixlib=rb-0.3.5&amp;q=80&amp;fm=jpg&amp;crop=entropy&amp;cs=tinysrgb&amp;w=1080&amp;fit=max&amp;s=67f26adcda14d520557df6ca8525e4e5&quot;); color: rgb(234, 234, 234);" contenteditable="false" data-medium-element="true"><span style="font-size:28px;  letter-spacing:0;" class="m__move_arrow"><i class="mdi-hardware-keyboard-arrow-up md_up"></i> <i class="mdi-hardware-keyboard-arrow-down md_down"></i></span>
+
+	<div class="container">
+		<div class="row row-reverse">
+			<div class="col-md-5 hovered-content pull-right hovered sortableCols">
+				
+			
+                                    
+                                    
+                                    
+                                </div>
+			<div class="col-md-7 hovered-content hovered sortableCols">
+				
+				
+				 
+			</div>
+		</div>
+	</div>
+	
+</section>
+
+
+
+
+
+
+<section class="well lightbox-gallery box-layer padding-top-0 padding-bottom-0 tie-to-modal" style="background-image: initial; background-size: initial; background-repeat: initial; background-attachment: initial; background-origin: initial; background-clip: initial; background-color: rgb(17, 16, 16);"><span style="font-size:28px;  letter-spacing:0;" class="m__move_arrow"><i class="mdi-hardware-keyboard-arrow-up md_up"></i> <i class="mdi-hardware-keyboard-arrow-down md_down"></i></span>
+	<div class="container-fluid">
+		<div class="row masonry ">
+			<div class="col-md-4 sortableCols">
+				<img class="img-responsive tie-to-modal" src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/4273/2.jpg" alt="" style="display: block;">
+			</div>
+			<div class="col-md-4 sortableCols">
+				
+			<img class="img-responsive tie-to-modal" src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/4273/6.jpg" alt="" style="display: block;"></div>
+			<div class="col-md-4 sortableCols">
+				
+			<img class="img-responsive tie-to-modal" src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/4273/1.jpg" alt="" style="display: block;"></div>
+		
+		</div>
+	</div>
+</section><section class="well box-layer text-align-center tie-to-modal well-material-pink" style="display: block; color: rgb(255, 255, 255);" contenteditable="false" data-medium-element="true"><span style="font-size:28px;  letter-spacing:0;" class="m__move_arrow"><i class="mdi-hardware-keyboard-arrow-up md_up"></i> <i class="mdi-hardware-keyboard-arrow-down md_down"></i></span>
+<div class="container">
+			<div class="row">
+			<div class="col-md-2  hovered sortableCols">
+			</div>
+			<div class="col-md-8 sortableCols">
+			<h3 class="margin-top-20 margin-bottom-20 headline-lg tie-to-modal editable" contenteditable="true" data-placeholder="" data-medium-element="true" style="display: block;">FROM OUR BLOG</h3></div>
+			<div class="col-md-2  hovered sortableCols">
+			</div>
+		</div>
+	</div>
+	
+</section><section class="well box-layer tie-to-modal well-material-blue cover bgp-cc ov-70" style="display: block; color: rgb(0, 0, 0); background-image: url(&quot;https://images.unsplash.com/photo-1478579117276-23e3d2535dce?ixlib=rb-0.3.5&amp;q=80&amp;fm=jpg&amp;crop=entropy&amp;cs=tinysrgb&amp;w=1080&amp;fit=max&amp;s=fbb78877e8d2ce7bd07d84bea7f0577d&quot;);" contenteditable="false" data-medium-element="true"><span style="font-size:28px;  letter-spacing:0;" class="m__move_arrow"><i class="mdi-hardware-keyboard-arrow-up md_up"></i> <i class="mdi-hardware-keyboard-arrow-down md_down"></i></span>
+<div class="container">
+		<div class="row">
+			<div class="col-md-6 sortableCols hovered">
+			
+										
+                                            
+                                            
+                                        
+                                              
+												
+                                            
+                                        </div>
+			<div class="col-md-6 sortableCols">
+			
+											
+                                            
+                                            
+                                        <h2 class="tie-to-modal margin-bottom-20 editable" contenteditable="true" data-medium-element="true" style="display: block;" data-placeholder="">Grumpy wizards headline</h2></div>
+		</div>
+	</div>
+	
+</section><section class="half-section-1-2 well no-padding box-layer wellundefined cover bgp-tc tie-to-modal" style="background-image: url(&quot;https://images.unsplash.com/photo-1487758608033-7780b34680ac?ixlib=rb-0.3.5&amp;q=80&amp;fm=jpg&amp;crop=entropy&amp;cs=tinysrgb&amp;w=1080&amp;fit=max&amp;s=ecb61be3bc933e91fe642a50459d62a9&quot;);"><span style="font-size:28px;  letter-spacing:0;" class="m__move_arrow"><i class="mdi-hardware-keyboard-arrow-up md_up"></i> <i class="mdi-hardware-keyboard-arrow-down md_down"></i></span>
+<div class="right  well cover ov-80 bgp-tc padding-top-30 padding-bottom-60 sortableCols tie-to-modal" style="display: block; background: url(&quot;https://images.unsplash.com/photo-1487744480471-9ca1bca6fb7d?ixlib=rb-0.3.5&amp;q=80&amp;fm=jpg&amp;crop=entropy&amp;cs=tinysrgb&amp;w=1080&amp;fit=max&amp;s=8291c433e1dd611eb8ce0d6355d859f8&quot;) rgb(7, 6, 6); color: rgb(237, 237, 237);">
+		<div class="container-fluid tie-to-modal">
+			<div class="row">
+				<div class="col-md-12 sortableCols">
+					<h2 class="tie-to-modal margin-bottom-20 editable" contenteditable="true" data-medium-element="true" style="display: block;" data-placeholder="">Your good story title, feature name or blog post here</h2><p class="tie-to-modal editable" contenteditable="true" data-medium-element="true" style="display: block;" data-placeholder="">
+                                                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
+                                            </p> <a href="#" class="btn btn-raised btn-material-pink btn-round btn-outline btn-white margin-top-40 tie-to-modal btn-md editable" title="my button title" style="display: inline-block;" contenteditable="true" data-placeholder="" data-medium-element="true">Read more</a>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="right  well cover ov-60 bgp-tc padding-top-30 padding-bottom-60 sortableCols tie-to-modal" style="display: block; background-image: url(&quot;https://images.unsplash.com/photo-1487746499354-6ec9a4cf4e2c?ixlib=rb-0.3.5&amp;q=80&amp;fm=jpg&amp;crop=entropy&amp;cs=tinysrgb&amp;w=1080&amp;fit=max&amp;s=2eac08ed8f77d20ed085ed637f74fbea&quot;); color: rgb(255, 255, 255);">
+		<div class="container-fluid tie-to-modal">
+			<div class="row">
+				<div class="col-md-12 sortableCols">
+					<h2 class="tie-to-modal margin-bottom-20 editable" contenteditable="true" data-medium-element="true" style="display: block;" data-placeholder="">Your good story title, feature name or blog post here</h2><p class="tie-to-modal editable" contenteditable="true" data-medium-element="true" style="display: block;" data-placeholder="">
+                                                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
+                                            </p><a href="#" class="btn btn-raised margin-top-40 btn-material-pink btn-outline btn-round btn-white tie-to-modal btn-md editable" title="my button title" style="display: inline-block;" contenteditable="true" data-placeholder="" data-medium-element="true">read more</a>
+				</div>
+			</div>
+		</div>
+	</div>
+</section>
+
+
+
+
+
+
+
+<section class="well section-team cover bgs-cover bgp-cc ov-10 box-layer padding-top-30 padding-bottom-40 tie-to-modal" style="display: block; color: rgb(255, 255, 255); background-image: url(&quot;images/new/faces.jpg&quot;); background-color: rgb(13, 71, 161);"><span style="font-size:28px;  letter-spacing:0;" class="m__move_arrow"><i class="mdi-hardware-keyboard-arrow-up md_up"></i> <i class="mdi-hardware-keyboard-arrow-down md_down"></i></span>
+	<div class="container">
+		<div class="row">
+			<div class="col-xs-10 col-xs-offset-1 col-md-6 col-md-offset-3 margin-bottom-20 sortableCols" style="">
+				
+											
+                                            
+                                            <h1 class="text-align-center headline-lg tie-to-modal editable" contenteditable="true" data-medium-element="true" data-placeholder="">What People Say</h1>
+                                        
+				<p class="text-center margin-top-0 text-md tie-to-modal editable" contenteditable="true" data-placeholder="" data-medium-element="true">
+					Sub-headline why you'll love our product.</p>
+			</div>
+		</div>
+		<div class="row">
+			<div class="col-xs-10 col-xs-offset-1" style="">
+				<div class="row margin-top-30">
+					<div class="col-md-4 sortableCols" style="">
+						<div class="row margin-top-30">
+							<div class="col-xs-3 sortableCols" style="">
+								 <img class="card-5 img-circle img-responsive  card-5 tie-to-modal" src="images/new/27m.jpg" alt="thumb">
+							</div>
+							<div class="col-xs-9 sortableCols" style="">
+								<h4 class="tie-to-modal editable" contenteditable="true" data-placeholder="" data-medium-element="true">
+									John Doe<br><small class="text-muted">CEO &amp; Founder</small>
+								</h4>
+							</div>
+							<div class="col-xs-12 sortableCols" style="">
+								<p class="margin-top-20 text-md tie-to-modal editable" contenteditable="true" data-placeholder="" data-medium-element="true">
+									Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been
+								</p>
+							</div>
+						</div>
+					</div>
+					<div class="col-md-4 sortableCols" style="">
+						<div class="row margin-top-30">
+							<div class="col-xs-3 sortableCols" style="">
+								 <img class="card-5 img-circle img-responsive  card-5 tie-to-modal" src="images/new/16w.jpg" alt="thumb">
+							</div>
+							<div class="col-xs-9 sortableCols" style="">
+								<h4 class="tie-to-modal editable" contenteditable="true" data-placeholder="" data-medium-element="true">
+									John Doe<br><small class="text-muted">CEO &amp; Founder</small>
+								</h4>
+							</div>
+							<div class="col-xs-12 sortableCols" style="">
+								<p class="margin-top-20 text-sm tie-to-modal editable" contenteditable="true" data-placeholder="" data-medium-element="true">
+									Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been
+								</p>
+							</div>
+						</div>
+					</div>
+					<div class="col-md-4 sortableCols" style="">
+						<div class="row margin-top-30">
+							<div class="col-xs-3 sortableCols" style="">
+								 <img class="card-5 img-circle img-responsive  card-5 tie-to-modal" src="images/new/14m.jpg" alt="thumb">
+							</div>
+							<div class="col-xs-9 sortableCols" style="">
+								<h4 class="tie-to-modal editable" contenteditable="true" data-placeholder="" data-medium-element="true">
+									John Doe<br><small class="text-muted">CEO &amp; Founder</small>
+								</h4>
+							</div>
+							<div class="col-xs-12 sortableCols" style="">
+								<p class="margin-top-20 text-sm tie-to-modal editable" contenteditable="true" data-placeholder="" data-medium-element="true">
+									Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been
+								</p>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</section><section class="well section-team cover bgs-cover bgp-cc ov-10 box-layer padding-bottom-100 padding-top-0 tie-to-modal" style="display: block; color: rgb(255, 255, 255); background-image: url(&quot;images/new/faces.jpg&quot;); background-color: rgb(13, 71, 161);"><span style="font-size:28px;  letter-spacing:0;" class="m__move_arrow"><i class="mdi-hardware-keyboard-arrow-up md_up"></i> <i class="mdi-hardware-keyboard-arrow-down md_down"></i></span>
+	<div class="container">
+		<div class="row">
+			<div class="col-xs-10 col-xs-offset-1 col-md-6 col-md-offset-3 margin-bottom-20 sortableCols" style="">
+				
+											
+                                            
+                                            
+                                        
+				
+			</div>
+		</div>
+		<div class="row">
+			<div class="col-xs-10 col-xs-offset-1" style="">
+				<div class="row margin-top-30">
+					<div class="col-md-4 sortableCols" style="">
+						<div class="row margin-top-30">
+							<div class="col-xs-3 sortableCols" style="">
+								 <img class="card-5 img-circle img-responsive  card-5 tie-to-modal" src="images/new/27m.jpg" alt="thumb">
+							</div>
+							<div class="col-xs-9 sortableCols" style="">
+								<h4 class="tie-to-modal editable" contenteditable="true" data-placeholder="" data-medium-element="true">
+									John Doe<br><small class="text-muted">CEO &amp; Founder</small>
+								</h4>
+							</div>
+							<div class="col-xs-12 sortableCols" style="">
+								<p class="margin-top-20 text-md tie-to-modal editable" contenteditable="true" data-placeholder="" data-medium-element="true">
+									Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been
+								</p>
+							</div>
+						</div>
+					</div>
+					<div class="col-md-4 sortableCols" style="">
+						<div class="row margin-top-30">
+							<div class="col-xs-3 sortableCols" style="">
+								 <img class="card-5 img-circle img-responsive  card-5 tie-to-modal" src="images/new/16w.jpg" alt="thumb">
+							</div>
+							<div class="col-xs-9 sortableCols" style="">
+								<h4 class="tie-to-modal editable" contenteditable="true" data-placeholder="" data-medium-element="true">
+									John Doe<br><small class="text-muted">CEO &amp; Founder</small>
+								</h4>
+							</div>
+							<div class="col-xs-12 sortableCols" style="">
+								<p class="margin-top-20 text-sm tie-to-modal editable" contenteditable="true" data-placeholder="" data-medium-element="true">
+									Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been
+								</p>
+							</div>
+						</div>
+					</div>
+					<div class="col-md-4 sortableCols" style="">
+						<div class="row margin-top-30">
+							<div class="col-xs-3 sortableCols" style="">
+								 <img class="card-5 img-circle img-responsive  card-5 tie-to-modal" src="images/new/14m.jpg" alt="thumb">
+							</div>
+							<div class="col-xs-9 sortableCols" style="">
+								<h4 class="tie-to-modal editable" contenteditable="true" data-placeholder="" data-medium-element="true">
+									John Doe<br><small class="text-muted">CEO &amp; Founder</small>
+								</h4>
+							</div>
+							<div class="col-xs-12 sortableCols" style="">
+								<p class="margin-top-20 text-sm tie-to-modal editable" contenteditable="true" data-placeholder="" data-medium-element="true">
+									Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been
+								</p>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</section><section class="well box-layer tie-to-modal text-align-center well-material-pink" style="display: block; color: rgb(255, 255, 255);" contenteditable="false" data-medium-element="true"><span style="font-size:28px;  letter-spacing:0;" class="m__move_arrow"><i class="mdi-hardware-keyboard-arrow-up md_up"></i> <i class="mdi-hardware-keyboard-arrow-down md_down"></i></span>
+<div class="container">
+			<div class="row">
+			<div class="col-md-2  hovered sortableCols">
+			</div>
+			<div class="col-md-8  sortableCols">
+			
+										
+                                            
+                                            <h3 class="tie-to-modal editable headline-lg" contenteditable="true" data-medium-element="true" data-placeholder="">Call to action goes here</h3>
+                                        
+                            
+                                    
+                                    
+                                    <a href="#" class="btn btn-lg btn-raised tie-to-modal editable btn-white btn-outline margin-top-30" title="my button title" contenteditable="true" data-medium-element="true" data-placeholder="">CALL TO ACTION BTN!</a>
+                                </div>
+			<div class="col-md-2  hovered sortableCols">
+			</div>
+		</div>
+	</div>
+	
+</section><section class="well well-material-black box-layer tie-to-modal" style="display: block;" contenteditable="false" data-medium-element="true"><span style="font-size:28px;  letter-spacing:0;" class="m__move_arrow"><i class="mdi-hardware-keyboard-arrow-up md_up"></i> <i class="mdi-hardware-keyboard-arrow-down md_down"></i></span> <div class="container"> <div class="row"> <div class="col-xs-12 col-sm-12 col-md-5 pull-right sortableCols" style=""> <h4 class="center tie-to-modal editable" contenteditable="true" data-placeholder="" data-medium-element="true"> <span class="">SUBSCRIBE TO US</span> </h4> <form class="contact-form tie-to-modal" style="display: block;"> <input type="hidden" name="project_name" value="Site Name"><input class="EmailUs" type="hidden" name="admin_email" value="enteryour@email.com"><input type="hidden" name="form_subject" value="Form Subject"><input class="form-control" placeholder="Enter name" type="text" name="Name"><br><input class="form-control" placeholder="Your email" type="text" name="E-mail"><br><input class="form-control" placeholder="Your phone" type="text" name="Phone"><br> <button class="btn btn-lg btn-material-blue-grey tie-to-modal editable" contenteditable="true" data-placeholder="" data-medium-element="true">subscribe now</button> </form> </div> <div class="col-md-7" style=""> <div class="row"> <div class="col-xs-6 col-sm-6 col-md-6 sortableCols" style=""> <h4 class="center margin-top-20 margin-bottom-20 tie-to-modal editable" contenteditable="true" data-placeholder="" data-medium-element="true"> <span class="">Useful Links</span> </h4> <ul class="footer-nav-links tie-to-modal"> <li class="not-editable margin-bottom-10 tie-to-modal"> <a href="http://www.bootstraptor.com" class="editable" contenteditable="true" data-placeholder="" data-medium-element="true">Bootstraptor.com</a> </li><li class="not-editable margin-bottom-10 tie-to-modal"> <a href="http://www.bootstraptor.com" class="editable" contenteditable="true" data-placeholder="" data-medium-element="true">Bootstraptor.com</a> </li><li class="not-editable margin-bottom-10 tie-to-modal"> <a href="http://www.bootstraptor.com" class="editable" contenteditable="true" data-placeholder="" data-medium-element="true">Bootstraptor.com</a> </li>   </ul> </div> <div class="col-xs-6 col-sm-6 col-md-6 sortableCols" style=""> <h4 class="center margin-top-20 margin-bottom-20 tie-to-modal editable" contenteditable="true" data-placeholder="" data-medium-element="true"> <span class="">Useful Links</span> </h4> <ul class="footer-nav-links tie-to-modal"> <li class="not-editable margin-bottom-10 tie-to-modal"> <a href="http://www.bootstraptor.com" class="editable" contenteditable="true" data-placeholder="" data-medium-element="true">Bootstraptor.com</a> </li><li class="not-editable margin-bottom-10 tie-to-modal"> <a href="http://www.bootstraptor.com" class="editable" contenteditable="true" data-placeholder="" data-medium-element="true">Bootstraptor.com</a> </li><li class="not-editable margin-bottom-10 tie-to-modal"> <a href="http://www.bootstraptor.com" class="editable" contenteditable="true" data-placeholder="" data-medium-element="true">Bootstraptor.com</a> </li>   </ul> </div> <div class="col-xs-7 col-sm-6 col-md-6 pull-right sortableCols" style=""> <h4 class="center margin-top-20 tie-to-modal editable" contenteditable="true" data-placeholder="" data-medium-element="true"> <span class="">Our office</span> </h4><hr style="display: block;" class="tie-to-modal"> <address class="tie-to-modal editable" contenteditable="true" data-placeholder="" data-medium-element="true"> <strong class="">bootstraptor.com, LLC.</strong><br><i class="fa fa-map-marker tie-to-modal"></i> 795 Folsom Ave, Suite 600<br> San Francisco, CA 94107<br><i class="icon-phone-sign tie-to-modal"></i> + 4 (123) 456-7890</address> </div> <div class="col-xs-5 col-sm-12 col-md-6 sortableCols" style=""> <img class="img-responsive tie-to-modal" src="images/logo_hip.png" alt=""> </div> </div> </div> </div> </div> </section>
+<script type="text/javascript" id="usersCarouselScripts"> var clickEvent622134 = false;$('#carousel-622134').find('li[data-target]').click(function () {   $(this).parent().find('.active').removeClass('active');  $(this).addClass('active');clickEvent622134 = true;});$('#carousel-622134').bind('slide.bs.carousel', function (e) {  if (!clickEvent622134) {  var nextLi = $('#carousel-622134').find('li.carousel-control.active').removeClass('active').next().addClass('active');  if (nextLi.length == 0) {  $('#carousel-622134').find('li.carousel-control').first().addClass('active');  }}  clickEvent622134 = false;});</script>

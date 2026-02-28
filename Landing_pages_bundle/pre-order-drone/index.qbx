@@ -1,0 +1,553 @@
+<link id="stylesChange" href="css/bootstrap.min.css" rel="stylesheet">
+
+<header class="box-layer" role="banner" itemscope="" itemtype="http://schema.org/WPHeader" style="display: block;"><span style="font-size:28px;  letter-spacing:0;" class="m__move_arrow"><i class="mdi-hardware-keyboard-arrow-up md_up"></i> <i class="mdi-hardware-keyboard-arrow-down md_down"></i></span>
+	
+	<nav class="navbar tie-to-modal" style="color: rgb(10, 10, 10); background-color: #fff;">
+	<div class="container">
+		<div class="navbar-header">
+			 <button type="button" class="navbar-toggle medium-editor-placeholder tie-to-modal" data-toggle="collapse" data-target=".navbar-inverse-collapse" contenteditable="false" data-placeholder="" data-medium-element="true"><span class="icon-bar"></span><span class="icon-bar"></span><span class="icon-bar"></span></button> <a class="navbar-brand tie-to-modal" href="#" title="material design bootstrap" contenteditable="false" data-placeholder="" data-medium-element="true">SiteName.com</a>
+			<div class="ripple-wrapper">
+			</div>
+		</div>
+		<div class="navbar-collapse collapse navbar-inverse-collapse">
+			<ul class="nav navbar-nav navbar-right ui-sortable">
+				<li class="not-editable tie-to-modal" style="left: 0px; top: 0px;">
+					 <a class="scroll" href="#newlink" contenteditable="false" data-placeholder="" data-medium-element="true">Features</a>
+				</li>
+				<li class="not-editable tie-to-modal" style="position: relative; left: 0px; top: 0px;">
+					 <a class="scroll" href="#about" contenteditable="false" data-placeholder="" data-medium-element="true">About</a>
+				</li>
+				<li class="not-editable tie-to-modal" style="position: relative; left: 0px; top: 0px;">
+					 <a class="scroll" href="#newlink" contenteditable="false" data-placeholder="" data-medium-element="true">Projects</a>
+				</li>
+				<li class="not-editable tie-to-modal">
+					 <a class="scroll" href="#reviews" contenteditable="false" data-placeholder="" data-medium-element="true">Reviews</a>
+				</li>
+					<li class="not-editable tie-to-modal">
+		 <a href="#pricing" class="btn navbar-btn scroll ai-color tie-to-modal btn-material-deep-orange" style="border-color: rgb(6, 7, 6);" contenteditable="false" data-placeholder="" data-medium-element="true">PRE-ORDER NOW!</a>
+	</li>
+			</ul>
+		</div>
+	</div>
+</nav>
+	
+</header><section class="well text-align-center padding-bottom-0  cover bgp-tc box-layer padding-top-10 tie-to-modal" style="display: block; color: rgb(0, 0, 0);"><span style="font-size:28px;  letter-spacing:0;" class="m__move_arrow"><i class="mdi-hardware-keyboard-arrow-up md_up"></i> <i class="mdi-hardware-keyboard-arrow-down md_down"></i></span> <div class="container"> <div class="row"> <div class="text-align-center col-md-offset-1 col-md-10 mode-elements-column-hover2 sortableChildren sortableCols ui-sortable" style=""> <h1 class="margin-top-50 headline-lg margin-bottom-40 tie-to-modal" contenteditable="false" data-placeholder="" data-medium-element="true"> Your title, product name or event goes here </h1> <h2 class="page-section margin-top-0 hero-title-xl text-color-primary margin-bottom-50 headline-md tie-to-modal" style="display: block;" contenteditable="false" data-placeholder="" data-medium-element="true"> Sub headline title goes here </h2> <a href="#pricing" class="scroll btn btn-round btn-lg btn-material-blue-grey margin-bottom-10 tie-to-modal" type="button" contenteditable="false" data-placeholder="" data-medium-element="true">HOW IT WORK</a><img src="images/new/drone.png" class="img-responsive margin-top-30 img-center tie-to-modal" alt="" style="display: block;"> <div class="col-md-12 text-align-center tie-to-modal sortableCols ui-sortable" style=""> </div> </div> </div> </div> <span id="addBlockBtn" style="position:absolute; left:50%; bottom:-10px; margin-left:-10px; z-index:1400"><button class="btn btn-white btn-xs " title="clone section"><i class="fa fa-copy"></i></button></span></section><section style="padding-top: 100px;" class="well  cover     bgp-cr box-layer tie-to-modal"><span style="font-size:28px;  letter-spacing:0;" class="m__move_arrow"><i class="mdi-hardware-keyboard-arrow-up md_up"></i> <i class="mdi-hardware-keyboard-arrow-down md_down"></i></span>
+	<div class="container" style="position: relative; opacity: 1; z-index: 0; display: block;">
+		<div class="row" style="position: relative; opacity: 1; z-index: 0;">
+			<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 text-left sortableCols ui-sortable" style="">
+				<p class="text-center text-md margin-bottom-10 tie-to-modal" contenteditable="false" data-placeholder="" data-medium-element="true">
+					100% Focus On Your Business Goals
+				</p>
+				<h2 style="position: relative; opacity: 1; z-index: 0; left: 0px; top: 0px;" class="margin-top-10 margin-bottom-50 text-center headline-lg tie-to-modal" contenteditable="false" data-placeholder="" data-medium-element="true">
+					Most Powerful Features</h2>
+			</div>
+		</div>
+		<div class="row">
+			<div class="col-md-10 col-md-offset-1 col-lg-offset-1 col-lg-10" style="">
+				<div class="row">
+					<div class="col-md-4 col-xs-12 col-sm-12 col-lg-4 text-center sortableCols ui-sortable" style="margin-top: 30px; ">
+						<div class="row">
+							<div class="col-md-12 col-xs-12 col-lg-12 col-sm-3 sortableCols ui-sortable" style="">
+								<i class="icon-featured-circle  mdi-file-cloud-queue fa-2x tie-to-modal"></i>
+							</div>
+							<div class="col-md-12 col-xs-12 col-lg-12 col-sm-9 sortableCols ui-sortable" style="">
+								
+								<p style="position: relative; opacity: 1; z-index: 0;" class="text-sm text-align-center margin-top-10 tie-to-modal" contenteditable="false" data-placeholder="" data-medium-element="true">
+									Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor. Duis mollis, est non commodo luctus.
+								</p>
+							</div>
+						</div>
+					</div>
+					<div class="col-md-4 col-xs-12 col-sm-12 col-lg-4 text-center sortableCols ui-sortable" style="margin-top: 30px; ">
+						<div class="row">
+							<div class="col-md-12 col-xs-12 col-lg-12 col-sm-3 sortableCols ui-sortable" style="">
+								<i class="icon-featured-circle mdi-hardware-gamepad fa-2x tie-to-modal"></i>
+							</div>
+							<div class="col-md-12 col-xs-12 col-lg-12 col-sm-9 sortableCols ui-sortable" style="">
+								
+								<p style="position: relative; opacity: 1; z-index: 0;" class="text-sm margin-top-10 tie-to-modal" contenteditable="false" data-placeholder="" data-medium-element="true">
+									Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor. Duis mollis, est non commodo luctus.
+								</p>
+							</div>
+						</div>
+					</div>
+					<div class="col-md-4 col-xs-12 col-sm-12 col-lg-4 text-center sortableCols ui-sortable" style="margin-top: 30px; ">
+						<div class="row">
+							<div class="col-md-12 col-xs-12 col-lg-12 col-sm-3 sortableCols ui-sortable" style="">
+								<i class="icon-featured-circle mdi-hardware-dock fa-2x tie-to-modal"></i>
+							</div>
+							<div class="col-md-12 col-xs-12 col-lg-12 col-sm-9 sortableCols ui-sortable" style="">
+								
+								<p style="position: relative; opacity: 1; z-index: 0;" class="text-sm margin-top-10 tie-to-modal" contenteditable="false" data-placeholder="" data-medium-element="true">
+									Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor. Duis mollis, est non commodo luctus.
+								</p>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="row">
+			<div class="col-md-10 col-md-offset-1 col-lg-offset-1 col-lg-10" style="">
+				<div class="row">
+					<div class="col-md-4 col-xs-12 col-sm-12 col-lg-4 text-center sortableCols ui-sortable" style="margin-top: 30px; ">
+						<div class="row">
+							<div class="col-md-12 col-xs-12 col-lg-12 col-sm-3 sortableCols ui-sortable" style="">
+								<i class="icon-featured-circle  mdi-hardware-memory fa-2x tie-to-modal"></i>
+							</div>
+							<div class="col-md-12 col-xs-12 col-lg-12 col-sm-9 sortableCols ui-sortable" style="">
+								
+								<p style="position: relative; opacity: 1; z-index: 0;" class="text-sm text-align-center margin-top-10 tie-to-modal" contenteditable="false" data-placeholder="" data-medium-element="true">
+									Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor. Duis mollis, est non commodo luctus.
+								</p>
+							</div>
+						</div>
+					</div>
+					<div class="col-md-4 col-xs-12 col-sm-12 col-lg-4 text-center sortableCols ui-sortable" style="margin-top: 30px; ">
+						<div class="row">
+							<div class="col-md-12 col-xs-12 col-lg-12 col-sm-3 sortableCols ui-sortable" style="">
+								<i class="icon-featured-circle mdi-hardware-keyboard-hide fa-2x tie-to-modal"></i>
+							</div>
+							<div class="col-md-12 col-xs-12 col-lg-12 col-sm-9 sortableCols ui-sortable" style="">
+								
+								<p style="position: relative; opacity: 1; z-index: 0;" class="text-sm margin-top-10 tie-to-modal" contenteditable="false" data-placeholder="" data-medium-element="true">
+									Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor. Duis mollis, est non commodo luctus.
+								</p>
+							</div>
+						</div>
+					</div>
+					<div class="col-md-4 col-xs-12 col-sm-12 col-lg-4 text-center sortableCols ui-sortable" style="margin-top: 30px; ">
+						<div class="row">
+							<div class="col-md-12 col-xs-12 col-lg-12 col-sm-3 sortableCols ui-sortable" style="">
+								<i class="icon-featured-circle mdi-hardware-security fa-2x tie-to-modal"></i>
+							</div>
+							<div class="col-md-12 col-xs-12 col-lg-12 col-sm-9 sortableCols ui-sortable" style="">
+								
+								<p style="position: relative; opacity: 1; z-index: 0;" class="text-sm margin-top-10 tie-to-modal" contenteditable="false" data-placeholder="" data-medium-element="true">
+									Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor. Duis mollis, est non commodo luctus.
+								</p>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</section>
+<section class="cover box-layer paint-area well wellundefined tie-to-modal" style=""><span style="font-size:28px;  letter-spacing:0;" class="m__move_arrow"><i class="mdi-hardware-keyboard-arrow-up md_up"></i> <i class="mdi-hardware-keyboard-arrow-down md_down"></i></span>
+	<div class="container">
+		<div class="row">
+	<div class="col-md-6 sortableCols ui-sortable" style="">
+		<img src="images/new/drone.png" class="img-responsive margin-top-30 tie-to-modal" alt="">
+	</div>
+	<div class="col-md-6" style="">
+		<h4 class="header-text padding-bottom-20 margin-top-40 paint-area paint-area--text tie-to-modal mode-elements-column-hover headline-lg" contenteditable="false" data-placeholder="" data-medium-element="true">
+			Feature Headline
+		</h4>
+		<p class="padding-bottom-10 margin-top-0 text-xl paint-area paint-area--text tie-to-modal" contenteditable="false" data-placeholder="" data-medium-element="true">
+			...works anywhere, awesome!
+		</p>
+		<div class="row">
+			<div class="col-md-6 sortableCols ui-sortable" style="">
+				<div class="row margin-top-50">
+					<div class="col-sm-12 col-xs-3 sortableCols ui-sortable" style="">
+						<i class="margin-bottom-20 mdi-image-camera fa-2x tie-to-modal"></i>
+					</div>
+					<div class="col-sm-12 col-xs-8 sortableCols ui-sortable" style="">
+						<p class="text-md paint-area paint-area--text tie-to-modal" contenteditable="false" data-placeholder="" data-medium-element="true">
+							Try to combine imaginery with text and show meaningful printscreens from your app.
+						</p>
+					</div>
+				</div>
+			</div>
+			<div class="col-md-6 sortableCols ui-sortable" style="">
+				<div class="row margin-top-50">
+					<div class="col-sm-12 col-xs-3 sortableCols ui-sortable" style="">
+						<i class="margin-bottom-20 mdi-hardware-keyboard-hide fa-2x tie-to-modal"></i>
+					</div>
+					<div class="col-sm-12 col-xs-8 sortableCols ui-sortable" style="">
+						<p class="text-md paint-area paint-area--text tie-to-modal" contenteditable="false" data-placeholder="" data-medium-element="true">
+							Try to combine imaginery with text and show meaningful printscreens from your app.
+						</p>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+	</div>
+</section>
+
+<section class="well box-layer wellundefined tie-to-modal" style="padding-bottom: 0px;"><span style="font-size:28px;  letter-spacing:0;" class="m__move_arrow"><i class="mdi-hardware-keyboard-arrow-up md_up"></i> <i class="mdi-hardware-keyboard-arrow-down md_down"></i></span>
+	<div class="container">
+		<div class="row">
+			<div class="col-md-12" style="">
+				<div class="row">
+					<div class="col-md-10 col-md-offset-1 text-center sortableCols ui-sortable" style="">
+						
+					<img src="images/new/drone.png" class="img-responsive margin-top-30 img-center tie-to-modal" alt=""></div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="well padding-top-100 padding-bottom-70 margin-bottom-0 tie-to-modal" style="color: rgb(51, 51, 51);">
+	<div class="container">
+		<div class="row">
+			<div class="col-md-3 sortableCols ui-sortable" style="">
+				<h3 class="headline-sm tie-to-modal" contenteditable="false" data-placeholder="" data-medium-element="true">
+					 <strong>FEATURE TITLE</strong>
+				</h3>
+				<p class="tie-to-modal" contenteditable="false" data-placeholder="" data-medium-element="true">
+					These elements do far more than please the eye.
+				</p>
+			</div>
+			<div class="col-md-3 sortableCols ui-sortable" style="">
+				<h3 class="headline-sm tie-to-modal" contenteditable="false" data-placeholder="" data-medium-element="true">
+					 <strong>FEATURE TITLE</strong>
+				</h3>
+				<p class="tie-to-modal" contenteditable="false" data-placeholder="" data-medium-element="true">
+					These elements do far more than please the eye.
+				</p>
+			</div>
+			<div class="col-md-3 sortableCols ui-sortable" style="">
+				<h3 class="headline-sm tie-to-modal" contenteditable="false" data-placeholder="" data-medium-element="true">
+					 <strong>FEATURE TITLE</strong>
+				</h3>
+				<p class="tie-to-modal" contenteditable="false" data-placeholder="" data-medium-element="true">
+					These elements do far more than please the eye.
+				</p>
+			</div>
+			<div class="col-md-3 sortableCols ui-sortable" style="">
+				<h3 class="headline-sm tie-to-modal" contenteditable="false" data-placeholder="" data-medium-element="true">
+					 <strong>FEATURE TITLE</strong>
+				</h3>
+				<p class="tie-to-modal" contenteditable="false" data-placeholder="" data-medium-element="true">
+					These elements do far more than please the eye.
+				</p>
+			</div>
+		</div>
+	</div>
+</div>
+</section><section class="cover bgp-ct box-layer paint-area well wellundefined tie-to-modal" style=""><span style="font-size:28px;  letter-spacing:0;" class="m__move_arrow"><i class="mdi-hardware-keyboard-arrow-up md_up"></i> <i class="mdi-hardware-keyboard-arrow-down md_down"></i></span>
+	<div class="container">
+		<div class="row">
+			<div class="col-sm-7 sortableCols ui-sortable" style="">
+				<img src="images/new/drone.png" class="img-responsive margin-top-30 tie-to-modal" alt="">
+			</div>
+			<div class="col-sm-5" style="">
+				<div class="row margin-top-30">
+					<div class="col-xs-3 sortableCols ui-sortable" style="">
+						<i class="mdi-action-3d-rotation fa-2x tie-to-modal" style="border: 2px solid inherit; border-radius: 50%; margin-top: 10px; margin-right: 10px; margin-bottom: 10px; padding: 11px;"></i>
+					</div>
+					<div class="col-xs-9 sortableCols ui-sortable" style="">
+						<p class="text-md paint-area paint-area--text tie-to-modal" contenteditable="false" data-placeholder="" data-medium-element="true">
+							Your feature title goes here Your feature title goes Your feature title goes here Your feature title goes
+						</p>
+					</div>
+				</div>
+				<div class="row margin-top-30">
+					<div class="col-xs-3 sortableCols ui-sortable" style="">
+						<i class="mdi-action-aspect-ratio fa-2x tie-to-modal" style="border: 2px solid inherit; border-radius: 50%; margin-top: 10px; margin-right: 10px; margin-bottom: 10px; padding: 11px;"></i>
+					</div>
+					<div class="col-xs-9 sortableCols ui-sortable" style="">
+						<p class="text-md paint-area paint-area--text tie-to-modal" contenteditable="false" data-placeholder="" data-medium-element="true">
+							Your feature title goes here Your feature title goes Your feature title goes here Your feature title goes
+						</p>
+					</div>
+				</div>
+				<div class="row margin-top-30">
+					<div class="col-xs-3 sortableCols ui-sortable" style="">
+						<i class="mdi-action-group-work fa-2x tie-to-modal" style="border: 2px solid inherit; border-radius: 50%; margin-top: 10px; margin-right: 10px; margin-bottom: 10px; padding: 11px;"></i>
+					</div>
+					<div class="col-xs-9 sortableCols ui-sortable" style="">
+						<p class="text-md paint-area paint-area--text tie-to-modal" contenteditable="false" data-placeholder="" data-medium-element="true">
+							Your feature title goes here Your feature title goes Your feature title goes here Your feature title goes
+						</p>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</section>
+<section class="cover bgp-ct box-layer paint-area well wellundefined tie-to-modal" style=""><span style="font-size:28px;  letter-spacing:0;" class="m__move_arrow"><i class="mdi-hardware-keyboard-arrow-up md_up"></i> <i class="mdi-hardware-keyboard-arrow-down md_down"></i></span>
+	<div class="container">
+		<div class="row">
+			<div class="col-sm-5" style="">
+				<div class="row margin-top-30">
+					<div class="col-xs-9 sortableCols ui-sortable" style="">
+						<p class="text-md paint-area paint-area--text tie-to-modal" contenteditable="false" data-placeholder="" data-medium-element="true">
+							Your feature title goes here Your feature title goes Your feature title goes here Your feature title goes
+						</p>
+					</div>
+					<div class="col-xs-3 sortableCols ui-sortable" style="">
+						<i class="mdi-action-explore fa-2x tie-to-modal" style="border: 2px solid inherit; border-radius: 50%; margin-top: 10px; margin-right: 10px; margin-bottom: 10px; padding: 11px;"></i>
+					</div>
+				</div>
+				<div class="row margin-top-30">
+					<div class="col-xs-9 sortableCols ui-sortable" style="">
+						<p class="text-md paint-area paint-area--text tie-to-modal" contenteditable="false" data-placeholder="" data-medium-element="true">
+							Your feature title goes here Your feature title goes Your feature title goes here Your feature title goes
+						</p>
+					</div>
+					<div class="col-xs-3 sortableCols ui-sortable" style="">
+						<i class="mdi-action-language fa-2x tie-to-modal" style="border: 2px solid inherit; border-radius: 50%; margin-top: 10px; margin-right: 10px; margin-bottom: 10px; padding: 11px;"></i>
+					</div>
+				</div>
+				<div class="row margin-top-30">
+					<div class="col-xs-9 sortableCols ui-sortable" style="">
+						<p class="text-md paint-area paint-area--text tie-to-modal" contenteditable="false" data-placeholder="" data-medium-element="true">
+							Your feature title goes here Your feature title goes Your feature title goes here Your feature title goes
+						</p>
+					</div>
+					<div class="col-xs-3 sortableCols ui-sortable" style="">
+						<i class="mdi-action-settings-remote fa-2x tie-to-modal" style="border: 2px solid inherit; border-radius: 50%; margin-top: 10px; margin-right: 10px; margin-bottom: 10px; padding: 11px;"></i>
+					</div>
+				</div>
+			</div>
+			<div class="col-sm-7 sortableCols ui-sortable" style="">
+				
+			<img src="images/new/drone.png" class="img-responsive margin-top-30 tie-to-modal" alt=""></div>
+		</div>
+	</div>
+</section>
+<section class="well  section-team cover bgs-cover bgp-cc box-layer paint-area wellundefined tie-to-modal" style="display: block; padding-top: 50px; color: rgb(0, 0, 0);"><span style="font-size:28px;  letter-spacing:0;" class="m__move_arrow"><i class="mdi-hardware-keyboard-arrow-up md_up"></i> <i class="mdi-hardware-keyboard-arrow-down md_down"></i></span>
+	<div class="container">
+		<div class="row">
+			<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 margin-bottom-50 sortableCols ui-sortable" style="">
+				<h3 class="page-header text-center headline-lg paint-area paint-area--text tie-to-modal" style="margin-bottom: 50px;" contenteditable="false" data-placeholder="" data-medium-element="true">
+					 <strong>What People Say</strong>
+				</h3>
+			</div>
+		</div>
+		<div class="row">
+			<div class="col-md-4" style="">
+				<div class="row margin-top-30">
+					<div class="col-xs-3 sortableCols ui-sortable" style="">
+						<img class="card-5 img-circle img-responsive  card-5 tie-to-modal" src="images/new/11m.jpg" alt="thumb">
+					</div>
+					<div class="col-xs-9 sortableCols ui-sortable" style="">
+						<h4 class="paint-area paint-area--text tie-to-modal" contenteditable="false" data-placeholder="" data-medium-element="true">
+							John Doe<br><small class="text-muted paint-area paint-area--text">CEO &amp; Founder</small>
+						</h4>
+					</div>
+					<div class="col-xs-12 sortableCols ui-sortable" style="">
+						<p class="margin-top-20 paint-area paint-area--text tie-to-modal" contenteditable="false" data-placeholder="" data-medium-element="true">
+							Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been
+						</p>
+					</div>
+				</div>
+			</div>
+			<div class="col-md-4" style="">
+				<div class="row margin-top-30">
+					<div class="col-xs-3 sortableCols ui-sortable" style="">
+						<img class="card-5 img-circle img-responsive  card-5 tie-to-modal" src="images/new/31m.jpg" alt="thumb">
+					</div>
+					<div class="col-xs-9 sortableCols ui-sortable" style="">
+						<h4 class="paint-area paint-area--text tie-to-modal" contenteditable="false" data-placeholder="" data-medium-element="true">
+							John Doe<br><small class="text-muted paint-area paint-area--text">CEO &amp; Founder</small>
+						</h4>
+					</div>
+					<div class="col-xs-12 sortableCols ui-sortable" style="">
+						<p class="margin-top-20 paint-area paint-area--text tie-to-modal" contenteditable="false" data-placeholder="" data-medium-element="true">
+							Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been
+						</p>
+					</div>
+				</div>
+			</div>
+			<div class="col-md-4" style="">
+				<div class="row margin-top-30">
+					<div class="col-xs-3 sortableCols ui-sortable" style="">
+						<img class="card-5 img-circle img-responsive  card-5 tie-to-modal" src="images/new/49w.jpg" alt="thumb">
+					</div>
+					<div class="col-xs-9 sortableCols ui-sortable" style="">
+						<h4 class="paint-area paint-area--text tie-to-modal" contenteditable="false" data-placeholder="" data-medium-element="true">
+							John Doe<br><small class="text-muted paint-area paint-area--text">CEO &amp; Founder</small>
+						</h4>
+					</div>
+					<div class="col-xs-12 sortableCols ui-sortable" style="">
+						<p class="margin-top-20 paint-area paint-area--text tie-to-modal" contenteditable="false" data-placeholder="" data-medium-element="true">
+							Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been
+						</p>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="row margin-top-100">
+			<div class="col-md-4" style="">
+				<div class="row margin-top-30">
+					<div class="col-xs-3 sortableCols ui-sortable" style="">
+						<img class="card-5 img-circle img-responsive  card-5 tie-to-modal" src="images/new/27m.jpg" alt="thumb">
+					</div>
+					<div class="col-xs-9 sortableCols ui-sortable" style="">
+						<h4 class="paint-area paint-area--text tie-to-modal" contenteditable="false" data-placeholder="" data-medium-element="true">
+							John Doe<br><small class="text-muted paint-area paint-area--text">CEO &amp; Founder</small>
+						</h4>
+					</div>
+					<div class="col-xs-12 sortableCols ui-sortable" style="">
+						<p class="margin-top-20 paint-area paint-area--text tie-to-modal" contenteditable="false" data-placeholder="" data-medium-element="true">
+							Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been
+						</p>
+					</div>
+				</div>
+			</div>
+			<div class="col-md-4" style="">
+				<div class="row margin-top-30">
+					<div class="col-xs-3 sortableCols ui-sortable" style="">
+						<img class="card-5 img-circle img-responsive  card-5 tie-to-modal" src="images/new/16w.jpg" alt="thumb">
+					</div>
+					<div class="col-xs-9 sortableCols ui-sortable" style="">
+						<h4 class="paint-area paint-area--text tie-to-modal" contenteditable="false" data-placeholder="" data-medium-element="true">
+							John Doe<br><small class="text-muted paint-area paint-area--text">CEO &amp; Founder</small>
+						</h4>
+					</div>
+					<div class="col-xs-12 sortableCols ui-sortable" style="">
+						<p class="margin-top-20 paint-area paint-area--text tie-to-modal" contenteditable="false" data-placeholder="" data-medium-element="true">
+							Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been
+						</p>
+					</div>
+				</div>
+			</div>
+			<div class="col-md-4" style="">
+				<div class="row margin-top-30">
+					<div class="col-xs-3 sortableCols ui-sortable" style="">
+						<img class="card-5 img-circle img-responsive  card-5 tie-to-modal" src="images/new/14m.jpg" alt="thumb">
+					</div>
+					<div class="col-xs-9 sortableCols ui-sortable" style="">
+						<h4 class="paint-area paint-area--text tie-to-modal" contenteditable="false" data-placeholder="" data-medium-element="true">
+							John Doe<br><small class="text-muted paint-area paint-area--text">CEO &amp; Founder</small>
+						</h4>
+					</div>
+					<div class="col-xs-12 sortableCols ui-sortable" style="">
+						<p class="margin-top-20 paint-area paint-area--text tie-to-modal" contenteditable="false" data-placeholder="" data-medium-element="true">
+							Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been
+						</p>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</section><section style="display: block; padding-top: 100px; padding-bottom: 200px;" class="well cover header  bgs-cover bgp-bc bgfixed box-layer paint-area wellundefined tie-to-modal"><span style="font-size:28px;  letter-spacing:0;" class="m__move_arrow"><i class="mdi-hardware-keyboard-arrow-up md_up"></i> <i class="mdi-hardware-keyboard-arrow-down md_down"></i></span>
+	<div class="container">
+		<div class="row">
+			
+			<div class="col-md-4" style="">
+				
+				<p class="paint-area paint-area--text margin-bottom-0 margin-top-50 text-lg tie-to-modal" contenteditable="false" data-placeholder="" data-medium-element="true" style="z-index: 1020;"><i class="">"Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been"</i></p><div class="row margin-top-30">
+					<div class="col-xs-3 sortableCols ui-sortable" style="">
+						<img class="card-5 img-circle img-responsive  card-5 tie-to-modal" src="images/new/49w.jpg" alt="thumb">
+					</div>
+					<div class="col-xs-9 sortableCols ui-sortable" style="">
+						
+					<h4 class="paint-area paint-area--text tie-to-modal" contenteditable="false" data-placeholder="" data-medium-element="true" style="z-index: 1020;">
+							John Doe<br><small class="text-muted paint-area paint-area--text">CEO &amp; Founder</small>
+						</h4></div>
+					<div class="col-xs-12 sortableCols ui-sortable" style="">
+						
+					</div>
+				</div>
+				
+			</div><div class="col-md-6 col-md-offset-2 sortableCols ui-sortable" style="">
+				
+			<img src="images/new/drone.png" class="img-responsive margin-top-30 tie-to-modal" alt=""></div>
+		</div>
+	</div>
+	<div class="next-container">
+		 <a href="#getitnow" class="next-step-arrow scroll medium-editor-placeholder paint-area paint-area--text" contenteditable="false" data-placeholder="" data-medium-element="true"><span class="circle" style=" "></span><span class="arrow over mdi-navigation-expand-more"></span><span class="arrow out mdi-navigation-expand-more"></span></a>
+	</div>
+</section><section style="display: block;" class="well box-layer paint-area wellundefined tie-to-modal" id="section-2"><span style="font-size:28px;  letter-spacing:0;" class="m__move_arrow"><i class="mdi-hardware-keyboard-arrow-up md_up"></i> <i class="mdi-hardware-keyboard-arrow-down md_down"></i></span>
+	<div class="container">
+		<div class="row">
+			<div class="col-md-12 sortableCols ui-sortable" style="">
+				<h2 class="text-center headline-lg paint-area paint-area--text tie-to-modal" contenteditable="false" data-placeholder="" data-medium-element="true">HEADER TITLE GOES HERE</h2>
+				<h2 class="text-center headline-md margin-bottom-50 paint-area paint-area--text tie-to-modal" contenteditable="false" data-placeholder="" data-medium-element="true">
+	Sub header title goes here
+</h2>
+			</div>
+			<div class="row">
+				<div class="col-md-8 col-md-offset-2 sortableCols ui-sortable" style="">
+					
+				</div>
+			</div>
+			<div class="col-md-10 col-md-offset-1" style="">
+				<div class="row">
+					<div class="col-md-6 sortableCols ui-sortable" style="">
+						<div class="row">
+							<div class="col-xs-2 col-sm-2 col-md-2 col-lg-2 text-right sortableCols ui-sortable" style="">
+								<i class="mdi-av-radio fa-2x tie-to-modal"></i>
+							</div>
+							<div class="col-xs-10 col-sm-10 col-md-10 col-lg-10 sortableCols ui-sortable" style="">
+								<h4 class="paint-area paint-area--text tie-to-modal" contenteditable="false" data-placeholder="" data-medium-element="true">
+									FEATURE TITLE
+								</h4>
+								<p class="text-sm paint-area paint-area--text tie-to-modal" contenteditable="false" data-placeholder="" data-medium-element="true">
+									Lorem Ipsum is simply dummy text of the printing and typesetting ind ustry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer.
+								</p>
+							</div>
+						</div>
+					</div>
+					<div class="col-md-6 sortableCols ui-sortable" style="">
+						<div class="row">
+							<div class="col-xs-2 col-sm-2 col-md-2 col-lg-2 text-right sortableCols ui-sortable" style="">
+								<i class="mdi-av-play-circle-outline fa-2x tie-to-modal"></i>
+							</div>
+							<div class="col-xs-10 col-sm-10 col-md-10 col-lg-10 sortableCols ui-sortable" style="">
+								<h4 class="paint-area paint-area--text tie-to-modal" contenteditable="false" data-placeholder="" data-medium-element="true">
+									FEATURE TITLE
+								</h4>
+								<p class="text-sm paint-area paint-area--text tie-to-modal" contenteditable="false" data-placeholder="" data-medium-element="true">
+									Lorem Ipsum is simply dummy text of the printing and typesetting ind ustry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer.
+								</p>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="row margin-top-30">
+					<div class="col-md-6 sortableCols ui-sortable" style="">
+						<div class="row">
+							<div class="col-xs-2 col-sm-2 col-md-2 col-lg-2 text-right sortableCols ui-sortable" style="">
+								<i class="mdi-av-subtitles fa-2x tie-to-modal"></i>
+							</div>
+							<div class="col-xs-10 col-sm-10 col-md-10 col-lg-10 sortableCols ui-sortable" style="">
+								<h4 class="paint-area paint-area--text tie-to-modal" contenteditable="false" data-placeholder="" data-medium-element="true">
+									FEATURE TITLE
+								</h4>
+								<p class="text-sm paint-area paint-area--text tie-to-modal" contenteditable="false" data-placeholder="" data-medium-element="true">
+									Lorem Ipsum is simply dummy text of the printing and typesetting ind ustry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer.
+								</p>
+							</div>
+						</div>
+					</div>
+					<div class="col-md-6 sortableCols ui-sortable" style="">
+						<div class="row">
+							<div class="col-xs-2 col-sm-2 col-md-2 col-lg-2 text-right sortableCols ui-sortable" style="">
+								<i class="mdi-av-surround-sound fa-2x tie-to-modal"></i>
+							</div>
+							<div class="col-xs-10 col-sm-10 col-md-10 col-lg-10 sortableCols ui-sortable" style="">
+								<h4 class="paint-area paint-area--text tie-to-modal" contenteditable="false" data-placeholder="" data-medium-element="true">
+									FEATURE TITLE
+								</h4>
+								<p class="text-sm paint-area paint-area--text tie-to-modal" contenteditable="false" data-placeholder="" data-medium-element="true">
+									Lorem Ipsum is simply dummy text of the printing and typesetting ind ustry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer.
+								</p>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="row margin-top-70">
+	<div class="col-md-8 col-md-offset-2 text-center sortableCols ui-sortable" style="">
+		 <a href="#" class="btn btn-lg btn-raised btn-round paint-area paint-area--text btn-material-pink btn-outline btn-black tie-to-modal" title="my button title" style="margin-left: 10px; margin-right: 10px;" contenteditable="false" data-placeholder="" data-medium-element="true">PRE-ORDER NOW</a> <a href="#" class="btn btn-lg btn-raised btn-round btn-outline paint-area paint-area--text btn-black tie-to-modal" title="my button title" style="margin-left: 10px; margin-right: 10px;" contenteditable="false" data-placeholder="" data-medium-element="true">REQUEST A QUOTE</a>
+	</div>
+</div>
+	</div>
+</section><section class="box-layer well wellundefined tie-to-modal" style="color: rgb(0, 0, 0); display: block; background-image: initial; background-size: initial; background-repeat: initial; background-attachment: initial; background-origin: initial; background-clip: initial; background-color: rgb(236, 238, 239);"><span style="font-size:28px;  letter-spacing:0;" class="m__move_arrow"><i class="mdi-hardware-keyboard-arrow-up md_up"></i> <i class="mdi-hardware-keyboard-arrow-down md_down"></i></span>   <div class="container" style="position: relative; opacity: 1; z-index: 0; display: block;"> <div class="container"> <div class="row"> <div class="col-md-4 col-xs-12 col-sm-4 col-lg-4 sortableCols ui-sortable" style=""> <h3 class="tie-to-modal" contenteditable="false" data-placeholder="" data-medium-element="true"> <a href="http://bootstraptor.com" class="" contenteditable="false" data-placeholder="" data-medium-element="true">Bootstraptor.com</a> </h3> <p class="tie-to-modal" contenteditable="false" data-placeholder="" data-medium-element="true"> 108.000 users downloaded Bootstraptor.com templates since 2013. We've created the product that will help your startup get better marketing results. </p>  </div> <div class="col-md-3 col-md-offset-1 col-xs-12 col-sm-3 col-lg-3 sortableCols ui-sortable" style=""> <h3 class="tie-to-modal" contenteditable="false" data-placeholder="" data-medium-element="true"> Address </h3> <address class="tie-to-modal" contenteditable="false" data-placeholder="" data-medium-element="true"> <strong>Twitter, Inc.</strong><br> 795 Folsom Ave, Suite 600<br> San Francisco, CA 94107<br> <abbr title="Phone">P:</abbr> (123) 456-7890</address> <address class="tie-to-modal" contenteditable="false" data-placeholder="" data-medium-element="true"> <a href="mailto:#" class="" contenteditable="false" data-placeholder="" data-medium-element="true">first.last@example.com</a></address> </div> <div class="col-md-3 col-md-offset-1 col-xs-12 col-sm-3 col-lg-3 sortableCols ui-sortable" style=""> <h3 class="tie-to-modal" contenteditable="false" data-placeholder="" data-medium-element="true"> Text </h3> <p class="tie-to-modal" contenteditable="false" data-placeholder="" data-medium-element="true"> Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo minus id quod maxime placeat facere possimus. </p> </div> <div class="col-md-12 text-center col-xs-12 col-sm-12 col-lg-12 sortableCols ui-sortable" style=""> <hr class="tie-to-modal"> <ul class="list-inline tie-to-modal ui-sortable"> <li class="not-editable tie-to-modal"> <a href="#" class="" contenteditable="false" data-placeholder="" data-medium-element="true">About</a> </li> <li class="not-editable tie-to-modal"> <a href="#" class="" contenteditable="false" data-placeholder="" data-medium-element="true">Blog</a> </li> <li class="not-editable tie-to-modal"> <a href="#" class="" contenteditable="false" data-placeholder="" data-medium-element="true">Help</a> </li> <li class="not-editable tie-to-modal"> <a href="#" class="" contenteditable="false" data-placeholder="" data-medium-element="true">Terms</a> </li> <li class="not-editable tie-to-modal"> <a href="#" class="" contenteditable="false" data-placeholder="" data-medium-element="true">Privacy</a> </li> </ul> <p class="tie-to-modal" contenteditable="false" data-placeholder="" data-medium-element="true">&nbsp;2017 - &nbsp;Bootstraptor.com. </p> </div> </div> </div> </div></section>
+
+
+
+
+
+
+
+
+<script type="text/javascript" id="usersCarouselScripts"> var clickEvent341222 = false;$('#carousel-341222').find('li[data-target]').click(function () {   $(this).parent().find('.active').removeClass('active');  $(this).addClass('active');clickEvent341222 = true;});$('#carousel-341222').bind('slide.bs.carousel', function (e) {  if (!clickEvent341222) {  var nextLi = $('#carousel-341222').find('li.carousel-control.active').removeClass('active').next().addClass('active');  if (nextLi.length == 0) {  $('#carousel-341222').find('li.carousel-control').first().addClass('active');  }}  clickEvent341222 = false;}); var clickEvent341222 = false;$('#carousel-341222').find('li[data-target]').click(function () {   $(this).parent().find('.active').removeClass('active');  $(this).addClass('active');clickEvent341222 = true;});$('#carousel-341222').bind('slide.bs.carousel', function (e) {  if (!clickEvent341222) {  var nextLi = $('#carousel-341222').find('li.carousel-control.active').removeClass('active').next().addClass('active');  if (nextLi.length == 0) {  $('#carousel-341222').find('li.carousel-control').first().addClass('active');  }}  clickEvent341222 = false;}); var clickEvent904260 = false;$('#carousel-904260').find('li[data-target]').click(function () {   $(this).parent().find('.active').removeClass('active');  $(this).addClass('active');clickEvent904260 = true;});$('#carousel-904260').bind('slide.bs.carousel', function (e) {  if (!clickEvent904260) {  var nextLi = $('#carousel-904260').find('li.carousel-control.active').removeClass('active').next().addClass('active');  if (nextLi.length == 0) {  $('#carousel-904260').find('li.carousel-control').first().addClass('active');  }}  clickEvent904260 = false;}); var clickEvent266724 = false;$('#carousel-266724').find('li[data-target]').click(function () {   $(this).parent().find('.active').removeClass('active');  $(this).addClass('active');clickEvent266724 = true;});$('#carousel-266724').bind('slide.bs.carousel', function (e) {  if (!clickEvent266724) {  var nextLi = $('#carousel-266724').find('li.carousel-control.active').removeClass('active').next().addClass('active');  if (nextLi.length == 0) {  $('#carousel-266724').find('li.carousel-control').first().addClass('active');  }}  clickEvent266724 = false;}); var clickEvent389389 = false;$('#carousel-389389').find('li[data-target]').click(function () {   $(this).parent().find('.active').removeClass('active');  $(this).addClass('active');clickEvent389389 = true;});$('#carousel-389389').bind('slide.bs.carousel', function (e) {  if (!clickEvent389389) {  var nextLi = $('#carousel-389389').find('li.carousel-control.active').removeClass('active').next().addClass('active');  if (nextLi.length == 0) {  $('#carousel-389389').find('li.carousel-control').first().addClass('active');  }}  clickEvent389389 = false;}); var clickEvent349363 = false;$('#carousel-349363').find('li[data-target]').click(function () {   $(this).parent().find('.active').removeClass('active');  $(this).addClass('active');clickEvent349363 = true;});$('#carousel-349363').bind('slide.bs.carousel', function (e) {  if (!clickEvent349363) {  var nextLi = $('#carousel-349363').find('li.carousel-control.active').removeClass('active').next().addClass('active');  if (nextLi.length == 0) {  $('#carousel-349363').find('li.carousel-control').first().addClass('active');  }}  clickEvent349363 = false;}); var clickEvent250405 = false;$('#carousel-250405').find('li[data-target]').click(function () {   $(this).parent().find('.active').removeClass('active');  $(this).addClass('active');clickEvent250405 = true;});$('#carousel-250405').bind('slide.bs.carousel', function (e) {  if (!clickEvent250405) {  var nextLi = $('#carousel-250405').find('li.carousel-control.active').removeClass('active').next().addClass('active');  if (nextLi.length == 0) {  $('#carousel-250405').find('li.carousel-control').first().addClass('active');  }}  clickEvent250405 = false;}); var clickEvent558867 = false;$('#carousel-558867').find('li[data-target]').click(function () {   $(this).parent().find('.active').removeClass('active');  $(this).addClass('active');clickEvent558867 = true;});$('#carousel-558867').bind('slide.bs.carousel', function (e) {  if (!clickEvent558867) {  var nextLi = $('#carousel-558867').find('li.carousel-control.active').removeClass('active').next().addClass('active');  if (nextLi.length == 0) {  $('#carousel-558867').find('li.carousel-control').first().addClass('active');  }}  clickEvent558867 = false;}); var clickEvent16904 = false;$('#carousel-16904').find('li[data-target]').click(function () {   $(this).parent().find('.active').removeClass('active');  $(this).addClass('active');clickEvent16904 = true;});$('#carousel-16904').bind('slide.bs.carousel', function (e) {  if (!clickEvent16904) {  var nextLi = $('#carousel-16904').find('li.carousel-control.active').removeClass('active').next().addClass('active');  if (nextLi.length == 0) {  $('#carousel-16904').find('li.carousel-control').first().addClass('active');  }}  clickEvent16904 = false;}); var clickEvent995775 = false;$('#carousel-995775').find('li[data-target]').click(function () {   $(this).parent().find('.active').removeClass('active');  $(this).addClass('active');clickEvent995775 = true;});$('#carousel-995775').bind('slide.bs.carousel', function (e) {  if (!clickEvent995775) {  var nextLi = $('#carousel-995775').find('li.carousel-control.active').removeClass('active').next().addClass('active');  if (nextLi.length == 0) {  $('#carousel-995775').find('li.carousel-control').first().addClass('active');  }}  clickEvent995775 = false;}); var clickEvent770770 = false;$('#carousel-770770').find('li[data-target]').click(function () {   $(this).parent().find('.active').removeClass('active');  $(this).addClass('active');clickEvent770770 = true;});$('#carousel-770770').bind('slide.bs.carousel', function (e) {  if (!clickEvent770770) {  var nextLi = $('#carousel-770770').find('li.carousel-control.active').removeClass('active').next().addClass('active');  if (nextLi.length == 0) {  $('#carousel-770770').find('li.carousel-control').first().addClass('active');  }}  clickEvent770770 = false;}); var clickEvent465856 = false;$('#carousel-465856').find('li[data-target]').click(function () {   $(this).parent().find('.active').removeClass('active');  $(this).addClass('active');clickEvent465856 = true;});$('#carousel-465856').bind('slide.bs.carousel', function (e) {  if (!clickEvent465856) {  var nextLi = $('#carousel-465856').find('li.carousel-control.active').removeClass('active').next().addClass('active');  if (nextLi.length == 0) {  $('#carousel-465856').find('li.carousel-control').first().addClass('active');  }}  clickEvent465856 = false;}); var clickEvent937247 = false;$('#carousel-937247').find('li[data-target]').click(function () {   $(this).parent().find('.active').removeClass('active');  $(this).addClass('active');clickEvent937247 = true;});$('#carousel-937247').bind('slide.bs.carousel', function (e) {  if (!clickEvent937247) {  var nextLi = $('#carousel-937247').find('li.carousel-control.active').removeClass('active').next().addClass('active');  if (nextLi.length == 0) {  $('#carousel-937247').find('li.carousel-control').first().addClass('active');  }}  clickEvent937247 = false;});</script>
